@@ -4,8 +4,6 @@ module appli {
 
     struct music {
         string name;
-        string ipStream;
-        string portStream;
         string url;
     };
     sequence<music> repository;
@@ -20,7 +18,7 @@ module appli {
         // ajoute une music dans un server de stream
         bool addSong(song theSong, string nameSong);
         // on verifie que le server de stream peut toujours streamer une musique
-        string checkStream(string nameSong);
+        bool checkStream(string nameSong);
     };
 
     /*

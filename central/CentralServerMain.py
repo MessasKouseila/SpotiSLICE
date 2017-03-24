@@ -24,6 +24,7 @@ class MessagerieI(Central.Messagerie):
     def deconnexion(self, addMac, current = None):
         print("deconnexion du server streamer\n addMac : {0}".format(addMac))
         self.central.Allstreamer[addMac].stop() 
+        self.central.Allstreamer.pop(addMac)
     # reception d'une notification de la part du server de stream
     def notify(self, info, current = None):
         print("notification du server streamer\n info : {0}".format(info))
@@ -43,8 +44,6 @@ class CentralServerMain(Ice.Application):
     def run(self, args):
         topicName = "MessagerieCentral"
         id = ""
-        retryCount = ""
-
         manager = IceStorm.TopicManagerPrx.checkedCast(self.communicator().propertyToProxy('TopicManager.Proxy'))
         if not manager:
             print("invalid proxy")
@@ -91,11 +90,16 @@ class CentralServerMain(Ice.Application):
             print("reactivating persistent subscriber")
         
         self.shutdownOnInterrupt()
-        print("Streamer is running")
+        self.centralIce.start()
+        print("Central Server is running")
         while True:
-            cmd = raw_input("x to terminate")
+            cmd = raw_input("x to terminate  :   ")
             if cmd == "x":
+                self.centralIce.stop()
+                for val in self.Allstreamer.values():
+                    val.stop()
                 topic.unsubscribe(subscriber)
+                
                 break
             if cmd =="1":
                 print self.Allstreamer["192.168.0.21"].Streamer.getRepertoire()   

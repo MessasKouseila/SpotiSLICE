@@ -7,13 +7,44 @@ Ice.loadSlice('../app.ice')
 import appli
 import signal
 
+
+
 class StreamerI(appli.Streamer):
+
+    def __init__(self, ipAdd, port):
+        self.ip = ipAdd
+        self.port = port
+        self.url = self.ip+":"+"8080"+"/"
+        self.album = []
+
     def getRepertoire(self, current = None):
-        return "ceci est un test"
+        # on recupere le repertoir courrant
+        current_directory = os.getcwd()
+        # on recupere le chemin absolu du fichier de configuration
+        file_album = current_directory + "/album/"
+        # on cherche les musiques
+        listmyalbum = file_album + "*.mp3"
+        for i in glob.glob(listmyalbum):
+            j = i.split("/")
+            self.album.append(Music(j[len(j)- 1], self.url+j[len(j)- 1]))
+        return self.album
+
     def addSong(self, music, nameSong, current = None):
         return True
+        
+    # verifie que la music est disponible au stream    
     def checkStream(self, nameSong, current=None):
-        return None
+        if self.contains(nameSong):
+            return True
+        else:
+            return False
+    # cherche la music dans le l'album, renvoie True si elle existe
+    def contains(self, name):
+        for i in self.album:
+            if i.name == name:
+                return True
+        return False        
+
 
 
 class StreamerServerIce(Thread):
@@ -26,12 +57,13 @@ class StreamerServerIce(Thread):
         self.adapteur = "Central"
         self.ic = None
 
+
     def run(self):
         arg = "tcp -h "+self.ip+" -p "+self.port
         try:
             self.ic = Ice.initialize(sys.argv)
             adapter = self.ic.createObjectAdapterWithEndpoints(self.adapteur, arg)
-            object = StreamerI()
+            object = StreamerI(self.ip, self.port)
             adapter.add(object, self.ic.stringToIdentity(self.adapteur))
             adapter.activate()
             #self.ic.waitForShutdown()

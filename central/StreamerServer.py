@@ -24,11 +24,10 @@ class StreamerServer():
                 raise RuntimeError("Invalid proxy")
         except:
             traceback.print_exc()
-    def stop(self):
-        self.ic.shutdown()
+    def stop(self):          
         if self.ic:
             # Clean up
             try:
                 self.ic.destroy()
             except:
-                traceback.print_exc()               
+                traceback.print_exc()             

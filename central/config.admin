@@ -1,1 +1,1 @@
-IceStormAdmin.TopicManager.Default=CentralIceStorm/TopicManager:default -h 10.122.1.68 -p 10000
+IceStormAdmin.TopicManager.Default=CentralIceStorm/TopicManager:default -h 10.120.13.173 -p 10000

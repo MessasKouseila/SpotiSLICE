@@ -1,20 +1,20 @@
 #!/usr/bin/bash
-ipAdd=$1
-port_iceStorm=$2
+port_iceStorm=$1
+port_edna="8080"
 nameApp="CentralIceStorm"
 ip_edna=`ip route get 1 | awk '{print $NF;exit}'`
 rep_racine=`pwd`
-rep_song="$rep_racine/Music"
+rep_song="$rep_racine/album"
 
 
-echo "TopicManager.Proxy=$nameApp/TopicManager:default -h $ipAdd -p $port_iceStorm
+echo "TopicManager.Proxy=$nameApp/TopicManager:default -h $ip_edna -p $port_iceStorm
 Ice.Admin.InstanceName=publisher
 IceMX.Metrics.Debug.GroupBy=id
 IceMX.Metrics.ByParent.GroupBy=parent" > config.pub
 
 
 echo "[server]
-port = 8080
+port = $port_edna
 robots=0
 template-dir = templates
 resource-dir = resources

@@ -45,10 +45,10 @@ class CentralServerIce(Thread):
             object = CentralI()
             self.adapter.add(object, self.ic.stringToIdentity(self.nameAdp))
             self.adapter.activate()
-            self.ic.waitForShutdown()
         except:
             traceback.print_exc()
             status = 1
+    def stop(self):          
         if self.ic:
             # Clean up
             try:

@@ -14,6 +14,7 @@ class StreamerMain(Ice.Application):
     def __init__(self, port="6000"):
         self.ip = self.getIp()
         self.port = port
+        self.mac = get_mac()
         self.instance = StreamerServerIce(self.ip, self.port)
         self.ednaStart = None
     def getIp(self):
@@ -36,19 +37,13 @@ class StreamerMain(Ice.Application):
         print("mise a jour du sereur")
 
     def run(self, args):
-        try:
-            opts, args = getopt.getopt(args[1:], '', ['datagram', 'twoway', 'oneway'])
-        except getopt.GetoptError:
-            self.usage()
-            return 1
-
-        
-        optsSet = 0
+        self.instance.start()
+        t = threading.Thread(target=self.edna)
+        t.start()
         topicName = "MessagerieCentral"
-        optsSet = optsSet + 1
         manager = IceStorm.TopicManagerPrx.checkedCast(self.communicator().propertyToProxy('TopicManager.Proxy'))
         if not manager:
-            print(args[0] + ": invalid proxy")
+            print("invalid proxy")
             return 1
 
         #
@@ -69,13 +64,9 @@ class StreamerMain(Ice.Application):
         publisher = topic.getPublisher();
         publisher = publisher.ice_oneway();
         messagerie = Central.MessageriePrx.uncheckedCast(publisher)
-
-        mac = get_mac()
+ 
         try:
-            messagerie.inscription(self.ip, self.port, str(mac))
-            self.instance.start()
-            t = threading.Thread(target=self.edna)
-            t.start()
+            messagerie.inscription(self.ip, self.port, str(self.mac))
             print("Streamer is running on ip = {0}, port = {1}".format(self.ip, self.port))
             
             while True:
@@ -83,7 +74,7 @@ class StreamerMain(Ice.Application):
                 if choix == "1":
                     self.update()
                 else:
-                    messagerie.deconnexion(self.ip)
+                    messagerie.deconnexion(str(self.mac))
                     self.ednaStart.kill()
                     f2 = 'stopEdna.sh'
                     stop = subprocess.Popen(['bash', f2])
