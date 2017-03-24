@@ -1,25 +1,4 @@
-#
-# This property is used by the clients to connect to IceStorm.
-#
-# CentralIceStorm = nammApp
-# ip et port du server ou tourne IceStorm
-#
-TopicManager.Proxy=CentralIceStorm/TopicManager:default -h 10.122.2.218 -p 10000
-
-#
-# Network Tracing
-#
-# 0 = no network tracing
-# 1 = trace connection establishment and closure
-# 2 = like 1, but more detailed
-# 3 = like 2, but also trace data transfer
-#
-#Ice.Trace.Network=1
-
-#
-# IceMX configuration.
-#
-#Ice.Admin.Endpoints=tcp -h localhost -p 10003
+TopicManager.Proxy=CentralIceStorm/TopicManager:default -h 10.122.1.68 -p 10000
 Ice.Admin.InstanceName=publisher
 IceMX.Metrics.Debug.GroupBy=id
 IceMX.Metrics.ByParent.GroupBy=parent

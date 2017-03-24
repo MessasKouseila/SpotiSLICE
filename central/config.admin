@@ -1,17 +1,1 @@
-#
-# This property is used by the icestormadmin to connect to IceStorm.
-#
-# CentralIceStorm = namApp
-# ip = ip du server IceStorm
-#
-IceStormAdmin.TopicManager.Default=CentralIceStorm/TopicManager:default -h 10.122.2.218 -p 10000
-
-#
-# Network Tracing
-#
-# 0 = no network tracing
-# 1 = trace connection establishment and closure
-# 2 = like 1, but more detailed
-# 3 = like 2, but also trace data transfer
-#
-#Ice.Trace.Network=1
+IceStormAdmin.TopicManager.Default=CentralIceStorm/TopicManager:default -h 10.122.1.68 -p 10000
