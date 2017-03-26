@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 # coding: utf8
+#########################################
+# Auteur : MESSAS KOUSEILA
+# Application : SpotiSLICE
+# role du script : Class Main du server Central, gere le côté Subscriber, Ice, appel des fonctions des server streamer 
+#########################################
 import sys, traceback, Ice, IceStorm, getopt
 from threading import Thread
 import time

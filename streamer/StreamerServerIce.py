@@ -1,5 +1,12 @@
 #!/usr/bin/env python
 # coding: utf8
+#########################################
+# Auteur : MESSAS KOUSEILA
+# Application : SpotiSLICE
+# role du script : class gerant le côté Ice du server de streaming, implémentations de l'interface Streamer
+# et mise à disposition de l'object qui permet l'accès à ces fonctions
+#########################################
+
 import os, sys, traceback, glob, Ice
 from threading import Thread
 import time

@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 # coding: utf8
+#########################################
+# Auteur : MESSAS KOUSEILA
+# Application : SpotiSLICE
+# role du script : class Main du server de streaming
+#########################################
 
 import os, sys, traceback, time, Ice, IceStorm, getopt, socket
 import threading

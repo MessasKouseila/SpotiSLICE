@@ -1,4 +1,11 @@
 #!/usr/bin/bash
+#########################################
+# Auteur : MESSAS KOUSEILA
+# Application : SpotiSLICE
+# role du script : initialisation du serveur IceBox, IceStorm
+# configuration du Subscriber
+#########################################
+
 ipAdd=`ip route get 1 | awk '{print $NF;exit}'`
 port_iceStorm="10000"
 port_iceBox="9996"

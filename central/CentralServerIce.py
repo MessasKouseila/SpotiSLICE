@@ -1,6 +1,11 @@
 #!/usr/bin/env python
 # coding: utf8
-
+#########################################
+# Auteur : MESSAS KOUSEILA
+# Application : SpotiSLICE
+# role du script : Class gérant le côté Ice du server central,
+# met à disposition des clients android un object pour qu'ils puissent avoir accès à ces méthodes 
+#########################################
 
 import sys, traceback, Ice
 from threading import Thread

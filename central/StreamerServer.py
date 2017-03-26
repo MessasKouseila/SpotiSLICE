@@ -1,5 +1,10 @@
 #!/usr/bin/env python
-# coding: utf8  
+# coding: utf8
+# #########################################
+# Auteur : MESSAS KOUSEILA
+# Application : SpotiSLICE
+# role du script : Class gérant la connexion via Ice au server Streamer depuis le server Central
+#########################################  
 
 import os, sys, time, traceback, Ice
 from multiprocessing.pool import ThreadPool

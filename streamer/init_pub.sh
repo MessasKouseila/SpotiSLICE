@@ -1,5 +1,9 @@
 #!/usr/bin/bash
-
+#########################################
+# Auteur : MESSAS KOUSEILA
+# Application : SpotiSLICE
+# role du script : initialisation du server de streaming
+#########################################
 
 function validateIP()
  {
