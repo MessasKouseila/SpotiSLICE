@@ -16,28 +16,37 @@ class MessagerieI(Central.Messagerie):
     def __init__(self, central):
         self.central = central
     # un server de stream se conecte au serverCentral
-    def inscription(self, addIp, port, addMac, current = None):
-        print("inscription du server streamer\n ip : {0} \n port : {1} \n addMac : {2}".format(addIp, port, addMac))
+    def inscription(self, addIp, port, current = None):
+        print("inscription du server streamer\n ip : {0} \n port : {1} : ".format(addIp, port))
         element = StreamerServer(addIp, port)
-        self.central.add(addMac, element)
+        self.central.add(addIp, element)
+        self.central.ALBUM[addIp] = self.central.Allstreamer[addIp].Streamer.getRepertoire()
+        self.central.displaySong()
+
     # un server de stream se deconnecte du serverCentral
-    def deconnexion(self, addMac, current = None):
-        print("deconnexion du server streamer\n addMac : {0}".format(addMac))
-        self.central.Allstreamer[addMac].stop() 
-        self.central.Allstreamer.pop(addMac)
+    def deconnexion(self, addIp, current = None):
+        print("deconnexion du server streamer\n addIp : {0}".format(addIp))
+        self.central.Allstreamer[addIp].stop() 
+        self.central.Allstreamer.pop(addIp)
+        self.central.ALBUM.pop(addIp)
     # reception d'une notification de la part du server de stream
-    def notify(self, info, current = None):
-        print("notification du server streamer\n info : {0}".format(info))
+    def notify(self, info, addIp, current = None):
+        print("notification du server streamer {0}\n info : {1}".format(addIp, info))
+        self.central.ALBUM[addIp] = self.central.Allstreamer[addIp].Streamer.getRepertoire()
 
 # permet d'ecouter les messages reçu sur un topic, et d'executer des fonctions celon le message reçu
 class CentralServerMain(Ice.Application):
     
     def __init__(self):
         self.Allstreamer = {}
-        self.centralIce = CentralServerIce()
-
-    def add(self, addMac, streamer):
-        self.Allstreamer[addMac] = streamer
+        self.centralIce = CentralServerIce("127.0.0.1", "5000", self)
+        self.ALBUM = {}
+    def displaySong(self):
+        for i in self.ALBUM.values():
+            for j in i:
+                print(j.name)
+    def add(self, addIp, streamer):
+        self.Allstreamer[addIp] = streamer
 
     # fonction qui lance le ServerCentral, gere les messages reçu depuis les servers Streamer
     # gere l'appel au fonctions des serveur de Stream
@@ -99,10 +108,7 @@ class CentralServerMain(Ice.Application):
                 for val in self.Allstreamer.values():
                     val.stop()
                 topic.unsubscribe(subscriber)
-                
-                break
-            if cmd =="1":
-                print self.Allstreamer["192.168.0.21"].Streamer.getRepertoire()   
+                break 
         return 0
 
 app = CentralServerMain()

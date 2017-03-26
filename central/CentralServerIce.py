@@ -8,6 +8,8 @@ import time
 Ice.loadSlice('../app.ice')
 import appli
 class CentralI(appli.Central):
+    def __init__(self, iceCentral):
+        self.Central = iceCentral
     # inscription d'un client au Central
     def inscriptionClient(self, login, passWord, current = None):
         print("inscription du client")
@@ -28,7 +30,7 @@ class CentralI(appli.Central):
 # met à disposition un objet permettant d'exectuer des fonction coté CentralServer            
 class CentralServerIce(Thread):
     # ip et port ou on peut accedé au fonctions du CentralServer
-    def __init__(self, addip="127.0.0.1", port="5000"):
+    def __init__(self, addip="127.0.0.1", port="5000", instOfCentral=None):
         Thread.__init__(self)
         self.ip = addip
         self.port = port
@@ -36,13 +38,14 @@ class CentralServerIce(Thread):
         self.nameAdp = "Central"
         self.ic = None
         self.adapteur = None
+        self.iceCentral = instOfCentral
 
     def run(self):
         arg = "tcp -h "+self.ip+" -p "+self.port
         try:
             self.ic = Ice.initialize(sys.argv)
             self.adapter = self.ic.createObjectAdapterWithEndpoints(self.nameAdp, arg)
-            object = CentralI()
+            object = CentralI(self.iceCentral)
             self.adapter.add(object, self.ic.stringToIdentity(self.nameAdp))
             self.adapter.activate()
         except:

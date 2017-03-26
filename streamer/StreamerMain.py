@@ -5,7 +5,6 @@ import os, sys, traceback, time, Ice, IceStorm, getopt, socket
 import threading
 import subprocess
 import signal
-from uuid import getnode as get_mac
 Ice.loadSlice('../Messagerie.ice')
 import Central
 from StreamerServerIce import StreamerServerIce
@@ -14,7 +13,6 @@ class StreamerMain(Ice.Application):
     def __init__(self, port="6000"):
         self.ip = self.getIp()
         self.port = port
-        self.mac = get_mac()
         self.instance = StreamerServerIce(self.ip, self.port)
         self.ednaStart = None
     def getIp(self):
@@ -32,9 +30,6 @@ class StreamerMain(Ice.Application):
         print("1 - mettre à jour")
         print("2 - deconnexion")
         return raw_input("Saisire  :  ")
-
-    def update(self):
-        print("mise a jour du sereur")
 
     def run(self, args):
         self.instance.start()
@@ -66,23 +61,25 @@ class StreamerMain(Ice.Application):
         messagerie = Central.MessageriePrx.uncheckedCast(publisher)
  
         try:
-            messagerie.inscription(self.ip, self.port, str(self.mac))
+            messagerie.inscription(self.ip, self.port)
             print("Streamer is running on ip = {0}, port = {1}".format(self.ip, self.port))
             
             while True:
                 choix = str(self.menu())
-                if choix == "1":
-                    self.update()
-                else:
-                    messagerie.deconnexion(str(self.mac))
+                if choix == "1": 
+                    print("mise a jour de l'album")
+                    messagerie.notify("album mis à jour", self.ip)
+                elif choix == "2":
+                    messagerie.deconnexion(str(self.ip))
                     self.ednaStart.kill()
                     f2 = 'stopEdna.sh'
                     stop = subprocess.Popen(['bash', f2])
                     time.sleep(2)
                     stop.kill()
                     self.instance.stop()
-                    break
-               
+                    break   
+                else:
+                    print("Erreur de saisie")               
         except IOError:
             # Ignore
             pass

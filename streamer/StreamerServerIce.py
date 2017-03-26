@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # coding: utf8
-import os, sys, traceback, Ice
+import os, sys, traceback, glob, Ice
 from threading import Thread
 import time
 Ice.loadSlice('../app.ice')
@@ -26,7 +26,7 @@ class StreamerI(appli.Streamer):
         listmyalbum = file_album + "*.mp3"
         for i in glob.glob(listmyalbum):
             j = i.split("/")
-            self.album.append(Music(j[len(j)- 1], self.url+j[len(j)- 1]))
+            self.album.append(appli.music(j[len(j)- 1], self.url+j[len(j)- 1]))
         return self.album
 
     def addSong(self, music, nameSong, current = None):

@@ -1,5 +1,40 @@
 #!/usr/bin/bash
-port_iceStorm=$1
+
+
+function validateIP()
+ {
+         local ip=$1
+         local stat=1
+         if [[ $ip =~ ^[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}$ ]]; then
+                OIFS=$IFS
+                IFS='.'
+                ip=($ip)
+                IFS=$OIFS
+                [[ ${ip[0]} -le 255 && ${ip[1]} -le 255 \
+                && ${ip[2]} -le 255 && ${ip[3]} -le 255 ]]
+                stat=$?
+        fi
+        return $stat
+}
+
+#Jusqu'a ce que la reponse soit composée par un nombre, j'attends la saisie
+echo "Donnez l'ip du server Central' ?"
+read ip_iceStorm
+validateIP $ip_iceStorm
+until [[ ${$?} -ne 0 ]]; do
+echo "Donnez l'ip du server Central' ?"
+read ip_iceStorm
+validateIP $ip_iceStorm
+done
+
+#Jusqu'a ce que la reponse soit composée par un nombre, j'attends la saisie
+until [[ ${port_iceStorm} =~ ^[0-9]+$ ]]; do
+echo "Donnez le port du server Central' ?"
+read port_iceStorm
+done
+
+echo "le central est sur l'ip : $ip_iceStorm   port :  $port_iceStorm"
+
 port_edna="8080"
 nameApp="CentralIceStorm"
 ip_edna=`ip route get 1 | awk '{print $NF;exit}'`
@@ -29,3 +64,5 @@ dir1 = $rep_song = MP3
 [extra]
 debug_level = 0
 days_new = 30" > edna-0.6/edna.conf
+
+python StreamerMain.py
