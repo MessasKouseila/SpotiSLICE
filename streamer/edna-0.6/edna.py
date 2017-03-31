@@ -1150,7 +1150,7 @@ if __name__ == '__main__':
   fname = 'edna.conf'
   daemon_mode=0
   for a in sys.argv[1:]:
-    if a != "--daemon":
+    if a == "--daemon":
       daemon_mode=1
     elif a == "--help" or a == "-h" or string.find(a, '--')==0:
       usage()

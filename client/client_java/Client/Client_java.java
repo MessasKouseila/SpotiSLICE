@@ -1,12 +1,14 @@
 package Client;
-import Music.mp3Prx;
-import Music.mp3PrxHelper;
+import appli.CentralPrx;
+import appli.CentralPrxHelper;
+import appli.StreamerPrx;
+import appli.StreamerPrxHelper;
 
 public class Client_java {
 	int status = 0;
 	Ice.Communicator ic = null;
 	Ice.ObjectPrx base = null;
-	mp3Prx loader = null;
+	CentralPrx loader = null;
 	public Client_java(String ip) {
 		try {
 			// changement de la taille max d'un message transmis
@@ -16,8 +18,8 @@ public class Client_java {
 			initData.properties = datasize;
 			ic = Ice.Util.initialize(initData);
 			// definition du port et de l'ip du serveur
-			base = ic.stringToProxy("SongLoader:tcp -h  "+ip+" -p 10000");
-			loader = mp3PrxHelper.checkedCast(base);
+			base = ic.stringToProxy("Central:tcp -h "+ip+" -p 5000");
+			loader = CentralPrxHelper.checkedCast(base);
 			if (loader == null)
 				throw new Error("Invalid proxy");
 

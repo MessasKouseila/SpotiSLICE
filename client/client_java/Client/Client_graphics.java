@@ -9,6 +9,7 @@ import java.awt.event.MouseEvent;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.net.URLEncoder;
 import java.nio.file.Files;
 
 import javax.swing.JButton;
@@ -25,6 +26,8 @@ import javax.swing.UIManager;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 import javax.swing.filechooser.FileSystemView;
+
+import appli.music;
 
 
 public class Client_graphics {
@@ -52,10 +55,12 @@ public class Client_graphics {
 	// ************** *******///
 	public Thread download;
 	public Client_java client;
-	public String listeOfsong[] = {};
+	public String[] listeOfsong = {};
 	public FileOutputStream fileOuputStream;
 	byte[] uneMusic;
 	byte[] envoie;
+	String tmp;
+	StringBuilder nameMusic;
 	public String path = "";
 	public Thread playIt;
 
@@ -80,9 +85,12 @@ public class Client_graphics {
 		defaut = vueSysteme.getDefaultDirectory(); 
 		home = vueSysteme.getHomeDirectory();
 		// on crée un cleint qui va communqiuer avec le serveur python
-		client = new Client_java("10.104.21.113");
+		client = new Client_java("127.0.0.1");
 		// appel de la methode getAll sur le serveur via l'adaptateur ICE
-		listeOfsong = client.loader.getALL();
+		listeOfsong = client.loader.getAllAvailableSong();
+		for (String s : listeOfsong) {
+			System.out.println(s);
+		}
 		// initialisation de l'interface graphique
 		initialize();
 		
@@ -119,18 +127,29 @@ public class Client_graphics {
 		listOfSong = new JList(listeOfsong);
 		listOfSong.addListSelectionListener(new ListSelectionListener() {
 			
+			@SuppressWarnings("deprecation")
 			@Override
 			public void valueChanged(ListSelectionEvent e) {
 				// on telecharge la music depuis le serveur vers notre repertoir local
 				current_song_label.setText((String)listOfSong.getSelectedValue());
-				System.out.println("Téléchargement de la music"+ (String)listOfSong.getSelectedValue() +" en cours ...");
-				uneMusic = client.loader.findByName((String)listOfSong.getSelectedValue());
+				//uneMusic = client.loader.findByName((String)listOfSong.getSelectedValue());
 				try { 
-	                FileOutputStream fileOuputStream = new FileOutputStream((String)listOfSong.getSelectedValue()); 
-	                fileOuputStream.write(uneMusic);
-	                System.out.println("Téléchargement terminer !!!");
-	                fileOuputStream.close();
-	                path = System.getProperty("user.dir") + "/" + (String)listOfSong.getSelectedValue();
+	                // FileOutputStream fileOuputStream = new FileOutputStream((String)listOfSong.getSelectedValue()); 
+	                // fileOuputStream.write(uneMusic);
+	                // System.out.println("Téléchargement terminer !!!");
+	                // fileOuputStream.close();
+					path = "http://";
+					tmp = (String)listOfSong.getSelectedValue();
+					nameMusic = new StringBuilder();
+					for (int i = 0; i < tmp.length(); ++i) {
+						if (tmp.charAt(i) == ' ') {
+							nameMusic.append("%20");
+						} else {
+							nameMusic.append(tmp.charAt(i));
+						}
+					}
+	                path = path + nameMusic.toString();
+	                System.out.println(path);
              	} catch (Exception e1){
             	 	e1.printStackTrace();
              	}
@@ -223,7 +242,7 @@ public class Client_graphics {
 						envoie = Files.readAllBytes(new File(selectedFile.getAbsolutePath()).toPath());
 						toSplit = selectedFile.getAbsolutePath().split("/");
 						System.out.println("Envoie de la music "+ toSplit[toSplit.length - 1]);
-						client.loader.add(envoie, toSplit[toSplit.length - 1], 0);
+						//client.loader.add(envoie, toSplit[toSplit.length - 1], 0);
 						System.out.println("Envoie termienr !! ");
 					} catch (IOException e1) {
 						// TODO Auto-generated catch block

@@ -34,10 +34,12 @@ class MessagerieI(Central.Messagerie):
         self.central.Allstreamer[addIp].stop() 
         self.central.Allstreamer.pop(addIp)
         self.central.ALBUM.pop(addIp)
+
     # reception d'une notification de la part du server de stream
     def notify(self, info, addIp, current = None):
         print("notification du server streamer {0}\n info : {1}".format(addIp, info))
         self.central.ALBUM[addIp] = self.central.Allstreamer[addIp].Streamer.getRepertoire()
+        
 
 # permet d'ecouter les messages reçu sur un topic, et d'executer des fonctions celon le message reçu
 class CentralServerMain(Ice.Application):
@@ -50,6 +52,12 @@ class CentralServerMain(Ice.Application):
         for i in self.ALBUM.values():
             for j in i:
                 print(j.name)
+    def getAllbum(self):
+        un_album = []
+        for i in self.ALBUM.values():
+            for j in i:
+                un_album.append(j.url)
+        return un_album                                          
     def add(self, addIp, streamer):
         self.Allstreamer[addIp] = streamer
 

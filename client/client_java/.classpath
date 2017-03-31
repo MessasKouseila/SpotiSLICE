@@ -2,8 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path=""/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="/home/kouceila/appli/Slice/client_java/jlayer-1.0.1-1.jar"/>
-	<classpathentry kind="lib" path="/home/kouceila/appli/Slice/client_java/ice-3.5.1.jar"/>
-	<classpathentry kind="lib" path="/home/kouceila/Téléchargements/ice-3.6.1.jar"/>
+	<classpathentry kind="lib" path="/opt/lib/ice-3.6.3.jar"/>
+	<classpathentry kind="lib" path="/home/kouceila/PycharmProjects/SpotiSLICE/client/jlayer-1.0.1-1.jar"/>
 	<classpathentry kind="output" path=""/>
 </classpath>

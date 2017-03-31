@@ -12,25 +12,27 @@ from threading import Thread
 import time
 Ice.loadSlice('../app.ice')
 import appli
+
 class CentralI(appli.Central):
-    def __init__(self, iceCentral):
+    def __init__(self, iceCentral = None):
         self.Central = iceCentral
     # inscription d'un client au Central
     def inscriptionClient(self, login, passWord, current = None):
         print("inscription du client")
     # connexion d'un client au serveur Central
-    def connectionClient(slef, login, passWord, current = None):
+    def connectionClient(self, login, passWord, current = None):
         print("connection du client")
     # renvoie la liste des musiques correspendant au nom donnée en paramètre
-    def findByName(slef, nameSong, current = None):
+    def findByName(self, nameSong, current = None):
         print("findByName")
     # lance le streamCentralServing de la musique choisie par le client
-    def streamByName(slef, nameSong, current = None):
+    def streamByName(self, nameSong, current = None):
         print("streamByName")
-    def add(slef, theSong, nameSong, current = None):
+    def add(self, theSong, nameSong, current = None):
         print("add")
-    def getAllAvailableSong(slef, current = None):
-        print("getAllAvailableSong")
+    def getAllAvailableSong(self, current = None):
+        print("getAllAvailableSong est appele par le client")
+        return self.Central.getAllbum() 
         
 # met à disposition un objet permettant d'exectuer des fonction coté CentralServer            
 class CentralServerIce(Thread):
@@ -46,6 +48,7 @@ class CentralServerIce(Thread):
         self.iceCentral = instOfCentral
 
     def run(self):
+        print("lancement du Ice côté Central")
         arg = "tcp -h "+self.ip+" -p "+self.port
         try:
             self.ic = Ice.initialize(sys.argv)

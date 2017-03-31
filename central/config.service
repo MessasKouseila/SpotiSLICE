@@ -1,6 +1,6 @@
 IceStorm.InstanceName=CentralIceStorm
-IceStorm.TopicManager.Endpoints=default -h 192.168.0.21 -p 10000
-IceStorm.Publish.Endpoints=tcp -h 192.168.0.21 -p 10001:udp -h 192.168.0.21 -p 10001
+IceStorm.TopicManager.Endpoints=default -h 10.122.1.68 -p 10000
+IceStorm.Publish.Endpoints=tcp -h 10.122.1.68 -p 10001:udp -h 10.122.1.68 -p 10001
 IceStorm.Flush.Timeout=2000
 Freeze.DbEnv.IceStorm.DbHome=db
 Ice.Admin.InstanceName=icestorm
