@@ -85,7 +85,7 @@ public class Client_graphics {
 		defaut = vueSysteme.getDefaultDirectory(); 
 		home = vueSysteme.getHomeDirectory();
 		// on crée un cleint qui va communqiuer avec le serveur python
-		client = new Client_java("127.0.0.1");
+		client = new Client_java("192.168.0.21");
 		// appel de la methode getAll sur le serveur via l'adaptateur ICE
 		listeOfsong = client.loader.getAllAvailableSong();
 		for (String s : listeOfsong) {
@@ -217,7 +217,7 @@ public class Client_graphics {
 		btnDelete = new JButton(" DELETE ");
 		btnDelete.setEnabled(false);
 		btnDelete.setBounds(54, 55, 92, 25);
-		panel_option.add(btnDelete);
+		//panel_option.add(btnDelete);
 		/// ******** Menu de l'application cote client ******************///////////////
 		JMenuBar menuBar = new JMenuBar();
 		frame.setJMenuBar(menuBar);
