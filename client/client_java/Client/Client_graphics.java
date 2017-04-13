@@ -9,9 +9,9 @@ import java.awt.event.MouseEvent;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.net.URLEncoder;
 import java.nio.file.Files;
 
+import javax.swing.DefaultListModel;
 import javax.swing.JButton;
 import javax.swing.JDesktopPane;
 import javax.swing.JFileChooser;
@@ -27,8 +27,6 @@ import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 import javax.swing.filechooser.FileSystemView;
 
-import appli.music;
-
 
 public class Client_graphics {
 	
@@ -39,12 +37,14 @@ public class Client_graphics {
 	private JLabel current_song_label;
 	private JLabel liste_song_label;
 	private JLabel option_label;
-	private JList listOfSong;
+	private JList<String> listOfSong;
 	private JButton btnPlay;
 	private JButton btnStop;
+	private JButton btnUpdate;
 	private JButton btnDelete;
 	private Sound readerSong;
 	private FileSystemView vueSysteme; 
+	private DefaultListModel<String> model;
 	//récupération des répertoires 
 	private File defaut;
 	private File home;
@@ -85,11 +85,12 @@ public class Client_graphics {
 		defaut = vueSysteme.getDefaultDirectory(); 
 		home = vueSysteme.getHomeDirectory();
 		// on crée un cleint qui va communqiuer avec le serveur python
-		client = new Client_java("192.168.0.21");
+		client = new Client_java("127.0.0.1");
 		// appel de la methode getAll sur le serveur via l'adaptateur ICE
 		listeOfsong = client.loader.getAllAvailableSong();
-		for (String s : listeOfsong) {
-			System.out.println(s);
+		model = new DefaultListModel<String>();
+		for(String i : listeOfsong) {
+			model.addElement(i);
 		}
 		// initialisation de l'interface graphique
 		initialize();
@@ -124,37 +125,34 @@ public class Client_graphics {
 		liste_song_label.setOpaque(true);
 		container.add(liste_song_label);
 			
-		listOfSong = new JList(listeOfsong);
+		listOfSong = new JList<String>(model);
 		listOfSong.addListSelectionListener(new ListSelectionListener() {
 			
 			@SuppressWarnings("deprecation")
 			@Override
 			public void valueChanged(ListSelectionEvent e) {
-				// on telecharge la music depuis le serveur vers notre repertoir local
 				current_song_label.setText((String)listOfSong.getSelectedValue());
-				//uneMusic = client.loader.findByName((String)listOfSong.getSelectedValue());
 				try { 
-	                // FileOutputStream fileOuputStream = new FileOutputStream((String)listOfSong.getSelectedValue()); 
-	                // fileOuputStream.write(uneMusic);
-	                // System.out.println("Téléchargement terminer !!!");
-	                // fileOuputStream.close();
 					path = "http://";
 					tmp = (String)listOfSong.getSelectedValue();
-					nameMusic = new StringBuilder();
-					for (int i = 0; i < tmp.length(); ++i) {
-						if (tmp.charAt(i) == ' ') {
-							nameMusic.append("%20");
-						} else {
-							nameMusic.append(tmp.charAt(i));
+					if (tmp != null) {
+						nameMusic = new StringBuilder();
+						for (int i = 0; i < tmp.length(); ++i) {
+							if (tmp.charAt(i) == ' ') {
+								nameMusic.append("%20");
+							} else {
+								nameMusic.append(tmp.charAt(i));
+							}
 						}
+		                path = path + nameMusic.toString();
+		                System.out.println(path);
+		                btnPlay.setEnabled(true);
+						btnDelete.setEnabled(true);
 					}
-	                path = path + nameMusic.toString();
-	                System.out.println(path);
              	} catch (Exception e1){
             	 	e1.printStackTrace();
              	}
-				btnPlay.setEnabled(true);
-				btnDelete.setEnabled(true);
+
 			}
 		});
 		listOfSong.setBounds(0, 27, 300, 327);
@@ -213,6 +211,22 @@ public class Client_graphics {
 		});
 		btnStop.setBounds(101, 25, 79, 25);
 		panel_option.add(btnStop);
+		
+		btnUpdate = new JButton("Update");
+		btnUpdate.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mousePressed(MouseEvent e) {
+				listeOfsong = client.loader.getAllAvailableSong();
+				model.clear();
+				for(String i : listeOfsong) {
+					model.addElement(i);
+				}
+				listOfSong.setModel(model);
+				
+			}
+		});
+		btnUpdate.setBounds(42, 83, 117, 25);
+		panel_option.add(btnUpdate);
 		
 		btnDelete = new JButton(" DELETE ");
 		btnDelete.setEnabled(false);
