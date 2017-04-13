@@ -13,7 +13,7 @@ import subprocess
 import signal
 Ice.loadSlice('../Messagerie.ice')
 import Central
-from StreamerServerIce import StreamerServerIce
+#from StreamerServerIce import StreamerServerIce
 
 class StreamerMain(Ice.Application):
     def __init__(self, port="6000"):
@@ -55,6 +55,7 @@ class StreamerMain(Ice.Application):
         for i in glob.glob(listmyalbum):
             j = i.split("/")
             tmp_album.append(Central.music(j[len(j)- 1], self.url+j[len(j)- 1]))
+
         return tmp_album
 
     def sendAlb(self, messagerie):
@@ -69,15 +70,16 @@ class StreamerMain(Ice.Application):
             self.refreshMyRep(messagerie)
 
     def refreshMyRep(self, messagerie):
-        new_album = self.getRepertoir()  
+        new_album = self.getRepertoir() 
         tmp = []
         # nouvelle musique ajouter, en notify le Central
         if (len(new_album) > len(self.album)):
             for i in new_album:
                 if (self.album.count(i) == 0):
                     tmp.append(i)
-                    self.album.append(i)
             if (len(tmp) != 0):
+                for i in tmp:
+                    self.album.append(i)
                 messagerie.addToRep(self.ip, tmp)
                 print("ajout des musiques suivantes : \n")
                 for i in tmp:
@@ -87,9 +89,10 @@ class StreamerMain(Ice.Application):
             for i in self.album:
                 if (new_album.count(i) == 0):
                     tmp.append(i)
-                    self.album.remove(i)
             if (len(tmp) != 0):
-                messagerie.delFromRep(self.ip, tmp) 
+                for i in tmp:
+                    self.album.remove(i)
+                messagerie.delFromRep(self.ip, tmp)
                 print("suppression des musiques suivantes : \n")
                 for i in tmp:
                     print(i.name + "\n")
@@ -158,7 +161,6 @@ class StreamerMain(Ice.Application):
                     stop = subprocess.Popen(['bash', f2, "StreamerMain.py"])
                     time.sleep(1)
                     stop.kill()
-                    #self.instance.stop()
                     break   
                 else:
                     print("Erreur de saisie")               

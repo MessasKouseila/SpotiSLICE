@@ -23,7 +23,7 @@ class StreamerI(appli.Streamer):
         self.port = port
         self.url = self.ip+":"+"8080"+"/"
         self.album = []
-
+'''
     def getRepertoire(self, current = None):
         # on recupere le repertoir courrant
         current_directory = os.getcwd()
@@ -35,10 +35,10 @@ class StreamerI(appli.Streamer):
             j = i.split("/")
             self.album.append(appli.music(j[len(j)- 1], self.url+j[len(j)- 1]))
         return self.album
-
+'''
     def addSong(self, music, nameSong, current = None):
         return True
-        
+'''        
     # verifie que la music est disponible au stream    
     def checkStream(self, nameSong, current=None):
         if self.contains(nameSong):
@@ -51,7 +51,7 @@ class StreamerI(appli.Streamer):
             if i.name == name:
                 return True
         return False        
-
+'''
 
 
 class StreamerServerIce(Thread):
