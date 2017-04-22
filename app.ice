@@ -3,14 +3,19 @@ module appli {
     sequence<byte> song;
     struct music {
         string name;
+        string author;
+        string album;
+        string genre;
         string url;
     };
     sequence<music> repository;
-    sequence<string> liste;
 
+    /*
+        interface de communication entre un streamer et le serveur Central
+    */
 	interface Streamer {
         // ajoute une music dans un server de stream
-        void addSong(song theSong, string nameSong);
+        void addSong(song theSong, string nameSong, string author, string album, string genre);
     };
 
     /*
@@ -18,17 +23,16 @@ module appli {
     */
     interface Central {
 
-        // inscription d'un client au Central
-        bool inscription(string login, string passWord);
-        // connexion d'un client au serveur Central
-        bool connection(string login, string passWord);
         // renvoie la liste des musiques correspendant au nom donnée en paramètre
-        liste findByName(string nameSong);
-        // lance le streaming de la musique choisie par le client
-        string streamByName(string nameSong);
+        repository findByName(string nameSong);
+        repository findByAuth(string nameAuthor);
+        repository findByAlbum(string nameAlbum);
+        repository findByGenre(string nameGenre);
+
         // on recupere une ip et un port pour ajouter une musique sous format ip:port
         string getStreamer();
+        
         // renvoie toutes les musiques disponibles
-        liste getAllAvailableSong();
+        repository getAllAvailableSong();
     };
 };
