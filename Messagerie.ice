@@ -2,6 +2,9 @@ module Central {
 
     struct music {
         string name;
+        string author;
+        string album;
+        string genre;
         string url;
     };
     sequence<music> repository;

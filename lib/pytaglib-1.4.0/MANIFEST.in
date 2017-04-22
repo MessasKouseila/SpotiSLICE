@@ -1,0 +1,8 @@
+include COPYING
+include README.md
+include README.txt
+include doc/pyprinttags.1
+include src/*.pxd
+include src/*.pyx
+include src/taglib.cpp
+recursive-include tests *.py *.flac *.mp3

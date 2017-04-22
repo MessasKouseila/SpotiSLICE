@@ -13,6 +13,8 @@ import subprocess
 import signal
 Ice.loadSlice('../Messagerie.ice')
 import Central
+from tinytag import TinyTag
+from BddStreamer import BddStreamer
 #from StreamerServerIce import StreamerServerIce
 
 class StreamerMain(Ice.Application):
@@ -23,9 +25,14 @@ class StreamerMain(Ice.Application):
         self.ednaStart = None
         self.url = self.ip+":"+"8080"+"/"
         self.album = []
+        self.bdd = BddStreamer()
+        self.bdd.createDB()
+        self.bdd.deleteAll()
         self.tRep = True
         self.tRefresh = True 
+        self.album = []
 
+        
     def getIp(self):
         s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         s.connect(("gmail.com",80))
@@ -54,14 +61,15 @@ class StreamerMain(Ice.Application):
         tmp_album = []
         for i in glob.glob(listmyalbum):
             j = i.split("/")
-            tmp_album.append(Central.music(j[len(j)- 1], self.url+j[len(j)- 1]))
-
+            tag = TinyTag.get(file_album + j[len(j)- 1])
+            tmp_music = Central.music(tag.title, tag.artist, tag.album, tag.genre, self.url+j[len(j)- 1])
+            tmp_album.append(tmp_music)
         return tmp_album
-
     def sendAlb(self, messagerie):
         self.album = self.getRepertoir()
         for i in self.album:
-            print(i.name + " " + i.url)
+            print(i.name + "\n")
+            self.bdd.add(i)
         messagerie.sendAlbum(self.ip, self.album)
 
     def threadRep(self, messagerie):
@@ -84,6 +92,7 @@ class StreamerMain(Ice.Application):
                 print("ajout des musiques suivantes : \n")
                 for i in tmp:
                     print(i.name + "\n")
+                    self.bdd.add(i)
 
         elif (len(new_album) < len(self.album)):
             for i in self.album:
@@ -96,6 +105,7 @@ class StreamerMain(Ice.Application):
                 print("suppression des musiques suivantes : \n")
                 for i in tmp:
                     print(i.name + "\n")
+                    self.bdd.deleteByName(i.name)
         else:
             print("aucune mise a jour !!!!!!!!!!!")                                     
             

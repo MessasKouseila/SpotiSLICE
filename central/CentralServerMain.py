@@ -10,7 +10,7 @@ import traceback, Ice, IceStorm
 Ice.loadSlice('../Messagerie.ice')
 import Central
 from CentralServerIce import CentralServerIce
-
+from BddCentral import BddCentral
 
 class MessagerieI(Central.Messagerie):
     def __init__(self, central):
@@ -23,28 +23,28 @@ class MessagerieI(Central.Messagerie):
         self.central.Allstreamer[addIp] = True
         print("suppression des musiques suivantes : \n")
         for i in Rep:
-            self.central.delMusic(addIp, i)
+            self.central.bdd.deleteByName(i.name, addIp)
             print(i.name + "\n")
 
     def addToRep(self, addIp, Rep, current = None):
         self.central.Allstreamer[addIp] = True
         print("ajout des musiques suivantes : \n")
         for i in Rep:
-            self.central.addMusic(addIp, i)
+            self.central.bdd.add(i, addIp)
             print(i.name + "\n")
 
     def sendAlbum(self, addIp, Rep, current = None):
         print("inscription du server streamer\n ip : {0} : ".format(addIp))
         self.central.Allstreamer[addIp] = True
-        self.central.add(addIp, Rep)
-        print("Musiques du serveur : \n")
-        self.central.displaySong()
+        for i in Rep:
+            self.central.bdd.add(i, addIp)
+            print(i.name)
 
     # un server de stream se deconnecte du serverCentral
     def deconnexion(self, addIp, current = None):
         print("deconnexion du server streamer\n addIp : {0}".format(addIp))
         self.central.Allstreamer.pop(addIp)
-        self.central.ALBUM.pop(addIp)
+        self.central.bdd.deleteByIp(addIp)
 
     # reception d'une notification de la part du server de stream
     def notify(self, info, addIp, current = None):
@@ -59,11 +59,11 @@ class CentralServerMain(Ice.Application):
         self.Allstreamer = {}
         ip = self.getIp()
         self.centralIce = CentralServerIce(ip, "5000", self)
+        self.bdd = BddCentral()
+        self.bdd.createDB()
         # on verifie que les serverStreamer sont toujours disponible, on faisant un check sur l'envoie de notifcation
         # chaque serverStreamer doit nous notifier d'un message pour qu'on puisse le considerer comme etant toujours disponible
         self.threadCheker = threading.Thread(target=self.checkValidite, args=(180,))
-        # addIp ==> list_music
-        self.ALBUM = {}
         self.tChek = True
     
     def checkValidite(self, timOut):
@@ -73,30 +73,18 @@ class CentralServerMain(Ice.Application):
             for cle, valeur in self.Allstreamer.items():
                 if (not valeur):
                     self.Allstreamer.pop(cle)
-                    self.ALBUM.pop(cle)
+                    self.bdd.deleteByIp(cle)
                 else:
                     self.Allstreamer[cle] = False                  
-            
+
     def addMusic(self, addIp, music):
-        self.ALBUM[addIp].append(music)
+        self.bdd.add(music, addIp)
 
     def delMusic(self, addIp, music):
-        self.ALBUM[addIp].remove(music) 
-
-    def displaySong(self):
-        for i in self.ALBUM.values():
-            for j in i:
-                print(j.name)
+        self.bdd.deleteByName(music.name, addIp)
 
     def getAllbum(self):
-        un_album = []
-        for i in self.ALBUM.values():
-            for j in i:
-                un_album.append(j.url)
-        return un_album   
-
-    def add(self, addIp, rep):
-        self.ALBUM[addIp] = rep
+        return self.bdd.findAll()
 
     def getIp(self):
         s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)

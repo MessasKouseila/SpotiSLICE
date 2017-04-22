@@ -16,23 +16,33 @@ import appli
 class CentralI(appli.Central):
     def __init__(self, iceCentral = None):
         self.Central = iceCentral
-    # inscription d'un client au Central
-    def inscriptionClient(self, login, passWord, current = None):
-        print("inscription du client")
-    # connexion d'un client au serveur Central
-    def connectionClient(self, login, passWord, current = None):
-        print("connection du client")
     # renvoie la liste des musiques correspendant au nom donnée en paramètre
     def findByName(self, nameSong, current = None):
         print("findByName")
-    # lance le streamCentralServing de la musique choisie par le client
-    def streamByName(self, nameSong, current = None):
-        print("streamByName")
-    def add(self, theSong, nameSong, current = None):
-        print("add")
+        return self.Central.bdd.findByName(nameSong)
+
+    def findByAuth(self, nameAuthor, current = None):
+        print("findByAuth")
+        return self.Central.bdd.findByAuth(nameAuthor)
+
+    def findByAlbum(self, nameAlbum, current = None):
+        print("findByAlbum")
+        return self.Central.bdd.findByAlbum(nameAlbum)
+
+    def findByGenre(self, nameGenre, current = None):
+        print("findByGenre")                        
+        return self.Central.bdd.findByGenre(nameGenre)
+
     def getAllAvailableSong(self, current = None):
         print("getAllAvailableSong est appele par le client")
-        return self.Central.getAllbum() 
+        return self.Central.bdd.findAll()
+
+
+
+    def getStreamer(self, current = None):
+        print("return a streamer to client to add a music")
+
+
         
 # met à disposition un objet permettant d'exectuer des fonction coté CentralServer            
 class CentralServerIce(Thread):
