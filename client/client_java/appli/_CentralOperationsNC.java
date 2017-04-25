@@ -22,15 +22,15 @@ package appli;
 
 public interface _CentralOperationsNC
 {
-    boolean inscriptionClient(String login, String passWord);
+    music[] findByName(String nameSong);
 
-    boolean connectionClient(String login, String passWord);
+    music[] findByAuth(String nameAuthor);
 
-    String[] findByName(String nameSong);
+    music[] findByAlbum(String nameAlbum);
 
-    String streamByName(String nameSong);
+    music[] findByGenre(String nameGenre);
 
-    boolean add(byte[] theSong, String nameSong);
+    String getStreamer();
 
-    String[] getAllAvailableSong();
+    music[] getAllAvailableSong();
 }

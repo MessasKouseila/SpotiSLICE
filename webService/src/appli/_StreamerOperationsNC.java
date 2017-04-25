@@ -22,9 +22,5 @@ package appli;
 
 public interface _StreamerOperationsNC
 {
-    music[] getRepertoire();
-
-    boolean addSong(byte[] theSong, String nameSong);
-
-    boolean checkStream(String nameSong);
+    void addSong(byte[] theSong, String nameSong, String author, String album, String genre);
 }

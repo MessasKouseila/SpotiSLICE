@@ -61,6 +61,7 @@ class CentralServerMain(Ice.Application):
         self.centralIce = CentralServerIce(ip, "5000", self)
         self.bdd = BddCentral()
         self.bdd.createDB()
+        self.bdd.deleteAll()
         # on verifie que les serverStreamer sont toujours disponible, on faisant un check sur l'envoie de notifcation
         # chaque serverStreamer doit nous notifier d'un message pour qu'on puisse le considerer comme etant toujours disponible
         self.threadCheker = threading.Thread(target=self.checkValidite, args=(180,))

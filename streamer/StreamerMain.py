@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# coding: utf8
+# -*- coding: utf-8 -*-
 #########################################
 # Auteur : MESSAS KOUSEILA
 # Application : SpotiSLICE
@@ -62,9 +62,10 @@ class StreamerMain(Ice.Application):
         for i in glob.glob(listmyalbum):
             j = i.split("/")
             tag = TinyTag.get(file_album + j[len(j)- 1])
-            tmp_music = Central.music(tag.title, tag.artist, tag.album, tag.genre, self.url+j[len(j)- 1])
+            tmp_music = Central.music(tag.title[:-4], tag.artist, tag.album, tag.genre, self.url+j[len(j)- 1])
             tmp_album.append(tmp_music)
         return tmp_album
+        
     def sendAlb(self, messagerie):
         self.album = self.getRepertoir()
         for i in self.album:
@@ -76,6 +77,11 @@ class StreamerMain(Ice.Application):
         while self.tRep:
             time.sleep(60)
             self.refreshMyRep(messagerie)
+
+    def dec(self, music):
+        for i in music:
+            i = i.encode("utf-8")
+        return music
 
     def refreshMyRep(self, messagerie):
         new_album = self.getRepertoir() 

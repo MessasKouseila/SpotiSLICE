@@ -20,11 +20,6 @@
 
 package appli;
 
-public abstract class Callback_Streamer_addSong
-    extends IceInternal.TwowayCallback implements Ice.TwowayCallbackBool
+public abstract class Callback_Streamer_addSong extends Ice.OnewayCallback
 {
-    public final void __completed(Ice.AsyncResult __result)
-    {
-        StreamerPrxHelper.__addSong_completed(this, __result);
-    }
 }

@@ -25,124 +25,117 @@ package appli;
  **/
 public final class CentralPrxHelper extends Ice.ObjectPrxHelperBase implements CentralPrx
 {
-    private static final String __add_name = "add";
+    private static final String __findByAlbum_name = "findByAlbum";
 
-    public boolean add(byte[] theSong, String nameSong)
+    public music[] findByAlbum(String nameAlbum)
     {
-        return add(theSong, nameSong, null, false);
+        return findByAlbum(nameAlbum, null, false);
     }
 
-    public boolean add(byte[] theSong, String nameSong, java.util.Map<String, String> __ctx)
+    public music[] findByAlbum(String nameAlbum, java.util.Map<String, String> __ctx)
     {
-        return add(theSong, nameSong, __ctx, true);
+        return findByAlbum(nameAlbum, __ctx, true);
     }
 
-    private boolean add(byte[] theSong, String nameSong, java.util.Map<String, String> __ctx, boolean __explicitCtx)
+    private music[] findByAlbum(String nameAlbum, java.util.Map<String, String> __ctx, boolean __explicitCtx)
     {
-        __checkTwowayOnly(__add_name);
-        return end_add(begin_add(theSong, nameSong, __ctx, __explicitCtx, true, null));
+        __checkTwowayOnly(__findByAlbum_name);
+        return end_findByAlbum(begin_findByAlbum(nameAlbum, __ctx, __explicitCtx, true, null));
     }
 
-    public Ice.AsyncResult begin_add(byte[] theSong, String nameSong)
+    public Ice.AsyncResult begin_findByAlbum(String nameAlbum)
     {
-        return begin_add(theSong, nameSong, null, false, false, null);
+        return begin_findByAlbum(nameAlbum, null, false, false, null);
     }
 
-    public Ice.AsyncResult begin_add(byte[] theSong, String nameSong, java.util.Map<String, String> __ctx)
+    public Ice.AsyncResult begin_findByAlbum(String nameAlbum, java.util.Map<String, String> __ctx)
     {
-        return begin_add(theSong, nameSong, __ctx, true, false, null);
+        return begin_findByAlbum(nameAlbum, __ctx, true, false, null);
     }
 
-    public Ice.AsyncResult begin_add(byte[] theSong, String nameSong, Ice.Callback __cb)
+    public Ice.AsyncResult begin_findByAlbum(String nameAlbum, Ice.Callback __cb)
     {
-        return begin_add(theSong, nameSong, null, false, false, __cb);
+        return begin_findByAlbum(nameAlbum, null, false, false, __cb);
     }
 
-    public Ice.AsyncResult begin_add(byte[] theSong, String nameSong, java.util.Map<String, String> __ctx, Ice.Callback __cb)
+    public Ice.AsyncResult begin_findByAlbum(String nameAlbum, java.util.Map<String, String> __ctx, Ice.Callback __cb)
     {
-        return begin_add(theSong, nameSong, __ctx, true, false, __cb);
+        return begin_findByAlbum(nameAlbum, __ctx, true, false, __cb);
     }
 
-    public Ice.AsyncResult begin_add(byte[] theSong, String nameSong, Callback_Central_add __cb)
+    public Ice.AsyncResult begin_findByAlbum(String nameAlbum, Callback_Central_findByAlbum __cb)
     {
-        return begin_add(theSong, nameSong, null, false, false, __cb);
+        return begin_findByAlbum(nameAlbum, null, false, false, __cb);
     }
 
-    public Ice.AsyncResult begin_add(byte[] theSong, String nameSong, java.util.Map<String, String> __ctx, Callback_Central_add __cb)
+    public Ice.AsyncResult begin_findByAlbum(String nameAlbum, java.util.Map<String, String> __ctx, Callback_Central_findByAlbum __cb)
     {
-        return begin_add(theSong, nameSong, __ctx, true, false, __cb);
+        return begin_findByAlbum(nameAlbum, __ctx, true, false, __cb);
     }
 
-    public Ice.AsyncResult begin_add(byte[] theSong, 
-                                     String nameSong, 
-                                     IceInternal.Functional_BoolCallback __responseCb, 
-                                     IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb)
+    public Ice.AsyncResult begin_findByAlbum(String nameAlbum, 
+                                             IceInternal.Functional_GenericCallback1<music[]> __responseCb, 
+                                             IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb)
     {
-        return begin_add(theSong, nameSong, null, false, false, __responseCb, __exceptionCb, null);
+        return begin_findByAlbum(nameAlbum, null, false, false, __responseCb, __exceptionCb, null);
     }
 
-    public Ice.AsyncResult begin_add(byte[] theSong, 
-                                     String nameSong, 
-                                     IceInternal.Functional_BoolCallback __responseCb, 
-                                     IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb, 
-                                     IceInternal.Functional_BoolCallback __sentCb)
+    public Ice.AsyncResult begin_findByAlbum(String nameAlbum, 
+                                             IceInternal.Functional_GenericCallback1<music[]> __responseCb, 
+                                             IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb, 
+                                             IceInternal.Functional_BoolCallback __sentCb)
     {
-        return begin_add(theSong, nameSong, null, false, false, __responseCb, __exceptionCb, __sentCb);
+        return begin_findByAlbum(nameAlbum, null, false, false, __responseCb, __exceptionCb, __sentCb);
     }
 
-    public Ice.AsyncResult begin_add(byte[] theSong, 
-                                     String nameSong, 
-                                     java.util.Map<String, String> __ctx, 
-                                     IceInternal.Functional_BoolCallback __responseCb, 
-                                     IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb)
+    public Ice.AsyncResult begin_findByAlbum(String nameAlbum, 
+                                             java.util.Map<String, String> __ctx, 
+                                             IceInternal.Functional_GenericCallback1<music[]> __responseCb, 
+                                             IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb)
     {
-        return begin_add(theSong, nameSong, __ctx, true, false, __responseCb, __exceptionCb, null);
+        return begin_findByAlbum(nameAlbum, __ctx, true, false, __responseCb, __exceptionCb, null);
     }
 
-    public Ice.AsyncResult begin_add(byte[] theSong, 
-                                     String nameSong, 
-                                     java.util.Map<String, String> __ctx, 
-                                     IceInternal.Functional_BoolCallback __responseCb, 
-                                     IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb, 
-                                     IceInternal.Functional_BoolCallback __sentCb)
+    public Ice.AsyncResult begin_findByAlbum(String nameAlbum, 
+                                             java.util.Map<String, String> __ctx, 
+                                             IceInternal.Functional_GenericCallback1<music[]> __responseCb, 
+                                             IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb, 
+                                             IceInternal.Functional_BoolCallback __sentCb)
     {
-        return begin_add(theSong, nameSong, __ctx, true, false, __responseCb, __exceptionCb, __sentCb);
+        return begin_findByAlbum(nameAlbum, __ctx, true, false, __responseCb, __exceptionCb, __sentCb);
     }
 
-    private Ice.AsyncResult begin_add(byte[] theSong, 
-                                      String nameSong, 
-                                      java.util.Map<String, String> __ctx, 
-                                      boolean __explicitCtx, 
-                                      boolean __synchronous, 
-                                      IceInternal.Functional_BoolCallback __responseCb, 
-                                      IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb, 
-                                      IceInternal.Functional_BoolCallback __sentCb)
+    private Ice.AsyncResult begin_findByAlbum(String nameAlbum, 
+                                              java.util.Map<String, String> __ctx, 
+                                              boolean __explicitCtx, 
+                                              boolean __synchronous, 
+                                              IceInternal.Functional_GenericCallback1<music[]> __responseCb, 
+                                              IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb, 
+                                              IceInternal.Functional_BoolCallback __sentCb)
     {
-        return begin_add(theSong, nameSong, __ctx, __explicitCtx, __synchronous, 
-                         new IceInternal.Functional_TwowayCallbackBool(__responseCb, __exceptionCb, __sentCb)
-                             {
-                                 public final void __completed(Ice.AsyncResult __result)
-                                 {
-                                     CentralPrxHelper.__add_completed(this, __result);
-                                 }
-                             });
+        return begin_findByAlbum(nameAlbum, __ctx, __explicitCtx, __synchronous, 
+                                 new IceInternal.Functional_TwowayCallbackArg1<appli.music[]>(__responseCb, __exceptionCb, __sentCb)
+                                     {
+                                         public final void __completed(Ice.AsyncResult __result)
+                                         {
+                                             CentralPrxHelper.__findByAlbum_completed(this, __result);
+                                         }
+                                     });
     }
 
-    private Ice.AsyncResult begin_add(byte[] theSong, 
-                                      String nameSong, 
-                                      java.util.Map<String, String> __ctx, 
-                                      boolean __explicitCtx, 
-                                      boolean __synchronous, 
-                                      IceInternal.CallbackBase __cb)
+    private Ice.AsyncResult begin_findByAlbum(String nameAlbum, 
+                                              java.util.Map<String, String> __ctx, 
+                                              boolean __explicitCtx, 
+                                              boolean __synchronous, 
+                                              IceInternal.CallbackBase __cb)
     {
-        __checkAsyncTwowayOnly(__add_name);
-        IceInternal.OutgoingAsync __result = getOutgoingAsync(__add_name, __cb);
+        __checkAsyncTwowayOnly(__findByAlbum_name);
+        IceInternal.OutgoingAsync __result = getOutgoingAsync(__findByAlbum_name, __cb);
         try
         {
-            __result.prepare(__add_name, Ice.OperationMode.Normal, __ctx, __explicitCtx, __synchronous);
+            __result.prepare(__findByAlbum_name, Ice.OperationMode.Normal, __ctx, __explicitCtx, __synchronous);
             IceInternal.BasicStream __os = __result.startWriteParams(Ice.FormatType.DefaultFormat);
-            songHelper.write(__os, theSong);
-            __os.writeString(nameSong);
+            __os.writeString(nameAlbum);
             __result.endWriteParams();
             __result.invoke();
         }
@@ -153,9 +146,9 @@ public final class CentralPrxHelper extends Ice.ObjectPrxHelperBase implements C
         return __result;
     }
 
-    public boolean end_add(Ice.AsyncResult __iresult)
+    public music[] end_findByAlbum(Ice.AsyncResult __iresult)
     {
-        IceInternal.OutgoingAsync __result = IceInternal.OutgoingAsync.check(__iresult, this, __add_name);
+        IceInternal.OutgoingAsync __result = IceInternal.OutgoingAsync.check(__iresult, this, __findByAlbum_name);
         try
         {
             if(!__result.__wait())
@@ -170,8 +163,8 @@ public final class CentralPrxHelper extends Ice.ObjectPrxHelperBase implements C
                 }
             }
             IceInternal.BasicStream __is = __result.startReadParams();
-            boolean __ret;
-            __ret = __is.readBool();
+            music[] __ret;
+            __ret = repositoryHelper.read(__is);
             __result.endReadParams();
             return __ret;
         }
@@ -184,13 +177,13 @@ public final class CentralPrxHelper extends Ice.ObjectPrxHelperBase implements C
         }
     }
 
-    static public void __add_completed(Ice.TwowayCallbackBool __cb, Ice.AsyncResult __result)
+    static public void __findByAlbum_completed(Ice.TwowayCallbackArg1<music[]> __cb, Ice.AsyncResult __result)
     {
         appli.CentralPrx __proxy = (appli.CentralPrx)__result.getProxy();
-        boolean __ret = false;
+        music[] __ret = null;
         try
         {
-            __ret = __proxy.end_add(__result);
+            __ret = __proxy.end_findByAlbum(__result);
         }
         catch(Ice.LocalException __ex)
         {
@@ -205,124 +198,117 @@ public final class CentralPrxHelper extends Ice.ObjectPrxHelperBase implements C
         __cb.response(__ret);
     }
 
-    private static final String __connectionClient_name = "connectionClient";
+    private static final String __findByAuth_name = "findByAuth";
 
-    public boolean connectionClient(String login, String passWord)
+    public music[] findByAuth(String nameAuthor)
     {
-        return connectionClient(login, passWord, null, false);
+        return findByAuth(nameAuthor, null, false);
     }
 
-    public boolean connectionClient(String login, String passWord, java.util.Map<String, String> __ctx)
+    public music[] findByAuth(String nameAuthor, java.util.Map<String, String> __ctx)
     {
-        return connectionClient(login, passWord, __ctx, true);
+        return findByAuth(nameAuthor, __ctx, true);
     }
 
-    private boolean connectionClient(String login, String passWord, java.util.Map<String, String> __ctx, boolean __explicitCtx)
+    private music[] findByAuth(String nameAuthor, java.util.Map<String, String> __ctx, boolean __explicitCtx)
     {
-        __checkTwowayOnly(__connectionClient_name);
-        return end_connectionClient(begin_connectionClient(login, passWord, __ctx, __explicitCtx, true, null));
+        __checkTwowayOnly(__findByAuth_name);
+        return end_findByAuth(begin_findByAuth(nameAuthor, __ctx, __explicitCtx, true, null));
     }
 
-    public Ice.AsyncResult begin_connectionClient(String login, String passWord)
+    public Ice.AsyncResult begin_findByAuth(String nameAuthor)
     {
-        return begin_connectionClient(login, passWord, null, false, false, null);
+        return begin_findByAuth(nameAuthor, null, false, false, null);
     }
 
-    public Ice.AsyncResult begin_connectionClient(String login, String passWord, java.util.Map<String, String> __ctx)
+    public Ice.AsyncResult begin_findByAuth(String nameAuthor, java.util.Map<String, String> __ctx)
     {
-        return begin_connectionClient(login, passWord, __ctx, true, false, null);
+        return begin_findByAuth(nameAuthor, __ctx, true, false, null);
     }
 
-    public Ice.AsyncResult begin_connectionClient(String login, String passWord, Ice.Callback __cb)
+    public Ice.AsyncResult begin_findByAuth(String nameAuthor, Ice.Callback __cb)
     {
-        return begin_connectionClient(login, passWord, null, false, false, __cb);
+        return begin_findByAuth(nameAuthor, null, false, false, __cb);
     }
 
-    public Ice.AsyncResult begin_connectionClient(String login, String passWord, java.util.Map<String, String> __ctx, Ice.Callback __cb)
+    public Ice.AsyncResult begin_findByAuth(String nameAuthor, java.util.Map<String, String> __ctx, Ice.Callback __cb)
     {
-        return begin_connectionClient(login, passWord, __ctx, true, false, __cb);
+        return begin_findByAuth(nameAuthor, __ctx, true, false, __cb);
     }
 
-    public Ice.AsyncResult begin_connectionClient(String login, String passWord, Callback_Central_connectionClient __cb)
+    public Ice.AsyncResult begin_findByAuth(String nameAuthor, Callback_Central_findByAuth __cb)
     {
-        return begin_connectionClient(login, passWord, null, false, false, __cb);
+        return begin_findByAuth(nameAuthor, null, false, false, __cb);
     }
 
-    public Ice.AsyncResult begin_connectionClient(String login, String passWord, java.util.Map<String, String> __ctx, Callback_Central_connectionClient __cb)
+    public Ice.AsyncResult begin_findByAuth(String nameAuthor, java.util.Map<String, String> __ctx, Callback_Central_findByAuth __cb)
     {
-        return begin_connectionClient(login, passWord, __ctx, true, false, __cb);
+        return begin_findByAuth(nameAuthor, __ctx, true, false, __cb);
     }
 
-    public Ice.AsyncResult begin_connectionClient(String login, 
-                                                  String passWord, 
-                                                  IceInternal.Functional_BoolCallback __responseCb, 
-                                                  IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb)
+    public Ice.AsyncResult begin_findByAuth(String nameAuthor, 
+                                            IceInternal.Functional_GenericCallback1<music[]> __responseCb, 
+                                            IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb)
     {
-        return begin_connectionClient(login, passWord, null, false, false, __responseCb, __exceptionCb, null);
+        return begin_findByAuth(nameAuthor, null, false, false, __responseCb, __exceptionCb, null);
     }
 
-    public Ice.AsyncResult begin_connectionClient(String login, 
-                                                  String passWord, 
-                                                  IceInternal.Functional_BoolCallback __responseCb, 
-                                                  IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb, 
-                                                  IceInternal.Functional_BoolCallback __sentCb)
+    public Ice.AsyncResult begin_findByAuth(String nameAuthor, 
+                                            IceInternal.Functional_GenericCallback1<music[]> __responseCb, 
+                                            IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb, 
+                                            IceInternal.Functional_BoolCallback __sentCb)
     {
-        return begin_connectionClient(login, passWord, null, false, false, __responseCb, __exceptionCb, __sentCb);
+        return begin_findByAuth(nameAuthor, null, false, false, __responseCb, __exceptionCb, __sentCb);
     }
 
-    public Ice.AsyncResult begin_connectionClient(String login, 
-                                                  String passWord, 
-                                                  java.util.Map<String, String> __ctx, 
-                                                  IceInternal.Functional_BoolCallback __responseCb, 
-                                                  IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb)
+    public Ice.AsyncResult begin_findByAuth(String nameAuthor, 
+                                            java.util.Map<String, String> __ctx, 
+                                            IceInternal.Functional_GenericCallback1<music[]> __responseCb, 
+                                            IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb)
     {
-        return begin_connectionClient(login, passWord, __ctx, true, false, __responseCb, __exceptionCb, null);
+        return begin_findByAuth(nameAuthor, __ctx, true, false, __responseCb, __exceptionCb, null);
     }
 
-    public Ice.AsyncResult begin_connectionClient(String login, 
-                                                  String passWord, 
-                                                  java.util.Map<String, String> __ctx, 
-                                                  IceInternal.Functional_BoolCallback __responseCb, 
-                                                  IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb, 
-                                                  IceInternal.Functional_BoolCallback __sentCb)
+    public Ice.AsyncResult begin_findByAuth(String nameAuthor, 
+                                            java.util.Map<String, String> __ctx, 
+                                            IceInternal.Functional_GenericCallback1<music[]> __responseCb, 
+                                            IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb, 
+                                            IceInternal.Functional_BoolCallback __sentCb)
     {
-        return begin_connectionClient(login, passWord, __ctx, true, false, __responseCb, __exceptionCb, __sentCb);
+        return begin_findByAuth(nameAuthor, __ctx, true, false, __responseCb, __exceptionCb, __sentCb);
     }
 
-    private Ice.AsyncResult begin_connectionClient(String login, 
-                                                   String passWord, 
-                                                   java.util.Map<String, String> __ctx, 
-                                                   boolean __explicitCtx, 
-                                                   boolean __synchronous, 
-                                                   IceInternal.Functional_BoolCallback __responseCb, 
-                                                   IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb, 
-                                                   IceInternal.Functional_BoolCallback __sentCb)
+    private Ice.AsyncResult begin_findByAuth(String nameAuthor, 
+                                             java.util.Map<String, String> __ctx, 
+                                             boolean __explicitCtx, 
+                                             boolean __synchronous, 
+                                             IceInternal.Functional_GenericCallback1<music[]> __responseCb, 
+                                             IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb, 
+                                             IceInternal.Functional_BoolCallback __sentCb)
     {
-        return begin_connectionClient(login, passWord, __ctx, __explicitCtx, __synchronous, 
-                                      new IceInternal.Functional_TwowayCallbackBool(__responseCb, __exceptionCb, __sentCb)
-                                          {
-                                              public final void __completed(Ice.AsyncResult __result)
-                                              {
-                                                  CentralPrxHelper.__connectionClient_completed(this, __result);
-                                              }
-                                          });
+        return begin_findByAuth(nameAuthor, __ctx, __explicitCtx, __synchronous, 
+                                new IceInternal.Functional_TwowayCallbackArg1<appli.music[]>(__responseCb, __exceptionCb, __sentCb)
+                                    {
+                                        public final void __completed(Ice.AsyncResult __result)
+                                        {
+                                            CentralPrxHelper.__findByAuth_completed(this, __result);
+                                        }
+                                    });
     }
 
-    private Ice.AsyncResult begin_connectionClient(String login, 
-                                                   String passWord, 
-                                                   java.util.Map<String, String> __ctx, 
-                                                   boolean __explicitCtx, 
-                                                   boolean __synchronous, 
-                                                   IceInternal.CallbackBase __cb)
+    private Ice.AsyncResult begin_findByAuth(String nameAuthor, 
+                                             java.util.Map<String, String> __ctx, 
+                                             boolean __explicitCtx, 
+                                             boolean __synchronous, 
+                                             IceInternal.CallbackBase __cb)
     {
-        __checkAsyncTwowayOnly(__connectionClient_name);
-        IceInternal.OutgoingAsync __result = getOutgoingAsync(__connectionClient_name, __cb);
+        __checkAsyncTwowayOnly(__findByAuth_name);
+        IceInternal.OutgoingAsync __result = getOutgoingAsync(__findByAuth_name, __cb);
         try
         {
-            __result.prepare(__connectionClient_name, Ice.OperationMode.Normal, __ctx, __explicitCtx, __synchronous);
+            __result.prepare(__findByAuth_name, Ice.OperationMode.Normal, __ctx, __explicitCtx, __synchronous);
             IceInternal.BasicStream __os = __result.startWriteParams(Ice.FormatType.DefaultFormat);
-            __os.writeString(login);
-            __os.writeString(passWord);
+            __os.writeString(nameAuthor);
             __result.endWriteParams();
             __result.invoke();
         }
@@ -333,9 +319,9 @@ public final class CentralPrxHelper extends Ice.ObjectPrxHelperBase implements C
         return __result;
     }
 
-    public boolean end_connectionClient(Ice.AsyncResult __iresult)
+    public music[] end_findByAuth(Ice.AsyncResult __iresult)
     {
-        IceInternal.OutgoingAsync __result = IceInternal.OutgoingAsync.check(__iresult, this, __connectionClient_name);
+        IceInternal.OutgoingAsync __result = IceInternal.OutgoingAsync.check(__iresult, this, __findByAuth_name);
         try
         {
             if(!__result.__wait())
@@ -350,8 +336,8 @@ public final class CentralPrxHelper extends Ice.ObjectPrxHelperBase implements C
                 }
             }
             IceInternal.BasicStream __is = __result.startReadParams();
-            boolean __ret;
-            __ret = __is.readBool();
+            music[] __ret;
+            __ret = repositoryHelper.read(__is);
             __result.endReadParams();
             return __ret;
         }
@@ -364,13 +350,186 @@ public final class CentralPrxHelper extends Ice.ObjectPrxHelperBase implements C
         }
     }
 
-    static public void __connectionClient_completed(Ice.TwowayCallbackBool __cb, Ice.AsyncResult __result)
+    static public void __findByAuth_completed(Ice.TwowayCallbackArg1<music[]> __cb, Ice.AsyncResult __result)
     {
         appli.CentralPrx __proxy = (appli.CentralPrx)__result.getProxy();
-        boolean __ret = false;
+        music[] __ret = null;
         try
         {
-            __ret = __proxy.end_connectionClient(__result);
+            __ret = __proxy.end_findByAuth(__result);
+        }
+        catch(Ice.LocalException __ex)
+        {
+            __cb.exception(__ex);
+            return;
+        }
+        catch(Ice.SystemException __ex)
+        {
+            __cb.exception(__ex);
+            return;
+        }
+        __cb.response(__ret);
+    }
+
+    private static final String __findByGenre_name = "findByGenre";
+
+    public music[] findByGenre(String nameGenre)
+    {
+        return findByGenre(nameGenre, null, false);
+    }
+
+    public music[] findByGenre(String nameGenre, java.util.Map<String, String> __ctx)
+    {
+        return findByGenre(nameGenre, __ctx, true);
+    }
+
+    private music[] findByGenre(String nameGenre, java.util.Map<String, String> __ctx, boolean __explicitCtx)
+    {
+        __checkTwowayOnly(__findByGenre_name);
+        return end_findByGenre(begin_findByGenre(nameGenre, __ctx, __explicitCtx, true, null));
+    }
+
+    public Ice.AsyncResult begin_findByGenre(String nameGenre)
+    {
+        return begin_findByGenre(nameGenre, null, false, false, null);
+    }
+
+    public Ice.AsyncResult begin_findByGenre(String nameGenre, java.util.Map<String, String> __ctx)
+    {
+        return begin_findByGenre(nameGenre, __ctx, true, false, null);
+    }
+
+    public Ice.AsyncResult begin_findByGenre(String nameGenre, Ice.Callback __cb)
+    {
+        return begin_findByGenre(nameGenre, null, false, false, __cb);
+    }
+
+    public Ice.AsyncResult begin_findByGenre(String nameGenre, java.util.Map<String, String> __ctx, Ice.Callback __cb)
+    {
+        return begin_findByGenre(nameGenre, __ctx, true, false, __cb);
+    }
+
+    public Ice.AsyncResult begin_findByGenre(String nameGenre, Callback_Central_findByGenre __cb)
+    {
+        return begin_findByGenre(nameGenre, null, false, false, __cb);
+    }
+
+    public Ice.AsyncResult begin_findByGenre(String nameGenre, java.util.Map<String, String> __ctx, Callback_Central_findByGenre __cb)
+    {
+        return begin_findByGenre(nameGenre, __ctx, true, false, __cb);
+    }
+
+    public Ice.AsyncResult begin_findByGenre(String nameGenre, 
+                                             IceInternal.Functional_GenericCallback1<music[]> __responseCb, 
+                                             IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb)
+    {
+        return begin_findByGenre(nameGenre, null, false, false, __responseCb, __exceptionCb, null);
+    }
+
+    public Ice.AsyncResult begin_findByGenre(String nameGenre, 
+                                             IceInternal.Functional_GenericCallback1<music[]> __responseCb, 
+                                             IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb, 
+                                             IceInternal.Functional_BoolCallback __sentCb)
+    {
+        return begin_findByGenre(nameGenre, null, false, false, __responseCb, __exceptionCb, __sentCb);
+    }
+
+    public Ice.AsyncResult begin_findByGenre(String nameGenre, 
+                                             java.util.Map<String, String> __ctx, 
+                                             IceInternal.Functional_GenericCallback1<music[]> __responseCb, 
+                                             IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb)
+    {
+        return begin_findByGenre(nameGenre, __ctx, true, false, __responseCb, __exceptionCb, null);
+    }
+
+    public Ice.AsyncResult begin_findByGenre(String nameGenre, 
+                                             java.util.Map<String, String> __ctx, 
+                                             IceInternal.Functional_GenericCallback1<music[]> __responseCb, 
+                                             IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb, 
+                                             IceInternal.Functional_BoolCallback __sentCb)
+    {
+        return begin_findByGenre(nameGenre, __ctx, true, false, __responseCb, __exceptionCb, __sentCb);
+    }
+
+    private Ice.AsyncResult begin_findByGenre(String nameGenre, 
+                                              java.util.Map<String, String> __ctx, 
+                                              boolean __explicitCtx, 
+                                              boolean __synchronous, 
+                                              IceInternal.Functional_GenericCallback1<music[]> __responseCb, 
+                                              IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb, 
+                                              IceInternal.Functional_BoolCallback __sentCb)
+    {
+        return begin_findByGenre(nameGenre, __ctx, __explicitCtx, __synchronous, 
+                                 new IceInternal.Functional_TwowayCallbackArg1<appli.music[]>(__responseCb, __exceptionCb, __sentCb)
+                                     {
+                                         public final void __completed(Ice.AsyncResult __result)
+                                         {
+                                             CentralPrxHelper.__findByGenre_completed(this, __result);
+                                         }
+                                     });
+    }
+
+    private Ice.AsyncResult begin_findByGenre(String nameGenre, 
+                                              java.util.Map<String, String> __ctx, 
+                                              boolean __explicitCtx, 
+                                              boolean __synchronous, 
+                                              IceInternal.CallbackBase __cb)
+    {
+        __checkAsyncTwowayOnly(__findByGenre_name);
+        IceInternal.OutgoingAsync __result = getOutgoingAsync(__findByGenre_name, __cb);
+        try
+        {
+            __result.prepare(__findByGenre_name, Ice.OperationMode.Normal, __ctx, __explicitCtx, __synchronous);
+            IceInternal.BasicStream __os = __result.startWriteParams(Ice.FormatType.DefaultFormat);
+            __os.writeString(nameGenre);
+            __result.endWriteParams();
+            __result.invoke();
+        }
+        catch(Ice.Exception __ex)
+        {
+            __result.abort(__ex);
+        }
+        return __result;
+    }
+
+    public music[] end_findByGenre(Ice.AsyncResult __iresult)
+    {
+        IceInternal.OutgoingAsync __result = IceInternal.OutgoingAsync.check(__iresult, this, __findByGenre_name);
+        try
+        {
+            if(!__result.__wait())
+            {
+                try
+                {
+                    __result.throwUserException();
+                }
+                catch(Ice.UserException __ex)
+                {
+                    throw new Ice.UnknownUserException(__ex.ice_name(), __ex);
+                }
+            }
+            IceInternal.BasicStream __is = __result.startReadParams();
+            music[] __ret;
+            __ret = repositoryHelper.read(__is);
+            __result.endReadParams();
+            return __ret;
+        }
+        finally
+        {
+            if(__result != null)
+            {
+                __result.cacheMessageBuffers();
+            }
+        }
+    }
+
+    static public void __findByGenre_completed(Ice.TwowayCallbackArg1<music[]> __cb, Ice.AsyncResult __result)
+    {
+        appli.CentralPrx __proxy = (appli.CentralPrx)__result.getProxy();
+        music[] __ret = null;
+        try
+        {
+            __ret = __proxy.end_findByGenre(__result);
         }
         catch(Ice.LocalException __ex)
         {
@@ -387,17 +546,17 @@ public final class CentralPrxHelper extends Ice.ObjectPrxHelperBase implements C
 
     private static final String __findByName_name = "findByName";
 
-    public String[] findByName(String nameSong)
+    public music[] findByName(String nameSong)
     {
         return findByName(nameSong, null, false);
     }
 
-    public String[] findByName(String nameSong, java.util.Map<String, String> __ctx)
+    public music[] findByName(String nameSong, java.util.Map<String, String> __ctx)
     {
         return findByName(nameSong, __ctx, true);
     }
 
-    private String[] findByName(String nameSong, java.util.Map<String, String> __ctx, boolean __explicitCtx)
+    private music[] findByName(String nameSong, java.util.Map<String, String> __ctx, boolean __explicitCtx)
     {
         __checkTwowayOnly(__findByName_name);
         return end_findByName(begin_findByName(nameSong, __ctx, __explicitCtx, true, null));
@@ -434,14 +593,14 @@ public final class CentralPrxHelper extends Ice.ObjectPrxHelperBase implements C
     }
 
     public Ice.AsyncResult begin_findByName(String nameSong, 
-                                            IceInternal.Functional_GenericCallback1<String[]> __responseCb, 
+                                            IceInternal.Functional_GenericCallback1<music[]> __responseCb, 
                                             IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb)
     {
         return begin_findByName(nameSong, null, false, false, __responseCb, __exceptionCb, null);
     }
 
     public Ice.AsyncResult begin_findByName(String nameSong, 
-                                            IceInternal.Functional_GenericCallback1<String[]> __responseCb, 
+                                            IceInternal.Functional_GenericCallback1<music[]> __responseCb, 
                                             IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb, 
                                             IceInternal.Functional_BoolCallback __sentCb)
     {
@@ -450,7 +609,7 @@ public final class CentralPrxHelper extends Ice.ObjectPrxHelperBase implements C
 
     public Ice.AsyncResult begin_findByName(String nameSong, 
                                             java.util.Map<String, String> __ctx, 
-                                            IceInternal.Functional_GenericCallback1<String[]> __responseCb, 
+                                            IceInternal.Functional_GenericCallback1<music[]> __responseCb, 
                                             IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb)
     {
         return begin_findByName(nameSong, __ctx, true, false, __responseCb, __exceptionCb, null);
@@ -458,7 +617,7 @@ public final class CentralPrxHelper extends Ice.ObjectPrxHelperBase implements C
 
     public Ice.AsyncResult begin_findByName(String nameSong, 
                                             java.util.Map<String, String> __ctx, 
-                                            IceInternal.Functional_GenericCallback1<String[]> __responseCb, 
+                                            IceInternal.Functional_GenericCallback1<music[]> __responseCb, 
                                             IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb, 
                                             IceInternal.Functional_BoolCallback __sentCb)
     {
@@ -469,12 +628,12 @@ public final class CentralPrxHelper extends Ice.ObjectPrxHelperBase implements C
                                              java.util.Map<String, String> __ctx, 
                                              boolean __explicitCtx, 
                                              boolean __synchronous, 
-                                             IceInternal.Functional_GenericCallback1<String[]> __responseCb, 
+                                             IceInternal.Functional_GenericCallback1<music[]> __responseCb, 
                                              IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb, 
                                              IceInternal.Functional_BoolCallback __sentCb)
     {
         return begin_findByName(nameSong, __ctx, __explicitCtx, __synchronous, 
-                                new IceInternal.Functional_TwowayCallbackArg1<String[]>(__responseCb, __exceptionCb, __sentCb)
+                                new IceInternal.Functional_TwowayCallbackArg1<appli.music[]>(__responseCb, __exceptionCb, __sentCb)
                                     {
                                         public final void __completed(Ice.AsyncResult __result)
                                         {
@@ -506,7 +665,7 @@ public final class CentralPrxHelper extends Ice.ObjectPrxHelperBase implements C
         return __result;
     }
 
-    public String[] end_findByName(Ice.AsyncResult __iresult)
+    public music[] end_findByName(Ice.AsyncResult __iresult)
     {
         IceInternal.OutgoingAsync __result = IceInternal.OutgoingAsync.check(__iresult, this, __findByName_name);
         try
@@ -523,8 +682,8 @@ public final class CentralPrxHelper extends Ice.ObjectPrxHelperBase implements C
                 }
             }
             IceInternal.BasicStream __is = __result.startReadParams();
-            String[] __ret;
-            __ret = listeHelper.read(__is);
+            music[] __ret;
+            __ret = repositoryHelper.read(__is);
             __result.endReadParams();
             return __ret;
         }
@@ -537,10 +696,10 @@ public final class CentralPrxHelper extends Ice.ObjectPrxHelperBase implements C
         }
     }
 
-    static public void __findByName_completed(Ice.TwowayCallbackArg1<String[]> __cb, Ice.AsyncResult __result)
+    static public void __findByName_completed(Ice.TwowayCallbackArg1<music[]> __cb, Ice.AsyncResult __result)
     {
         appli.CentralPrx __proxy = (appli.CentralPrx)__result.getProxy();
-        String[] __ret = null;
+        music[] __ret = null;
         try
         {
             __ret = __proxy.end_findByName(__result);
@@ -560,17 +719,17 @@ public final class CentralPrxHelper extends Ice.ObjectPrxHelperBase implements C
 
     private static final String __getAllAvailableSong_name = "getAllAvailableSong";
 
-    public String[] getAllAvailableSong()
+    public music[] getAllAvailableSong()
     {
         return getAllAvailableSong(null, false);
     }
 
-    public String[] getAllAvailableSong(java.util.Map<String, String> __ctx)
+    public music[] getAllAvailableSong(java.util.Map<String, String> __ctx)
     {
         return getAllAvailableSong(__ctx, true);
     }
 
-    private String[] getAllAvailableSong(java.util.Map<String, String> __ctx, boolean __explicitCtx)
+    private music[] getAllAvailableSong(java.util.Map<String, String> __ctx, boolean __explicitCtx)
     {
         __checkTwowayOnly(__getAllAvailableSong_name);
         return end_getAllAvailableSong(begin_getAllAvailableSong(__ctx, __explicitCtx, true, null));
@@ -606,13 +765,13 @@ public final class CentralPrxHelper extends Ice.ObjectPrxHelperBase implements C
         return begin_getAllAvailableSong(__ctx, true, false, __cb);
     }
 
-    public Ice.AsyncResult begin_getAllAvailableSong(IceInternal.Functional_GenericCallback1<String[]> __responseCb, 
+    public Ice.AsyncResult begin_getAllAvailableSong(IceInternal.Functional_GenericCallback1<music[]> __responseCb, 
                                                      IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb)
     {
         return begin_getAllAvailableSong(null, false, false, __responseCb, __exceptionCb, null);
     }
 
-    public Ice.AsyncResult begin_getAllAvailableSong(IceInternal.Functional_GenericCallback1<String[]> __responseCb, 
+    public Ice.AsyncResult begin_getAllAvailableSong(IceInternal.Functional_GenericCallback1<music[]> __responseCb, 
                                                      IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb, 
                                                      IceInternal.Functional_BoolCallback __sentCb)
     {
@@ -620,14 +779,14 @@ public final class CentralPrxHelper extends Ice.ObjectPrxHelperBase implements C
     }
 
     public Ice.AsyncResult begin_getAllAvailableSong(java.util.Map<String, String> __ctx, 
-                                                     IceInternal.Functional_GenericCallback1<String[]> __responseCb, 
+                                                     IceInternal.Functional_GenericCallback1<music[]> __responseCb, 
                                                      IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb)
     {
         return begin_getAllAvailableSong(__ctx, true, false, __responseCb, __exceptionCb, null);
     }
 
     public Ice.AsyncResult begin_getAllAvailableSong(java.util.Map<String, String> __ctx, 
-                                                     IceInternal.Functional_GenericCallback1<String[]> __responseCb, 
+                                                     IceInternal.Functional_GenericCallback1<music[]> __responseCb, 
                                                      IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb, 
                                                      IceInternal.Functional_BoolCallback __sentCb)
     {
@@ -637,12 +796,12 @@ public final class CentralPrxHelper extends Ice.ObjectPrxHelperBase implements C
     private Ice.AsyncResult begin_getAllAvailableSong(java.util.Map<String, String> __ctx, 
                                                       boolean __explicitCtx, 
                                                       boolean __synchronous, 
-                                                      IceInternal.Functional_GenericCallback1<String[]> __responseCb, 
+                                                      IceInternal.Functional_GenericCallback1<music[]> __responseCb, 
                                                       IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb, 
                                                       IceInternal.Functional_BoolCallback __sentCb)
     {
         return begin_getAllAvailableSong(__ctx, __explicitCtx, __synchronous, 
-                                         new IceInternal.Functional_TwowayCallbackArg1<String[]>(__responseCb, __exceptionCb, __sentCb)
+                                         new IceInternal.Functional_TwowayCallbackArg1<appli.music[]>(__responseCb, __exceptionCb, __sentCb)
                                              {
                                                  public final void __completed(Ice.AsyncResult __result)
                                                  {
@@ -671,7 +830,7 @@ public final class CentralPrxHelper extends Ice.ObjectPrxHelperBase implements C
         return __result;
     }
 
-    public String[] end_getAllAvailableSong(Ice.AsyncResult __iresult)
+    public music[] end_getAllAvailableSong(Ice.AsyncResult __iresult)
     {
         IceInternal.OutgoingAsync __result = IceInternal.OutgoingAsync.check(__iresult, this, __getAllAvailableSong_name);
         try
@@ -688,8 +847,8 @@ public final class CentralPrxHelper extends Ice.ObjectPrxHelperBase implements C
                 }
             }
             IceInternal.BasicStream __is = __result.startReadParams();
-            String[] __ret;
-            __ret = listeHelper.read(__is);
+            music[] __ret;
+            __ret = repositoryHelper.read(__is);
             __result.endReadParams();
             return __ret;
         }
@@ -702,10 +861,10 @@ public final class CentralPrxHelper extends Ice.ObjectPrxHelperBase implements C
         }
     }
 
-    static public void __getAllAvailableSong_completed(Ice.TwowayCallbackArg1<String[]> __cb, Ice.AsyncResult __result)
+    static public void __getAllAvailableSong_completed(Ice.TwowayCallbackArg1<music[]> __cb, Ice.AsyncResult __result)
     {
         appli.CentralPrx __proxy = (appli.CentralPrx)__result.getProxy();
-        String[] __ret = null;
+        music[] __ret = null;
         try
         {
             __ret = __proxy.end_getAllAvailableSong(__result);
@@ -723,125 +882,110 @@ public final class CentralPrxHelper extends Ice.ObjectPrxHelperBase implements C
         __cb.response(__ret);
     }
 
-    private static final String __inscriptionClient_name = "inscriptionClient";
+    private static final String __getStreamer_name = "getStreamer";
 
-    public boolean inscriptionClient(String login, String passWord)
+    public String getStreamer()
     {
-        return inscriptionClient(login, passWord, null, false);
+        return getStreamer(null, false);
     }
 
-    public boolean inscriptionClient(String login, String passWord, java.util.Map<String, String> __ctx)
+    public String getStreamer(java.util.Map<String, String> __ctx)
     {
-        return inscriptionClient(login, passWord, __ctx, true);
+        return getStreamer(__ctx, true);
     }
 
-    private boolean inscriptionClient(String login, String passWord, java.util.Map<String, String> __ctx, boolean __explicitCtx)
+    private String getStreamer(java.util.Map<String, String> __ctx, boolean __explicitCtx)
     {
-        __checkTwowayOnly(__inscriptionClient_name);
-        return end_inscriptionClient(begin_inscriptionClient(login, passWord, __ctx, __explicitCtx, true, null));
+        __checkTwowayOnly(__getStreamer_name);
+        return end_getStreamer(begin_getStreamer(__ctx, __explicitCtx, true, null));
     }
 
-    public Ice.AsyncResult begin_inscriptionClient(String login, String passWord)
+    public Ice.AsyncResult begin_getStreamer()
     {
-        return begin_inscriptionClient(login, passWord, null, false, false, null);
+        return begin_getStreamer(null, false, false, null);
     }
 
-    public Ice.AsyncResult begin_inscriptionClient(String login, String passWord, java.util.Map<String, String> __ctx)
+    public Ice.AsyncResult begin_getStreamer(java.util.Map<String, String> __ctx)
     {
-        return begin_inscriptionClient(login, passWord, __ctx, true, false, null);
+        return begin_getStreamer(__ctx, true, false, null);
     }
 
-    public Ice.AsyncResult begin_inscriptionClient(String login, String passWord, Ice.Callback __cb)
+    public Ice.AsyncResult begin_getStreamer(Ice.Callback __cb)
     {
-        return begin_inscriptionClient(login, passWord, null, false, false, __cb);
+        return begin_getStreamer(null, false, false, __cb);
     }
 
-    public Ice.AsyncResult begin_inscriptionClient(String login, String passWord, java.util.Map<String, String> __ctx, Ice.Callback __cb)
+    public Ice.AsyncResult begin_getStreamer(java.util.Map<String, String> __ctx, Ice.Callback __cb)
     {
-        return begin_inscriptionClient(login, passWord, __ctx, true, false, __cb);
+        return begin_getStreamer(__ctx, true, false, __cb);
     }
 
-    public Ice.AsyncResult begin_inscriptionClient(String login, String passWord, Callback_Central_inscriptionClient __cb)
+    public Ice.AsyncResult begin_getStreamer(Callback_Central_getStreamer __cb)
     {
-        return begin_inscriptionClient(login, passWord, null, false, false, __cb);
+        return begin_getStreamer(null, false, false, __cb);
     }
 
-    public Ice.AsyncResult begin_inscriptionClient(String login, String passWord, java.util.Map<String, String> __ctx, Callback_Central_inscriptionClient __cb)
+    public Ice.AsyncResult begin_getStreamer(java.util.Map<String, String> __ctx, Callback_Central_getStreamer __cb)
     {
-        return begin_inscriptionClient(login, passWord, __ctx, true, false, __cb);
+        return begin_getStreamer(__ctx, true, false, __cb);
     }
 
-    public Ice.AsyncResult begin_inscriptionClient(String login, 
-                                                   String passWord, 
-                                                   IceInternal.Functional_BoolCallback __responseCb, 
-                                                   IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb)
+    public Ice.AsyncResult begin_getStreamer(IceInternal.Functional_GenericCallback1<String> __responseCb, 
+                                             IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb)
     {
-        return begin_inscriptionClient(login, passWord, null, false, false, __responseCb, __exceptionCb, null);
+        return begin_getStreamer(null, false, false, __responseCb, __exceptionCb, null);
     }
 
-    public Ice.AsyncResult begin_inscriptionClient(String login, 
-                                                   String passWord, 
-                                                   IceInternal.Functional_BoolCallback __responseCb, 
-                                                   IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb, 
-                                                   IceInternal.Functional_BoolCallback __sentCb)
+    public Ice.AsyncResult begin_getStreamer(IceInternal.Functional_GenericCallback1<String> __responseCb, 
+                                             IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb, 
+                                             IceInternal.Functional_BoolCallback __sentCb)
     {
-        return begin_inscriptionClient(login, passWord, null, false, false, __responseCb, __exceptionCb, __sentCb);
+        return begin_getStreamer(null, false, false, __responseCb, __exceptionCb, __sentCb);
     }
 
-    public Ice.AsyncResult begin_inscriptionClient(String login, 
-                                                   String passWord, 
-                                                   java.util.Map<String, String> __ctx, 
-                                                   IceInternal.Functional_BoolCallback __responseCb, 
-                                                   IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb)
+    public Ice.AsyncResult begin_getStreamer(java.util.Map<String, String> __ctx, 
+                                             IceInternal.Functional_GenericCallback1<String> __responseCb, 
+                                             IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb)
     {
-        return begin_inscriptionClient(login, passWord, __ctx, true, false, __responseCb, __exceptionCb, null);
+        return begin_getStreamer(__ctx, true, false, __responseCb, __exceptionCb, null);
     }
 
-    public Ice.AsyncResult begin_inscriptionClient(String login, 
-                                                   String passWord, 
-                                                   java.util.Map<String, String> __ctx, 
-                                                   IceInternal.Functional_BoolCallback __responseCb, 
-                                                   IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb, 
-                                                   IceInternal.Functional_BoolCallback __sentCb)
+    public Ice.AsyncResult begin_getStreamer(java.util.Map<String, String> __ctx, 
+                                             IceInternal.Functional_GenericCallback1<String> __responseCb, 
+                                             IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb, 
+                                             IceInternal.Functional_BoolCallback __sentCb)
     {
-        return begin_inscriptionClient(login, passWord, __ctx, true, false, __responseCb, __exceptionCb, __sentCb);
+        return begin_getStreamer(__ctx, true, false, __responseCb, __exceptionCb, __sentCb);
     }
 
-    private Ice.AsyncResult begin_inscriptionClient(String login, 
-                                                    String passWord, 
-                                                    java.util.Map<String, String> __ctx, 
-                                                    boolean __explicitCtx, 
-                                                    boolean __synchronous, 
-                                                    IceInternal.Functional_BoolCallback __responseCb, 
-                                                    IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb, 
-                                                    IceInternal.Functional_BoolCallback __sentCb)
+    private Ice.AsyncResult begin_getStreamer(java.util.Map<String, String> __ctx, 
+                                              boolean __explicitCtx, 
+                                              boolean __synchronous, 
+                                              IceInternal.Functional_GenericCallback1<String> __responseCb, 
+                                              IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb, 
+                                              IceInternal.Functional_BoolCallback __sentCb)
     {
-        return begin_inscriptionClient(login, passWord, __ctx, __explicitCtx, __synchronous, 
-                                       new IceInternal.Functional_TwowayCallbackBool(__responseCb, __exceptionCb, __sentCb)
-                                           {
-                                               public final void __completed(Ice.AsyncResult __result)
-                                               {
-                                                   CentralPrxHelper.__inscriptionClient_completed(this, __result);
-                                               }
-                                           });
+        return begin_getStreamer(__ctx, __explicitCtx, __synchronous, 
+                                 new IceInternal.Functional_TwowayCallbackArg1<String>(__responseCb, __exceptionCb, __sentCb)
+                                     {
+                                         public final void __completed(Ice.AsyncResult __result)
+                                         {
+                                             CentralPrxHelper.__getStreamer_completed(this, __result);
+                                         }
+                                     });
     }
 
-    private Ice.AsyncResult begin_inscriptionClient(String login, 
-                                                    String passWord, 
-                                                    java.util.Map<String, String> __ctx, 
-                                                    boolean __explicitCtx, 
-                                                    boolean __synchronous, 
-                                                    IceInternal.CallbackBase __cb)
+    private Ice.AsyncResult begin_getStreamer(java.util.Map<String, String> __ctx, 
+                                              boolean __explicitCtx, 
+                                              boolean __synchronous, 
+                                              IceInternal.CallbackBase __cb)
     {
-        __checkAsyncTwowayOnly(__inscriptionClient_name);
-        IceInternal.OutgoingAsync __result = getOutgoingAsync(__inscriptionClient_name, __cb);
+        __checkAsyncTwowayOnly(__getStreamer_name);
+        IceInternal.OutgoingAsync __result = getOutgoingAsync(__getStreamer_name, __cb);
         try
         {
-            __result.prepare(__inscriptionClient_name, Ice.OperationMode.Normal, __ctx, __explicitCtx, __synchronous);
-            IceInternal.BasicStream __os = __result.startWriteParams(Ice.FormatType.DefaultFormat);
-            __os.writeString(login);
-            __os.writeString(passWord);
-            __result.endWriteParams();
+            __result.prepare(__getStreamer_name, Ice.OperationMode.Normal, __ctx, __explicitCtx, __synchronous);
+            __result.writeEmptyParams();
             __result.invoke();
         }
         catch(Ice.Exception __ex)
@@ -851,182 +995,9 @@ public final class CentralPrxHelper extends Ice.ObjectPrxHelperBase implements C
         return __result;
     }
 
-    public boolean end_inscriptionClient(Ice.AsyncResult __iresult)
+    public String end_getStreamer(Ice.AsyncResult __iresult)
     {
-        IceInternal.OutgoingAsync __result = IceInternal.OutgoingAsync.check(__iresult, this, __inscriptionClient_name);
-        try
-        {
-            if(!__result.__wait())
-            {
-                try
-                {
-                    __result.throwUserException();
-                }
-                catch(Ice.UserException __ex)
-                {
-                    throw new Ice.UnknownUserException(__ex.ice_name(), __ex);
-                }
-            }
-            IceInternal.BasicStream __is = __result.startReadParams();
-            boolean __ret;
-            __ret = __is.readBool();
-            __result.endReadParams();
-            return __ret;
-        }
-        finally
-        {
-            if(__result != null)
-            {
-                __result.cacheMessageBuffers();
-            }
-        }
-    }
-
-    static public void __inscriptionClient_completed(Ice.TwowayCallbackBool __cb, Ice.AsyncResult __result)
-    {
-        appli.CentralPrx __proxy = (appli.CentralPrx)__result.getProxy();
-        boolean __ret = false;
-        try
-        {
-            __ret = __proxy.end_inscriptionClient(__result);
-        }
-        catch(Ice.LocalException __ex)
-        {
-            __cb.exception(__ex);
-            return;
-        }
-        catch(Ice.SystemException __ex)
-        {
-            __cb.exception(__ex);
-            return;
-        }
-        __cb.response(__ret);
-    }
-
-    private static final String __streamByName_name = "streamByName";
-
-    public String streamByName(String nameSong)
-    {
-        return streamByName(nameSong, null, false);
-    }
-
-    public String streamByName(String nameSong, java.util.Map<String, String> __ctx)
-    {
-        return streamByName(nameSong, __ctx, true);
-    }
-
-    private String streamByName(String nameSong, java.util.Map<String, String> __ctx, boolean __explicitCtx)
-    {
-        __checkTwowayOnly(__streamByName_name);
-        return end_streamByName(begin_streamByName(nameSong, __ctx, __explicitCtx, true, null));
-    }
-
-    public Ice.AsyncResult begin_streamByName(String nameSong)
-    {
-        return begin_streamByName(nameSong, null, false, false, null);
-    }
-
-    public Ice.AsyncResult begin_streamByName(String nameSong, java.util.Map<String, String> __ctx)
-    {
-        return begin_streamByName(nameSong, __ctx, true, false, null);
-    }
-
-    public Ice.AsyncResult begin_streamByName(String nameSong, Ice.Callback __cb)
-    {
-        return begin_streamByName(nameSong, null, false, false, __cb);
-    }
-
-    public Ice.AsyncResult begin_streamByName(String nameSong, java.util.Map<String, String> __ctx, Ice.Callback __cb)
-    {
-        return begin_streamByName(nameSong, __ctx, true, false, __cb);
-    }
-
-    public Ice.AsyncResult begin_streamByName(String nameSong, Callback_Central_streamByName __cb)
-    {
-        return begin_streamByName(nameSong, null, false, false, __cb);
-    }
-
-    public Ice.AsyncResult begin_streamByName(String nameSong, java.util.Map<String, String> __ctx, Callback_Central_streamByName __cb)
-    {
-        return begin_streamByName(nameSong, __ctx, true, false, __cb);
-    }
-
-    public Ice.AsyncResult begin_streamByName(String nameSong, 
-                                              IceInternal.Functional_GenericCallback1<String> __responseCb, 
-                                              IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb)
-    {
-        return begin_streamByName(nameSong, null, false, false, __responseCb, __exceptionCb, null);
-    }
-
-    public Ice.AsyncResult begin_streamByName(String nameSong, 
-                                              IceInternal.Functional_GenericCallback1<String> __responseCb, 
-                                              IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb, 
-                                              IceInternal.Functional_BoolCallback __sentCb)
-    {
-        return begin_streamByName(nameSong, null, false, false, __responseCb, __exceptionCb, __sentCb);
-    }
-
-    public Ice.AsyncResult begin_streamByName(String nameSong, 
-                                              java.util.Map<String, String> __ctx, 
-                                              IceInternal.Functional_GenericCallback1<String> __responseCb, 
-                                              IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb)
-    {
-        return begin_streamByName(nameSong, __ctx, true, false, __responseCb, __exceptionCb, null);
-    }
-
-    public Ice.AsyncResult begin_streamByName(String nameSong, 
-                                              java.util.Map<String, String> __ctx, 
-                                              IceInternal.Functional_GenericCallback1<String> __responseCb, 
-                                              IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb, 
-                                              IceInternal.Functional_BoolCallback __sentCb)
-    {
-        return begin_streamByName(nameSong, __ctx, true, false, __responseCb, __exceptionCb, __sentCb);
-    }
-
-    private Ice.AsyncResult begin_streamByName(String nameSong, 
-                                               java.util.Map<String, String> __ctx, 
-                                               boolean __explicitCtx, 
-                                               boolean __synchronous, 
-                                               IceInternal.Functional_GenericCallback1<String> __responseCb, 
-                                               IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb, 
-                                               IceInternal.Functional_BoolCallback __sentCb)
-    {
-        return begin_streamByName(nameSong, __ctx, __explicitCtx, __synchronous, 
-                                  new IceInternal.Functional_TwowayCallbackArg1<String>(__responseCb, __exceptionCb, __sentCb)
-                                      {
-                                          public final void __completed(Ice.AsyncResult __result)
-                                          {
-                                              CentralPrxHelper.__streamByName_completed(this, __result);
-                                          }
-                                      });
-    }
-
-    private Ice.AsyncResult begin_streamByName(String nameSong, 
-                                               java.util.Map<String, String> __ctx, 
-                                               boolean __explicitCtx, 
-                                               boolean __synchronous, 
-                                               IceInternal.CallbackBase __cb)
-    {
-        __checkAsyncTwowayOnly(__streamByName_name);
-        IceInternal.OutgoingAsync __result = getOutgoingAsync(__streamByName_name, __cb);
-        try
-        {
-            __result.prepare(__streamByName_name, Ice.OperationMode.Normal, __ctx, __explicitCtx, __synchronous);
-            IceInternal.BasicStream __os = __result.startWriteParams(Ice.FormatType.DefaultFormat);
-            __os.writeString(nameSong);
-            __result.endWriteParams();
-            __result.invoke();
-        }
-        catch(Ice.Exception __ex)
-        {
-            __result.abort(__ex);
-        }
-        return __result;
-    }
-
-    public String end_streamByName(Ice.AsyncResult __iresult)
-    {
-        IceInternal.OutgoingAsync __result = IceInternal.OutgoingAsync.check(__iresult, this, __streamByName_name);
+        IceInternal.OutgoingAsync __result = IceInternal.OutgoingAsync.check(__iresult, this, __getStreamer_name);
         try
         {
             if(!__result.__wait())
@@ -1055,13 +1026,13 @@ public final class CentralPrxHelper extends Ice.ObjectPrxHelperBase implements C
         }
     }
 
-    static public void __streamByName_completed(Ice.TwowayCallbackArg1<String> __cb, Ice.AsyncResult __result)
+    static public void __getStreamer_completed(Ice.TwowayCallbackArg1<String> __cb, Ice.AsyncResult __result)
     {
         appli.CentralPrx __proxy = (appli.CentralPrx)__result.getProxy();
         String __ret = null;
         try
         {
-            __ret = __proxy.end_streamByName(__result);
+            __ret = __proxy.end_getStreamer(__result);
         }
         catch(Ice.LocalException __ex)
         {

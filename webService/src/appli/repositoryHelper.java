@@ -43,7 +43,7 @@ public final class repositoryHelper
     read(IceInternal.BasicStream __is)
     {
         music[] __v;
-        final int __len0 = __is.readAndCheckSeqSize(2);
+        final int __len0 = __is.readAndCheckSeqSize(5);
         __v = new music[__len0];
         for(int __i0 = 0; __i0 < __len0; __i0++)
         {

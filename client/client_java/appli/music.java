@@ -24,17 +24,29 @@ public class music implements java.lang.Cloneable, java.io.Serializable
 {
     public String name;
 
+    public String author;
+
+    public String album;
+
+    public String genre;
+
     public String url;
 
     public music()
     {
         name = "";
+        author = "";
+        album = "";
+        genre = "";
         url = "";
     }
 
-    public music(String name, String url)
+    public music(String name, String author, String album, String genre, String url)
     {
         this.name = name;
+        this.author = author;
+        this.album = album;
+        this.genre = genre;
         this.url = url;
     }
 
@@ -60,6 +72,27 @@ public class music implements java.lang.Cloneable, java.io.Serializable
                     return false;
                 }
             }
+            if(author != _r.author)
+            {
+                if(author == null || _r.author == null || !author.equals(_r.author))
+                {
+                    return false;
+                }
+            }
+            if(album != _r.album)
+            {
+                if(album == null || _r.album == null || !album.equals(_r.album))
+                {
+                    return false;
+                }
+            }
+            if(genre != _r.genre)
+            {
+                if(genre == null || _r.genre == null || !genre.equals(_r.genre))
+                {
+                    return false;
+                }
+            }
             if(url != _r.url)
             {
                 if(url == null || _r.url == null || !url.equals(_r.url))
@@ -80,6 +113,9 @@ public class music implements java.lang.Cloneable, java.io.Serializable
         int __h = 5381;
         __h = IceInternal.HashUtil.hashAdd(__h, "::appli::music");
         __h = IceInternal.HashUtil.hashAdd(__h, name);
+        __h = IceInternal.HashUtil.hashAdd(__h, author);
+        __h = IceInternal.HashUtil.hashAdd(__h, album);
+        __h = IceInternal.HashUtil.hashAdd(__h, genre);
         __h = IceInternal.HashUtil.hashAdd(__h, url);
         return __h;
     }
@@ -103,6 +139,9 @@ public class music implements java.lang.Cloneable, java.io.Serializable
     __write(IceInternal.BasicStream __os)
     {
         __os.writeString(name);
+        __os.writeString(author);
+        __os.writeString(album);
+        __os.writeString(genre);
         __os.writeString(url);
     }
 
@@ -110,6 +149,9 @@ public class music implements java.lang.Cloneable, java.io.Serializable
     __read(IceInternal.BasicStream __is)
     {
         name = __is.readString();
+        author = __is.readString();
+        album = __is.readString();
+        genre = __is.readString();
         url = __is.readString();
     }
 
@@ -139,5 +181,5 @@ public class music implements java.lang.Cloneable, java.io.Serializable
     
     private static final music __nullMarshalValue = new music();
 
-    public static final long serialVersionUID = -1451822465511873406L;
+    public static final long serialVersionUID = 6342765898833488796L;
 }

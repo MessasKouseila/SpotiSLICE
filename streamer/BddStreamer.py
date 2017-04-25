@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# coding: utf8
+# -*- coding: utf-8 -*-
 import sqlite3, os, sys, time, Ice, traceback
 from datetime import date, datetime
 Ice.loadSlice('../app.ice')
@@ -7,7 +7,7 @@ import appli
 class BddStreamer():
     # ip et port ou on peut accedé au fonctions du CentralServer
     def __init__(self):
-        # on sauvegarde le chemun absolu pour acceder a la base de donnees
+        # on sauvegarde le chemun absolu pour acceder à la base de donnees
         tmp = os.getcwd()
         self.PATH = tmp + "/localDB.db"
         self.dbMusic = None
@@ -36,7 +36,6 @@ class BddStreamer():
         finally:
             # fermer la bdd
             self.dbMusic.close()
-            
 
     def add(self, music):
         
@@ -49,7 +48,7 @@ class BddStreamer():
         curseur.execute(
             "INSERT INTO music_streamer VALUES (?, ?, ?, ?, ?, ?, ?)", (id_music, date_insert, music.name, music.author, music.album, music.genre, music.url))
         self.dbMusic.commit()
-        self.dbMusic.close()    
+        self.dbMusic.close()
     # Return list of all music as object            
     def findAll(self):
         

@@ -70,30 +70,9 @@ public abstract class _StreamerDisp extends Ice.ObjectImpl implements Streamer
         return __ids[1];
     }
 
-    public final boolean addSong(byte[] theSong, String nameSong)
+    public final void addSong(byte[] theSong, String nameSong, String author, String album, String genre)
     {
-        return addSong(theSong, nameSong, null);
-    }
-
-    public final boolean checkStream(String nameSong)
-    {
-        return checkStream(nameSong, null);
-    }
-
-    public final music[] getRepertoire()
-    {
-        return getRepertoire(null);
-    }
-
-    public static Ice.DispatchStatus ___getRepertoire(Streamer __obj, IceInternal.Incoming __inS, Ice.Current __current)
-    {
-        __checkMode(Ice.OperationMode.Normal, __current.mode);
-        __inS.readEmptyParams();
-        music[] __ret = __obj.getRepertoire(__current);
-        IceInternal.BasicStream __os = __inS.__startWriteParams(Ice.FormatType.DefaultFormat);
-        repositoryHelper.write(__os, __ret);
-        __inS.__endWriteParams(true);
-        return Ice.DispatchStatus.DispatchOK;
+        addSong(theSong, nameSong, author, album, genre, null);
     }
 
     public static Ice.DispatchStatus ___addSong(Streamer __obj, IceInternal.Incoming __inS, Ice.Current __current)
@@ -102,35 +81,23 @@ public abstract class _StreamerDisp extends Ice.ObjectImpl implements Streamer
         IceInternal.BasicStream __is = __inS.startReadParams();
         byte[] theSong;
         String nameSong;
+        String author;
+        String album;
+        String genre;
         theSong = songHelper.read(__is);
         nameSong = __is.readString();
+        author = __is.readString();
+        album = __is.readString();
+        genre = __is.readString();
         __inS.endReadParams();
-        boolean __ret = __obj.addSong(theSong, nameSong, __current);
-        IceInternal.BasicStream __os = __inS.__startWriteParams(Ice.FormatType.DefaultFormat);
-        __os.writeBool(__ret);
-        __inS.__endWriteParams(true);
-        return Ice.DispatchStatus.DispatchOK;
-    }
-
-    public static Ice.DispatchStatus ___checkStream(Streamer __obj, IceInternal.Incoming __inS, Ice.Current __current)
-    {
-        __checkMode(Ice.OperationMode.Normal, __current.mode);
-        IceInternal.BasicStream __is = __inS.startReadParams();
-        String nameSong;
-        nameSong = __is.readString();
-        __inS.endReadParams();
-        boolean __ret = __obj.checkStream(nameSong, __current);
-        IceInternal.BasicStream __os = __inS.__startWriteParams(Ice.FormatType.DefaultFormat);
-        __os.writeBool(__ret);
-        __inS.__endWriteParams(true);
+        __obj.addSong(theSong, nameSong, author, album, genre, __current);
+        __inS.__writeEmptyParams();
         return Ice.DispatchStatus.DispatchOK;
     }
 
     private final static String[] __all =
     {
         "addSong",
-        "checkStream",
-        "getRepertoire",
         "ice_id",
         "ice_ids",
         "ice_isA",
@@ -153,25 +120,17 @@ public abstract class _StreamerDisp extends Ice.ObjectImpl implements Streamer
             }
             case 1:
             {
-                return ___checkStream(this, in, __current);
+                return ___ice_id(this, in, __current);
             }
             case 2:
             {
-                return ___getRepertoire(this, in, __current);
+                return ___ice_ids(this, in, __current);
             }
             case 3:
             {
-                return ___ice_id(this, in, __current);
-            }
-            case 4:
-            {
-                return ___ice_ids(this, in, __current);
-            }
-            case 5:
-            {
                 return ___ice_isA(this, in, __current);
             }
-            case 6:
+            case 4:
             {
                 return ___ice_ping(this, in, __current);
             }

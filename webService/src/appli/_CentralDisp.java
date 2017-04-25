@@ -70,66 +70,34 @@ public abstract class _CentralDisp extends Ice.ObjectImpl implements Central
         return __ids[1];
     }
 
-    public final boolean add(byte[] theSong, String nameSong)
+    public final music[] findByAlbum(String nameAlbum)
     {
-        return add(theSong, nameSong, null);
+        return findByAlbum(nameAlbum, null);
     }
 
-    public final boolean connectionClient(String login, String passWord)
+    public final music[] findByAuth(String nameAuthor)
     {
-        return connectionClient(login, passWord, null);
+        return findByAuth(nameAuthor, null);
     }
 
-    public final String[] findByName(String nameSong)
+    public final music[] findByGenre(String nameGenre)
+    {
+        return findByGenre(nameGenre, null);
+    }
+
+    public final music[] findByName(String nameSong)
     {
         return findByName(nameSong, null);
     }
 
-    public final String[] getAllAvailableSong()
+    public final music[] getAllAvailableSong()
     {
         return getAllAvailableSong(null);
     }
 
-    public final boolean inscriptionClient(String login, String passWord)
+    public final String getStreamer()
     {
-        return inscriptionClient(login, passWord, null);
-    }
-
-    public final String streamByName(String nameSong)
-    {
-        return streamByName(nameSong, null);
-    }
-
-    public static Ice.DispatchStatus ___inscriptionClient(Central __obj, IceInternal.Incoming __inS, Ice.Current __current)
-    {
-        __checkMode(Ice.OperationMode.Normal, __current.mode);
-        IceInternal.BasicStream __is = __inS.startReadParams();
-        String login;
-        String passWord;
-        login = __is.readString();
-        passWord = __is.readString();
-        __inS.endReadParams();
-        boolean __ret = __obj.inscriptionClient(login, passWord, __current);
-        IceInternal.BasicStream __os = __inS.__startWriteParams(Ice.FormatType.DefaultFormat);
-        __os.writeBool(__ret);
-        __inS.__endWriteParams(true);
-        return Ice.DispatchStatus.DispatchOK;
-    }
-
-    public static Ice.DispatchStatus ___connectionClient(Central __obj, IceInternal.Incoming __inS, Ice.Current __current)
-    {
-        __checkMode(Ice.OperationMode.Normal, __current.mode);
-        IceInternal.BasicStream __is = __inS.startReadParams();
-        String login;
-        String passWord;
-        login = __is.readString();
-        passWord = __is.readString();
-        __inS.endReadParams();
-        boolean __ret = __obj.connectionClient(login, passWord, __current);
-        IceInternal.BasicStream __os = __inS.__startWriteParams(Ice.FormatType.DefaultFormat);
-        __os.writeBool(__ret);
-        __inS.__endWriteParams(true);
-        return Ice.DispatchStatus.DispatchOK;
+        return getStreamer(null);
     }
 
     public static Ice.DispatchStatus ___findByName(Central __obj, IceInternal.Incoming __inS, Ice.Current __current)
@@ -139,39 +107,62 @@ public abstract class _CentralDisp extends Ice.ObjectImpl implements Central
         String nameSong;
         nameSong = __is.readString();
         __inS.endReadParams();
-        String[] __ret = __obj.findByName(nameSong, __current);
+        music[] __ret = __obj.findByName(nameSong, __current);
         IceInternal.BasicStream __os = __inS.__startWriteParams(Ice.FormatType.DefaultFormat);
-        listeHelper.write(__os, __ret);
+        repositoryHelper.write(__os, __ret);
         __inS.__endWriteParams(true);
         return Ice.DispatchStatus.DispatchOK;
     }
 
-    public static Ice.DispatchStatus ___streamByName(Central __obj, IceInternal.Incoming __inS, Ice.Current __current)
+    public static Ice.DispatchStatus ___findByAuth(Central __obj, IceInternal.Incoming __inS, Ice.Current __current)
     {
         __checkMode(Ice.OperationMode.Normal, __current.mode);
         IceInternal.BasicStream __is = __inS.startReadParams();
-        String nameSong;
-        nameSong = __is.readString();
+        String nameAuthor;
+        nameAuthor = __is.readString();
         __inS.endReadParams();
-        String __ret = __obj.streamByName(nameSong, __current);
+        music[] __ret = __obj.findByAuth(nameAuthor, __current);
+        IceInternal.BasicStream __os = __inS.__startWriteParams(Ice.FormatType.DefaultFormat);
+        repositoryHelper.write(__os, __ret);
+        __inS.__endWriteParams(true);
+        return Ice.DispatchStatus.DispatchOK;
+    }
+
+    public static Ice.DispatchStatus ___findByAlbum(Central __obj, IceInternal.Incoming __inS, Ice.Current __current)
+    {
+        __checkMode(Ice.OperationMode.Normal, __current.mode);
+        IceInternal.BasicStream __is = __inS.startReadParams();
+        String nameAlbum;
+        nameAlbum = __is.readString();
+        __inS.endReadParams();
+        music[] __ret = __obj.findByAlbum(nameAlbum, __current);
+        IceInternal.BasicStream __os = __inS.__startWriteParams(Ice.FormatType.DefaultFormat);
+        repositoryHelper.write(__os, __ret);
+        __inS.__endWriteParams(true);
+        return Ice.DispatchStatus.DispatchOK;
+    }
+
+    public static Ice.DispatchStatus ___findByGenre(Central __obj, IceInternal.Incoming __inS, Ice.Current __current)
+    {
+        __checkMode(Ice.OperationMode.Normal, __current.mode);
+        IceInternal.BasicStream __is = __inS.startReadParams();
+        String nameGenre;
+        nameGenre = __is.readString();
+        __inS.endReadParams();
+        music[] __ret = __obj.findByGenre(nameGenre, __current);
+        IceInternal.BasicStream __os = __inS.__startWriteParams(Ice.FormatType.DefaultFormat);
+        repositoryHelper.write(__os, __ret);
+        __inS.__endWriteParams(true);
+        return Ice.DispatchStatus.DispatchOK;
+    }
+
+    public static Ice.DispatchStatus ___getStreamer(Central __obj, IceInternal.Incoming __inS, Ice.Current __current)
+    {
+        __checkMode(Ice.OperationMode.Normal, __current.mode);
+        __inS.readEmptyParams();
+        String __ret = __obj.getStreamer(__current);
         IceInternal.BasicStream __os = __inS.__startWriteParams(Ice.FormatType.DefaultFormat);
         __os.writeString(__ret);
-        __inS.__endWriteParams(true);
-        return Ice.DispatchStatus.DispatchOK;
-    }
-
-    public static Ice.DispatchStatus ___add(Central __obj, IceInternal.Incoming __inS, Ice.Current __current)
-    {
-        __checkMode(Ice.OperationMode.Normal, __current.mode);
-        IceInternal.BasicStream __is = __inS.startReadParams();
-        byte[] theSong;
-        String nameSong;
-        theSong = songHelper.read(__is);
-        nameSong = __is.readString();
-        __inS.endReadParams();
-        boolean __ret = __obj.add(theSong, nameSong, __current);
-        IceInternal.BasicStream __os = __inS.__startWriteParams(Ice.FormatType.DefaultFormat);
-        __os.writeBool(__ret);
         __inS.__endWriteParams(true);
         return Ice.DispatchStatus.DispatchOK;
     }
@@ -180,25 +171,25 @@ public abstract class _CentralDisp extends Ice.ObjectImpl implements Central
     {
         __checkMode(Ice.OperationMode.Normal, __current.mode);
         __inS.readEmptyParams();
-        String[] __ret = __obj.getAllAvailableSong(__current);
+        music[] __ret = __obj.getAllAvailableSong(__current);
         IceInternal.BasicStream __os = __inS.__startWriteParams(Ice.FormatType.DefaultFormat);
-        listeHelper.write(__os, __ret);
+        repositoryHelper.write(__os, __ret);
         __inS.__endWriteParams(true);
         return Ice.DispatchStatus.DispatchOK;
     }
 
     private final static String[] __all =
     {
-        "add",
-        "connectionClient",
+        "findByAlbum",
+        "findByAuth",
+        "findByGenre",
         "findByName",
         "getAllAvailableSong",
+        "getStreamer",
         "ice_id",
         "ice_ids",
         "ice_isA",
-        "ice_ping",
-        "inscriptionClient",
-        "streamByName"
+        "ice_ping"
     };
 
     public Ice.DispatchStatus __dispatch(IceInternal.Incoming in, Ice.Current __current)
@@ -213,43 +204,43 @@ public abstract class _CentralDisp extends Ice.ObjectImpl implements Central
         {
             case 0:
             {
-                return ___add(this, in, __current);
+                return ___findByAlbum(this, in, __current);
             }
             case 1:
             {
-                return ___connectionClient(this, in, __current);
+                return ___findByAuth(this, in, __current);
             }
             case 2:
             {
-                return ___findByName(this, in, __current);
+                return ___findByGenre(this, in, __current);
             }
             case 3:
             {
-                return ___getAllAvailableSong(this, in, __current);
+                return ___findByName(this, in, __current);
             }
             case 4:
             {
-                return ___ice_id(this, in, __current);
+                return ___getAllAvailableSong(this, in, __current);
             }
             case 5:
             {
-                return ___ice_ids(this, in, __current);
+                return ___getStreamer(this, in, __current);
             }
             case 6:
             {
-                return ___ice_isA(this, in, __current);
+                return ___ice_id(this, in, __current);
             }
             case 7:
             {
-                return ___ice_ping(this, in, __current);
+                return ___ice_ids(this, in, __current);
             }
             case 8:
             {
-                return ___inscriptionClient(this, in, __current);
+                return ___ice_isA(this, in, __current);
             }
             case 9:
             {
-                return ___streamByName(this, in, __current);
+                return ___ice_ping(this, in, __current);
             }
         }
 

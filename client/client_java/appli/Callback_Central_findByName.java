@@ -21,7 +21,7 @@
 package appli;
 
 public abstract class Callback_Central_findByName
-    extends IceInternal.TwowayCallback implements Ice.TwowayCallbackArg1<String[]>
+    extends IceInternal.TwowayCallback implements Ice.TwowayCallbackArg1<appli.music[]>
 {
     public final void __completed(Ice.AsyncResult __result)
     {
