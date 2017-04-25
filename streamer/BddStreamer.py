@@ -49,7 +49,9 @@ class BddStreamer():
             "INSERT INTO music_streamer VALUES (?, ?, ?, ?, ?, ?, ?)", (id_music, date_insert, music.name, music.author, music.album, music.genre, music.url))
         self.dbMusic.commit()
         self.dbMusic.close()
-    # Return list of all music as object            
+    # Return list of all music as object
+    # 
+               
     def findAll(self):
         
         self.dbMusic = sqlite3.connect(self.PATH)
