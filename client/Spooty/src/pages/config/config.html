@@ -1,0 +1,14 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+        <ion-title>ConfigPage</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-item>
+        <ion-input type="text" [value]='textIP' [(ngModel)]='textIP' (keypress)="changeIp($event)" clearOnEdit required></ion-input>
+    </ion-item>
+</ion-content>

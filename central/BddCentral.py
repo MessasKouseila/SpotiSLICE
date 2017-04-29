@@ -21,12 +21,12 @@ class BddCentral():
             CREATE TABLE IF NOT EXISTS music(
                 id_music INTEGER PRIMARY KEY,
                 date_insert DATE,
-                name VARCHAR(50),
-                author VARCHAR(50),
-                album VARCHAR(50),
-                genre VARCHAR(50),
-                url VARCHAR(100),
-                addIp VARCHAR(30)
+                name COLLATE NOCASE,
+                author COLLATE NOCASE,
+                album COLLATE NOCASE,
+                genre COLLATE NOCASE,
+                url COLLATE NOCASE,
+                addIp COLLATE NOCASE
             )
             """)
             self.dbMusic.commit()
@@ -71,7 +71,7 @@ class BddCentral():
         self.dbMusic = sqlite3.connect(self.PATH)
         curseur = self.dbMusic.cursor()
         curseur.execute(
-           "SELECT * FROM music WHERE name = ?",(nameSong, ))
+           "SELECT * FROM music WHERE name LIKE ?",(nameSong, ))
         all_music = curseur.fetchall()
         res = []
         self.dbMusic.close()
@@ -84,7 +84,7 @@ class BddCentral():
         self.dbMusic = sqlite3.connect(self.PATH)
         curseur = self.dbMusic.cursor()
         curseur.execute(
-           "SELECT * FROM music WHERE author = ?",(nameAuthor, ))
+           "SELECT * FROM music WHERE author LIKE ?",(nameAuthor, ))
         all_music = curseur.fetchall()
         res = []
         self.dbMusic.close()
@@ -97,7 +97,7 @@ class BddCentral():
         self.dbMusic = sqlite3.connect(self.PATH)
         curseur = self.dbMusic.cursor()
         curseur.execute(
-           "SELECT * FROM music WHERE album = ?", (nameAlbum, ))
+           "SELECT * FROM music WHERE album LIKE ?", (nameAlbum, ))
         all_music = curseur.fetchall()
         res = []
         self.dbMusic.close()
@@ -110,7 +110,7 @@ class BddCentral():
         self.dbMusic = sqlite3.connect(self.PATH)
         curseur = self.dbMusic.cursor()
         curseur.execute(
-           "SELECT * FROM music WHERE genre = ?",(nameGenre, ))
+           "SELECT * FROM music WHERE genre LIKE ?",(nameGenre, ))
         all_music = curseur.fetchall()
         res = []
         self.dbMusic.close()

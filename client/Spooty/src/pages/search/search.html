@@ -1,0 +1,23 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle start>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Search</ion-title>
+        <button ion-button color="primary" (click)="SpeechToText()" [disabled]="isRecognizing" style="float: right;">
+            <ion-icon name="mic"></ion-icon>
+        </button>
+    </ion-navbar>
+</ion-header>
+
+<ion-content class="home" padding>
+    <ion-item>
+        <ion-input type="text" [value]='textResult' [(ngModel)]='textResult' (keypress)="searchMusicDB($event, searchKey)" clearOnEdit required></ion-input>
+    </ion-item>
+
+    <ion-list>
+        <ion-item *ngFor="let music of musics" (click)="itemTapped($event, music)">
+            {{ music.name }}
+        </ion-item>
+    </ion-list>
+</ion-content>

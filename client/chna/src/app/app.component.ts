@@ -20,8 +20,8 @@ export class MyApp {
       src: 'http://192.168.1.20:8080/Le%20chant%20des%20partisans%20%28Paroles%29.mp3',
       artist: 'patri',
       title: 'Le chant des partisants',
-      art: 'img/johnmayer.jpg',
-      preload: null // tell the plugin to preload metadata such as duration for this track, set to 'none' to turn off
+      art: null,
+      preload: 'none' // tell the plugin to preload metadata such as duration for this track, set to 'none' to turn off
     }];
   }
   

@@ -1,0 +1,21 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>
+            Music Info
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content class="home" padding>
+    <div *ngIf="music" class="selection">
+        <ion-card>
+            <ion-item>
+                <h2>{{music.name}}</h2>
+                <p>{{music.auth}}</p>
+                <p>{{music.album}}</p>
+                <p>{{music.genre}}</p>
+                <p>{{music.url}}</p>
+            </ion-item>
+        </ion-card>
+    </div>
+</ion-content>

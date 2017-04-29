@@ -22,26 +22,28 @@ function validateIP()
 }
 
 #Jusqu'a ce que la reponse soit composée par un nombre, j'attends la saisie
-echo "Donnez l'ip du server Central' ?"
-read ip_iceStorm
-validateIP $ip_iceStorm
-until [[ ${$?} -ne 0 ]]; do
-echo "Donnez l'ip du server Central' ?"
-read ip_iceStorm
-validateIP $ip_iceStorm
-done
+#echo "Donnez l'ip du server Central' ?"
+#read ip_iceStorm
+#validateIP $ip_iceStorm
+#until [[ ${$?} -ne 0 ]]; do
+#echo "Donnez l'ip du server Central' ?"
+#read ip_iceStorm
+#validateIP $ip_iceStorm
+#done
 
-#Jusqu'a ce que la reponse soit composée par un nombre, j'attends la saisie
-until [[ ${port_iceStorm} =~ ^[0-9]+$ ]]; do
-echo "Donnez le port du server Central' ?"
-read port_iceStorm
-done
+#Jusqu'a ce que la reponse soit composée par un nombre, j'attends la saisie#
+#until [[ ${port_iceStorm} =~ ^[0-9]+$ ]]; do
+#echo "Donnez le port du server Central' ?"
+#read port_iceStorm
+#done
 
-echo "le central est sur l'ip : $ip_iceStorm   port :  $port_iceStorm"
+#echo "le central est sur l'ip : $ip_iceStorm   port :  $port_iceStorm"
 
 port_edna="8080"
 nameApp="CentralIceStorm"
 ip_edna=`ip route get 1 | awk '{print $NF;exit}'`
+ip_iceStorm=`ip route get 1 | awk '{print $NF;exit}'`
+port_iceStorm="10000"
 rep_racine=`pwd`
 rep_song="$rep_racine/album"
 

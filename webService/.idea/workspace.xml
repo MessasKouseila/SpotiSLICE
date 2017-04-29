@@ -2,218 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44f98eb5-5270-49ee-8ab9-73b31f018a51" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/Callback_Central_add.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/Callback_Central_add.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/Callback_Central_connectionClient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/Callback_Central_connectionClient.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/Callback_Central_findByName.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/Callback_Central_getAllAvailableSong.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/Callback_Central_inscriptionClient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/Callback_Central_inscriptionClient.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/Callback_Central_streamByName.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/Callback_Central_streamByName.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/Callback_Streamer_addSong.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/Callback_Streamer_checkStream.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/Callback_Streamer_checkStream.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/Callback_Streamer_getRepertoire.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/Callback_Streamer_getRepertoire.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/Central.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/CentralHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/CentralPrx.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/CentralPrxHelper$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/CentralPrxHelper$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/CentralPrxHelper$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/CentralPrxHelper$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/CentralPrxHelper$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/CentralPrxHelper$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/CentralPrxHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/CentralPrxHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/Streamer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/StreamerHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/StreamerPrx.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/StreamerPrxHelper$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/StreamerPrxHelper$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/StreamerPrxHelper$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/StreamerPrxHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/StreamerPrxHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/_CentralDisp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/_CentralOperations.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/_CentralOperationsNC.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/_StreamerDisp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/_StreamerOperations.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/_StreamerOperationsNC.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/listeHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/listeHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/listeHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/listeHolder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/music.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/musicHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/repositoryHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/repositoryHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/songHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/client_java/appli/songHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../streamer/DMX - X Gon' Give It To Ya.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../streamer/album/Carl Orff - O Fortuna ~ Carmina Burana.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../streamer/album/Le chant des partisans (Paroles).mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/Callback_Central_add.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/Callback_Central_connectionClient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/Callback_Central_inscriptionClient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/Callback_Central_streamByName.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/Callback_Streamer_checkStream.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/Callback_Streamer_getRepertoire.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/StreamerPrxHelper$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/StreamerPrxHelper$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/StreamerPrxHelper$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/listeHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/listeHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/webService/appli/Callback_Central_add.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/webService/appli/Callback_Central_connectionClient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/webService/appli/Callback_Central_inscriptionClient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/webService/appli/Callback_Central_streamByName.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/webService/appli/Callback_Streamer_checkStream.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/webService/appli/Callback_Streamer_getRepertoire.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/webService/appli/StreamerPrxHelper$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/webService/appli/StreamerPrxHelper$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/webService/appli/StreamerPrxHelper$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/webService/appli/listeHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/webService/appli/listeHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/Callback_Central_add.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/Callback_Central_add.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/Callback_Central_connectionClient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/Callback_Central_connectionClient.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/Callback_Central_findByName.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/Callback_Central_getAllAvailableSong.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/Callback_Central_inscriptionClient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/Callback_Central_inscriptionClient.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/Callback_Central_streamByName.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/Callback_Central_streamByName.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/Callback_Streamer_addSong.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/Callback_Streamer_checkStream.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/Callback_Streamer_checkStream.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/Callback_Streamer_getRepertoire.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/Callback_Streamer_getRepertoire.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/Central.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/CentralHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/CentralPrx.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/CentralPrxHelper$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/CentralPrxHelper$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/CentralPrxHelper$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/CentralPrxHelper$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/CentralPrxHelper$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/CentralPrxHelper$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/CentralPrxHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/CentralPrxHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/Streamer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/StreamerHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/StreamerPrx.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/StreamerPrxHelper$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/StreamerPrxHelper$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/StreamerPrxHelper$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/StreamerPrxHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/StreamerPrxHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/_CentralDisp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/_CentralOperations.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/_CentralOperationsNC.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/_StreamerDisp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/_StreamerOperations.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/_StreamerOperationsNC.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/listeHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/listeHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/listeHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/listeHolder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/music.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/musicHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/repositoryHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/repositoryHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/songHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/appli/songHolder.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../central/Moteur_stockage.db" afterPath="$PROJECT_DIR$/../central/Moteur_stockage.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../central/db/llu" afterPath="$PROJECT_DIR$/../central/db/llu" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../central/db/log.0000000001" afterPath="$PROJECT_DIR$/../central/db/log.0000000001" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../central/db/subscribers" afterPath="$PROJECT_DIR$/../central/db/subscribers" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../streamer/localDB.db" afterPath="$PROJECT_DIR$/../streamer/localDB.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/Callback_Central_findByName.class" afterPath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/Callback_Central_findByName.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/Callback_Central_getAllAvailableSong.class" afterPath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/Callback_Central_getAllAvailableSong.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/Callback_Streamer_addSong.class" afterPath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/Callback_Streamer_addSong.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/CentralPrx.class" afterPath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/CentralPrx.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/CentralPrxHelper$1.class" afterPath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/CentralPrxHelper$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/CentralPrxHelper$2.class" afterPath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/CentralPrxHelper$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/CentralPrxHelper$3.class" afterPath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/CentralPrxHelper$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/CentralPrxHelper$4.class" afterPath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/CentralPrxHelper$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/CentralPrxHelper$5.class" afterPath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/CentralPrxHelper$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/CentralPrxHelper$6.class" afterPath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/CentralPrxHelper$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/CentralPrxHelper.class" afterPath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/CentralPrxHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/StreamerPrx.class" afterPath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/StreamerPrx.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/StreamerPrxHelper.class" afterPath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/StreamerPrxHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/_CentralDisp.class" afterPath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/_CentralDisp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/_CentralOperations.class" afterPath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/_CentralOperations.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/_CentralOperationsNC.class" afterPath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/_CentralOperationsNC.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/_StreamerDisp.class" afterPath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/_StreamerDisp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/_StreamerOperations.class" afterPath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/_StreamerOperations.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/_StreamerOperationsNC.class" afterPath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/_StreamerOperationsNC.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/music.class" afterPath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/music.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/repositoryHelper.class" afterPath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/repositoryHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/restfull/MaintService.class" afterPath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/restfull/MaintService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/restfull/Music.class" afterPath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/restfull/Music.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/webService/appli/Callback_Central_findByName.class" afterPath="$PROJECT_DIR$/out/production/webService/appli/Callback_Central_findByName.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/webService/appli/Callback_Central_getAllAvailableSong.class" afterPath="$PROJECT_DIR$/out/production/webService/appli/Callback_Central_getAllAvailableSong.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/webService/appli/Callback_Streamer_addSong.class" afterPath="$PROJECT_DIR$/out/production/webService/appli/Callback_Streamer_addSong.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/webService/appli/CentralPrx.class" afterPath="$PROJECT_DIR$/out/production/webService/appli/CentralPrx.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/webService/appli/CentralPrxHelper$1.class" afterPath="$PROJECT_DIR$/out/production/webService/appli/CentralPrxHelper$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/webService/appli/CentralPrxHelper$2.class" afterPath="$PROJECT_DIR$/out/production/webService/appli/CentralPrxHelper$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/webService/appli/CentralPrxHelper$3.class" afterPath="$PROJECT_DIR$/out/production/webService/appli/CentralPrxHelper$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/webService/appli/CentralPrxHelper$4.class" afterPath="$PROJECT_DIR$/out/production/webService/appli/CentralPrxHelper$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/webService/appli/CentralPrxHelper$5.class" afterPath="$PROJECT_DIR$/out/production/webService/appli/CentralPrxHelper$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/webService/appli/CentralPrxHelper$6.class" afterPath="$PROJECT_DIR$/out/production/webService/appli/CentralPrxHelper$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/webService/appli/CentralPrxHelper.class" afterPath="$PROJECT_DIR$/out/production/webService/appli/CentralPrxHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/webService/appli/StreamerPrx.class" afterPath="$PROJECT_DIR$/out/production/webService/appli/StreamerPrx.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/webService/appli/StreamerPrxHelper.class" afterPath="$PROJECT_DIR$/out/production/webService/appli/StreamerPrxHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/webService/appli/_CentralDisp.class" afterPath="$PROJECT_DIR$/out/production/webService/appli/_CentralDisp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/webService/appli/_CentralOperations.class" afterPath="$PROJECT_DIR$/out/production/webService/appli/_CentralOperations.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/webService/appli/_CentralOperationsNC.class" afterPath="$PROJECT_DIR$/out/production/webService/appli/_CentralOperationsNC.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/webService/appli/_StreamerDisp.class" afterPath="$PROJECT_DIR$/out/production/webService/appli/_StreamerDisp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/webService/appli/_StreamerOperations.class" afterPath="$PROJECT_DIR$/out/production/webService/appli/_StreamerOperations.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/webService/appli/_StreamerOperationsNC.class" afterPath="$PROJECT_DIR$/out/production/webService/appli/_StreamerOperationsNC.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/webService/appli/music.class" afterPath="$PROJECT_DIR$/out/production/webService/appli/music.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/webService/appli/repositoryHelper.class" afterPath="$PROJECT_DIR$/out/production/webService/appli/repositoryHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/webService/restfull/MaintService.class" afterPath="$PROJECT_DIR$/out/production/webService/restfull/MaintService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/webService/restfull/Music.class" afterPath="$PROJECT_DIR$/out/production/webService/restfull/Music.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../central/CentralServerMain.py" afterPath="$PROJECT_DIR$/../central/CentralServerMain.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/client_java/appli/Callback_Central_findByName.java" afterPath="$PROJECT_DIR$/../client/client_java/appli/Callback_Central_findByName.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/client_java/appli/Callback_Central_getAllAvailableSong.java" afterPath="$PROJECT_DIR$/../client/client_java/appli/Callback_Central_getAllAvailableSong.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/client_java/appli/Callback_Streamer_addSong.java" afterPath="$PROJECT_DIR$/../client/client_java/appli/Callback_Streamer_addSong.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/client_java/appli/CentralPrx.java" afterPath="$PROJECT_DIR$/../client/client_java/appli/CentralPrx.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/client_java/appli/CentralPrxHelper.java" afterPath="$PROJECT_DIR$/../client/client_java/appli/CentralPrxHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/client_java/appli/StreamerPrx.java" afterPath="$PROJECT_DIR$/../client/client_java/appli/StreamerPrx.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/client_java/appli/StreamerPrxHelper.java" afterPath="$PROJECT_DIR$/../client/client_java/appli/StreamerPrxHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/client_java/appli/_CentralDisp.java" afterPath="$PROJECT_DIR$/../client/client_java/appli/_CentralDisp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/client_java/appli/_CentralOperations.java" afterPath="$PROJECT_DIR$/../client/client_java/appli/_CentralOperations.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/client_java/appli/_CentralOperationsNC.java" afterPath="$PROJECT_DIR$/../client/client_java/appli/_CentralOperationsNC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/client_java/appli/_StreamerDisp.java" afterPath="$PROJECT_DIR$/../client/client_java/appli/_StreamerDisp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/client_java/appli/_StreamerOperations.java" afterPath="$PROJECT_DIR$/../client/client_java/appli/_StreamerOperations.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/client_java/appli/_StreamerOperationsNC.java" afterPath="$PROJECT_DIR$/../client/client_java/appli/_StreamerOperationsNC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/client_java/appli/music.java" afterPath="$PROJECT_DIR$/../client/client_java/appli/music.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/client_java/appli/repositoryHelper.java" afterPath="$PROJECT_DIR$/../client/client_java/appli/repositoryHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../streamer/BddStreamer.py" afterPath="$PROJECT_DIR$/../streamer/BddStreamer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../streamer/StreamerMain.py" afterPath="$PROJECT_DIR$/../streamer/StreamerMain.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/chna/src/app/app.component.ts" afterPath="$PROJECT_DIR$/../client/chna/src/app/app.component.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/appli/Callback_Central_findByName.java" afterPath="$PROJECT_DIR$/src/appli/Callback_Central_findByName.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/appli/Callback_Central_getAllAvailableSong.java" afterPath="$PROJECT_DIR$/src/appli/Callback_Central_getAllAvailableSong.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/appli/Callback_Streamer_addSong.java" afterPath="$PROJECT_DIR$/src/appli/Callback_Streamer_addSong.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/appli/CentralPrx.java" afterPath="$PROJECT_DIR$/src/appli/CentralPrx.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/appli/CentralPrxHelper.java" afterPath="$PROJECT_DIR$/src/appli/CentralPrxHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/appli/StreamerPrx.java" afterPath="$PROJECT_DIR$/src/appli/StreamerPrx.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/appli/StreamerPrxHelper.java" afterPath="$PROJECT_DIR$/src/appli/StreamerPrxHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/appli/_CentralDisp.java" afterPath="$PROJECT_DIR$/src/appli/_CentralDisp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/appli/_CentralOperations.java" afterPath="$PROJECT_DIR$/src/appli/_CentralOperations.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/appli/_CentralOperationsNC.java" afterPath="$PROJECT_DIR$/src/appli/_CentralOperationsNC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/appli/_StreamerDisp.java" afterPath="$PROJECT_DIR$/src/appli/_StreamerDisp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/appli/_StreamerOperations.java" afterPath="$PROJECT_DIR$/src/appli/_StreamerOperations.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/appli/_StreamerOperationsNC.java" afterPath="$PROJECT_DIR$/src/appli/_StreamerOperationsNC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/appli/music.java" afterPath="$PROJECT_DIR$/src/appli/music.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/appli/repositoryHelper.java" afterPath="$PROJECT_DIR$/src/appli/repositoryHelper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/restfull/MaintService.java" afterPath="$PROJECT_DIR$/src/restfull/MaintService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/restfull/Music.java" afterPath="$PROJECT_DIR$/src/restfull/Music.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -234,9 +30,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
               <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -256,7 +50,7 @@
       <file leaf-file-name="Ice_inveker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/restfull/Ice_inveker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
+            <state relative-caret-position="330">
               <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -268,8 +62,8 @@
       <file leaf-file-name="MaintService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/restfull/MaintService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1181">
-              <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+            <state relative-caret-position="59">
+              <caret line="92" column="57" lean-forward="false" selection-start-line="92" selection-start-column="57" selection-end-line="92" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -384,6 +178,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -430,9 +225,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1228,6 +1022,8 @@
       <workItem from="1492958606249" duration="4442000" />
       <workItem from="1493125890525" duration="12502000" />
       <workItem from="1493143552044" duration="3304000" />
+      <workItem from="1493315737439" duration="1217000" />
+      <workItem from="1493325980590" duration="2387000" />
     </task>
     <task id="LOCAL-00001" summary="ajout du web service">
       <created>1492868204828</created>
@@ -1240,7 +1036,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34611000" />
+    <option name="totallyTimeSpent" value="38215000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="744" extended-state="0" />
@@ -1307,9 +1103,53 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/restfull/MyApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/restfull/Ice_inveker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/restfull/MaintService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webService.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/restfull/Music.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1355,9 +1195,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1403,9 +1241,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1451,9 +1287,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1499,9 +1333,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1557,9 +1389,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1595,9 +1425,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1687,9 +1515,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1705,7 +1531,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/restfull/Ice_inveker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
+        <state relative-caret-position="330">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1715,8 +1541,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/restfull/MaintService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1181">
-          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        <state relative-caret-position="59">
+          <caret line="92" column="57" lean-forward="false" selection-start-line="92" selection-start-column="57" selection-end-line="92" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

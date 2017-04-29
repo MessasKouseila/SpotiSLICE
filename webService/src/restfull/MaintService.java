@@ -3,13 +3,13 @@ package restfull; /**
  */
 
 import org.json.JSONException;
-import org.json.JSONObject;
 
 import javax.ejb.Singleton;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
+import javax.ws.rs.core.Response;
 import java.util.*;
 /*
 * string streamByName(string nameSong);
@@ -33,17 +33,32 @@ public class MaintService {
         Commande.put("toutes", "getAllAvailableSong");
         Commande.put("all", "getAllAvailableSong");
         Commande.put("alls", "getAllAvailableSong");
+        Commande.put("Tout", "getAllAvailableSong");
+        Commande.put("Tous", "getAllAvailableSong");
+        Commande.put("Toutes", "getAllAvailableSong");
+        Commande.put("All", "getAllAvailableSong");
+        Commande.put("Alls", "getAllAvailableSong");
+
 
         Commande.put("nom", "findByName");
         Commande.put("name", "findByName");
+        Commande.put("Nom", "findByName");
+        Commande.put("Name", "findByName");
 
         Commande.put("auteur", "findByAuth");
         Commande.put("auteure", "findByAuth");
         Commande.put("author", "findByAuth");
         Commande.put("authors", "findByAuth");
 
+         Commande.put("Auteur", "findByAuth");
+        Commande.put("Auteure", "findByAuth");
+        Commande.put("Author", "findByAuth");
+        Commande.put("Authors", "findByAuth");
+
         Commande.put("album", "findByAlbum");
         Commande.put("albums", "findByAlbum");
+        Commande.put("Album", "findByAlbum");
+        Commande.put("Albums", "findByAlbum");
 
 
         Commande.put("genre", "findByGenre");
@@ -55,25 +70,43 @@ public class MaintService {
         Commande.put("type", "findByGenre");
         Commande.put("types", "findByGenre");
         Commande.put("tipe", "findByGenre");
+        
+         Commande.put("Genre", "findByGenre");
+        Commande.put("Genr", "findByGenre");
+        Commande.put("Genre", "findByGenre");
+        Commande.put("Genres", "findByGenre");
+        Commande.put("Style", "findByGenre");
+        Commande.put("Styles", "findByGenre");
+        Commande.put("Type", "findByGenre");
+        Commande.put("Types", "findByGenre");
+        Commande.put("Tipe", "findByGenre");
     }
 
     @GET
     @Produces("text/plain")
     @Path("/Init/{Ip}")
-    public String Init(@PathParam("Ip") String Ip){
+    public Response Init(@PathParam("Ip") String Ip){
 
             if (this.iceInvok != null && !this.iceInvok.ic.isShutdown()) {
                 this.iceInvok = null;
                 this.iceInvok.ic.destroy();
             }
             this.iceInvok = new Ice_inveker(Ip);
-            return "Ok";
+        return Response
+                .status(200)
+                .header("Access-Control-Allow-Origin", "*")
+                .header("Access-Control-Allow-Headers", "origin, content-type, accept, authorization")
+                .header("Access-Control-Allow-Credentials", "true")
+                .header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS, HEAD")
+                .header("Access-Control-Max-Age", "1209600")
+                .entity("ok")
+                .build();
     }
 
     @GET
     @Produces("application/json")
     @Path("/Vocal/{parole}")
-    public String Vocal(@PathParam("parole") String parole) throws JSONException {
+    public Response Vocal(@PathParam("parole") String parole) throws JSONException {
         int tmp = 0;
         String chaine = parole;
         Iterator it = this.Commande.entrySet().iterator();
@@ -117,66 +150,123 @@ public class MaintService {
                         }
 
                     default:
-                        return "JE NE COMPREND PAS CE QUE TU DIT";
+                        return Response
+                                .status(200)
+                                .header("Access-Control-Allow-Origin", "*")
+                                .header("Access-Control-Allow-Headers", "origin, content-type, accept, authorization")
+                                .header("Access-Control-Allow-Credentials", "true")
+                                .header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS, HEAD")
+                                .header("Access-Control-Max-Age", "1209600")
+                                .entity("JE NE COMPREND PAS CE QUE TU DIT")
+                                .build();
+                }
                 }
             }
+        return Response
+                .status(200)
+                .header("Access-Control-Allow-Origin", "*")
+                .header("Access-Control-Allow-Headers", "origin, content-type, accept, authorization")
+                .header("Access-Control-Allow-Credentials", "true")
+                .header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS, HEAD")
+                .header("Access-Control-Max-Age", "1209600")
+                .entity("WALOU !!!!!")
+                .build();
         }
-        return null;
-    }
 
     @GET
     @Produces("application/json")
     @Path("/getAllAvailableSong")
-    public String getAllAvailableSong(){
+    public Response getAllAvailableSong(){
         List Musics = new ArrayList<Music>();
         for (appli.music tmp_music : iceInvok.loader.getAllAvailableSong()) {
             Musics.add(new Music(tmp_music));
         }
-        return Musics.toString();
+
+        return Response
+                .status(200)
+                .header("Access-Control-Allow-Origin", "*")
+                .header("Access-Control-Allow-Headers", "origin, content-type, accept, authorization")
+                .header("Access-Control-Allow-Credentials", "true")
+                .header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS, HEAD")
+                .header("Access-Control-Max-Age", "1209600")
+                .entity(Musics.toString())
+                .build();
     }
 
     @GET
     @Produces("application/json")
     @Path("/findByName/{nameSong}")
-    public String findByName(@PathParam("nameSong") String nameSong){
+    public Response findByName(@PathParam("nameSong") String nameSong){
         List Musics = new ArrayList<Music>();
         for (appli.music tmp_music : iceInvok.loader.findByName(nameSong)) {
             Musics.add(new Music(tmp_music));
         }
-        return Musics.toString();
+        return Response
+                .status(200)
+                .header("Access-Control-Allow-Origin", "*")
+                .header("Access-Control-Allow-Headers", "origin, content-type, accept, authorization")
+                .header("Access-Control-Allow-Credentials", "true")
+                .header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS, HEAD")
+                .header("Access-Control-Max-Age", "1209600")
+                .entity(Musics.toString())
+                .build();
     }
 
     @GET
     @Produces("application/json")
     @Path("/findByAuth/{nameAuthor}")
-    public String findByAuth(@PathParam("nameAuthor") String nameAuthor){
+    public Response findByAuth(@PathParam("nameAuthor") String nameAuthor){
         List Musics = new ArrayList<Music>();
         for (appli.music tmp_music : iceInvok.loader.findByAuth(nameAuthor)) {
             Musics.add(new Music(tmp_music));
         }
-        return Musics.toString();
+        return Response
+                .status(200)
+                .header("Access-Control-Allow-Origin", "*")
+                .header("Access-Control-Allow-Headers", "origin, content-type, accept, authorization")
+                .header("Access-Control-Allow-Credentials", "true")
+                .header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS, HEAD")
+                .header("Access-Control-Max-Age", "1209600")
+                .entity(Musics.toString())
+                .build();
     }
 
     @GET
     @Produces("application/json")
     @Path("/findByAlbum/{nameAlbum}")
-    public String findByAlbum(@PathParam("nameAlbum") String nameAlbum){
+    public Response findByAlbum(@PathParam("nameAlbum") String nameAlbum){
         List Musics = new ArrayList<Music>();
         for (appli.music tmp_music : iceInvok.loader.findByAlbum(nameAlbum)) {
             Musics.add(new Music(tmp_music));
         }
-        return Musics.toString();
+        return Response
+                .status(200)
+                .header("Access-Control-Allow-Origin", "*")
+                .header("Access-Control-Allow-Headers", "origin, content-type, accept, authorization")
+                .header("Access-Control-Allow-Credentials", "true")
+                .header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS, HEAD")
+                .header("Access-Control-Max-Age", "1209600")
+                .entity(Musics.toString())
+                .build();
     }
 
     @GET
     @Produces("application/json")
     @Path("/findByGenre/{nameGenre}")
-    public String findByGenre(@PathParam("nameGenre") String nameGenre){
+    public Response findByGenre(@PathParam("nameGenre") String nameGenre){
         List Musics = new ArrayList<Music>();
         for (appli.music tmp_music : iceInvok.loader.findByGenre(nameGenre)) {
             Musics.add(new Music(tmp_music));
         }
-        return Musics.toString();
+        return Response
+                .status(200)
+                .header("Access-Control-Allow-Origin", "*")
+                .header("Access-Control-Allow-Headers", "origin, content-type, accept, authorization")
+                .header("Access-Control-Allow-Credentials", "true")
+                .header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS, HEAD")
+                .header("Access-Control-Max-Age", "1209600")
+                .entity(Musics.toString())
+                .build();
     }
 
 }
