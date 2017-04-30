@@ -13,8 +13,8 @@ export class WebService {
     searchMusics(phrase, ip) {
         console.log(phrase);
         var url = 'http://' + encodeURI(ip) + ':33103/ISpot/Vocal/' + encodeURI(phrase);
-        console.log(url);
         var response = this.http.get(url).map(res => res.json());
+        console.log(response);
         return response;
     }
 }

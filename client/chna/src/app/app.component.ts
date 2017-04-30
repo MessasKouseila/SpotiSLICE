@@ -17,7 +17,7 @@ export class MyApp {
   constructor(private _audioProvider: AudioProvider) { 
     // plugin won't preload data by default, unless preload property is defined within json object - defaults to 'none'
     this.myTracks = [{
-      src: 'http://192.168.1.20:8080/Le%20chant%20des%20partisans%20%28Paroles%29.mp3',
+      src: 'http://192.168.43.186:8080/Le%20chant%20des%20partisans.mp3',
       artist: 'patri',
       title: 'Le chant des partisants',
       art: null,

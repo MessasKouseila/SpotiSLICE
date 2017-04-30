@@ -11,11 +11,26 @@
         <ion-card>
             <ion-item>
                 <h2>{{music.name}}</h2>
-                <p>{{music.auth}}</p>
+                <p>{{music.author}}</p>
                 <p>{{music.album}}</p>
                 <p>{{music.genre}}</p>
                 <p>{{music.url}}</p>
             </ion-item>
         </ion-card>
     </div>
+    <audio-track #audio *ngFor="let track of myTracks" [track]="track" (onFinish)="onTrackFinished($event)">
+        <ion-item>
+            <ion-thumbnail item-left>
+                <img src="{{audio.art}}">
+                <audio-track-play dark [audioTrack]="audio">
+                    <ion-spinner></ion-spinner>
+                </audio-track-play>
+            </ion-thumbnail>
+            <div item-content style="width:100%">
+                <p><strong>{{audio.title}}</strong> ⚬ <em>{{audio.artist}}</em></p>
+                <audio-track-progress-bar dark duration progress [audioTrack]="audio" [ngStyle]="{visibility: audio.completed > 0 ? 'visible' : 'hidden'}"></audio-track-progress-bar>
+            </div>
+        </ion-item>
+    </audio-track>
+
 </ion-content>

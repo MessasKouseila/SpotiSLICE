@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44f98eb5-5270-49ee-8ab9-73b31f018a51" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../central/Moteur_stockage.db" afterPath="$PROJECT_DIR$/../central/Moteur_stockage.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../central/db/llu" afterPath="$PROJECT_DIR$/../central/db/llu" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../central/db/log.0000000001" afterPath="$PROJECT_DIR$/../central/db/log.0000000001" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../central/db/subscribers" afterPath="$PROJECT_DIR$/../central/db/subscribers" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../streamer/localDB.db" afterPath="$PROJECT_DIR$/../streamer/localDB.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/chna/src/app/app.component.ts" afterPath="$PROJECT_DIR$/../client/chna/src/app/app.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/src/pages/music-info/music-info.html" afterPath="$PROJECT_DIR$/../client/Spooty/src/pages/music-info/music-info.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/restfull/MaintService.java" afterPath="$PROJECT_DIR$/src/restfull/MaintService.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -62,8 +56,8 @@
       <file leaf-file-name="MaintService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/restfull/MaintService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="92" column="57" lean-forward="false" selection-start-line="92" selection-start-column="57" selection-end-line="92" selection-end-column="57" />
+            <state relative-caret-position="111">
+              <caret line="170" column="18" lean-forward="false" selection-start-line="170" selection-start-column="18" selection-end-line="170" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -179,6 +173,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -225,7 +220,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -1024,6 +1018,7 @@
       <workItem from="1493143552044" duration="3304000" />
       <workItem from="1493315737439" duration="1217000" />
       <workItem from="1493325980590" duration="2387000" />
+      <workItem from="1493472356876" duration="4411000" />
     </task>
     <task id="LOCAL-00001" summary="ajout du web service">
       <created>1492868204828</created>
@@ -1036,7 +1031,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38215000" />
+    <option name="totallyTimeSpent" value="42626000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="744" extended-state="0" />
@@ -1541,8 +1536,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/restfull/MaintService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="92" column="57" lean-forward="false" selection-start-line="92" selection-start-column="57" selection-end-line="92" selection-end-column="57" />
+        <state relative-caret-position="111">
+          <caret line="170" column="18" lean-forward="false" selection-start-line="170" selection-start-column="18" selection-end-line="170" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
+import { IonicAudioModule } from 'ionic-audio';
 
 import { MyApp } from './app.component';
 import { HttpModule } from '@angular/http';
@@ -21,6 +22,7 @@ import { MusicInfo } from '../pages/music-info/music-info';
     BrowserModule,
     HttpModule,
     IonicModule.forRoot(MyApp),
+    IonicAudioModule.forRoot()
   ],
   bootstrap: [IonicApp],
   entryComponents: [

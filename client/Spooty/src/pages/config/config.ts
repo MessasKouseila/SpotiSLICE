@@ -6,7 +6,7 @@ import { NavController } from 'ionic-angular';
   templateUrl: 'config.html'
 })
 export class ConfigPage {
-    static textIP: string = "192.168.0.21";
+    static textIP: string = "192.168.43.186";
     constructor(public navCtrl: NavController) {
 
     }

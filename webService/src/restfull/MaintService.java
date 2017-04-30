@@ -3,6 +3,7 @@ package restfull; /**
  */
 
 import org.json.JSONException;
+import org.json.JSONObject;
 
 import javax.ejb.Singleton;
 import javax.ws.rs.GET;
@@ -26,18 +27,9 @@ public class MaintService {
     private Ice_inveker iceInvok;
     // The Java method will process HTTP GET requests
     private Map Commande = new HashMap();
-    public MaintService() throws InterruptedException {
+    private Map Commande2 = new HashMap();
 
-        Commande.put("tout", "getAllAvailableSong");
-        Commande.put("tous", "getAllAvailableSong");
-        Commande.put("toutes", "getAllAvailableSong");
-        Commande.put("all", "getAllAvailableSong");
-        Commande.put("alls", "getAllAvailableSong");
-        Commande.put("Tout", "getAllAvailableSong");
-        Commande.put("Tous", "getAllAvailableSong");
-        Commande.put("Toutes", "getAllAvailableSong");
-        Commande.put("All", "getAllAvailableSong");
-        Commande.put("Alls", "getAllAvailableSong");
+    public MaintService() throws InterruptedException {
 
 
         Commande.put("nom", "findByName");
@@ -50,7 +42,7 @@ public class MaintService {
         Commande.put("author", "findByAuth");
         Commande.put("authors", "findByAuth");
 
-         Commande.put("Auteur", "findByAuth");
+        Commande.put("Auteur", "findByAuth");
         Commande.put("Auteure", "findByAuth");
         Commande.put("Author", "findByAuth");
         Commande.put("Authors", "findByAuth");
@@ -70,8 +62,8 @@ public class MaintService {
         Commande.put("type", "findByGenre");
         Commande.put("types", "findByGenre");
         Commande.put("tipe", "findByGenre");
-        
-         Commande.put("Genre", "findByGenre");
+
+        Commande.put("Genre", "findByGenre");
         Commande.put("Genr", "findByGenre");
         Commande.put("Genre", "findByGenre");
         Commande.put("Genres", "findByGenre");
@@ -80,18 +72,30 @@ public class MaintService {
         Commande.put("Type", "findByGenre");
         Commande.put("Types", "findByGenre");
         Commande.put("Tipe", "findByGenre");
+
+        Commande2.put("tout", "getAllAvailableSong");
+        Commande2.put("tous", "getAllAvailableSong");
+        Commande2.put("toutes", "getAllAvailableSong");
+        Commande2.put("all", "getAllAvailableSong");
+        Commande2.put("alls", "getAllAvailableSong");
+        Commande2.put("Tout", "getAllAvailableSong");
+        Commande2.put("Tous", "getAllAvailableSong");
+        Commande2.put("Toutes", "getAllAvailableSong");
+        Commande2.put("All", "getAllAvailableSong");
+        Commande2.put("Alls", "getAllAvailableSong");
+
     }
 
     @GET
     @Produces("text/plain")
     @Path("/Init/{Ip}")
-    public Response Init(@PathParam("Ip") String Ip){
+    public Response Init(@PathParam("Ip") String Ip) {
 
-            if (this.iceInvok != null && !this.iceInvok.ic.isShutdown()) {
-                this.iceInvok = null;
-                this.iceInvok.ic.destroy();
-            }
-            this.iceInvok = new Ice_inveker(Ip);
+        if (this.iceInvok != null && !this.iceInvok.ic.isShutdown()) {
+            this.iceInvok = null;
+            this.iceInvok.ic.destroy();
+        }
+        this.iceInvok = new Ice_inveker(Ip);
         return Response
                 .status(200)
                 .header("Access-Control-Allow-Origin", "*")
@@ -99,7 +103,7 @@ public class MaintService {
                 .header("Access-Control-Allow-Credentials", "true")
                 .header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS, HEAD")
                 .header("Access-Control-Max-Age", "1209600")
-                .entity("ok")
+                .entity("Service inistialisé avec success")
                 .build();
     }
 
@@ -111,8 +115,8 @@ public class MaintService {
         String chaine = parole;
         Iterator it = this.Commande.entrySet().iterator();
         while (it.hasNext()) {
-            Map.Entry pair = (Map.Entry)it.next();
-            if ( chaine.contains((pair.getKey()).toString()) ) {
+            Map.Entry pair = (Map.Entry) it.next();
+            if (chaine.contains((pair.getKey()).toString())) {
                 switch (pair.getValue().toString()) {
                     case "getAllAvailableSong":
                         return this.getAllAvailableSong();
@@ -150,6 +154,7 @@ public class MaintService {
                         }
 
                     default:
+                        JSONObject jsonObj1 = new JSONObject("{\"error\":\"no match\",\"message\":\"Je ne comprends pas la phrase\"}");
                         return Response
                                 .status(200)
                                 .header("Access-Control-Allow-Origin", "*")
@@ -157,11 +162,33 @@ public class MaintService {
                                 .header("Access-Control-Allow-Credentials", "true")
                                 .header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS, HEAD")
                                 .header("Access-Control-Max-Age", "1209600")
-                                .entity("JE NE COMPREND PAS CE QUE TU DIT")
+                                .entity(jsonObj1)
                                 .build();
                 }
+            }
+        }
+        Iterator it2 = this.Commande2.entrySet().iterator();
+        while (it2.hasNext()) {
+            Map.Entry pair = (Map.Entry) it2.next();
+            if (chaine.contains((pair.getKey()).toString())) {
+                switch (pair.getValue().toString()) {
+                    case "getAllAvailableSong":
+                        return this.getAllAvailableSong();
+                    default:
+                        JSONObject jsonObj1 = new JSONObject("{\"error\":\"no match\",\"message\":\"Je ne comprends pas la phrase\"}");
+                        return Response
+                                .status(200)
+                                .header("Access-Control-Allow-Origin", "*")
+                                .header("Access-Control-Allow-Headers", "origin, content-type, accept, authorization")
+                                .header("Access-Control-Allow-Credentials", "true")
+                                .header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS, HEAD")
+                                .header("Access-Control-Max-Age", "1209600")
+                                .entity(jsonObj1)
+                                .build();
                 }
             }
+        }
+        JSONObject jsonObj2 = new JSONObject("{\"error\":\"no match\",\"message\":\"Je ne comprends pas la phrase\"}");
         return Response
                 .status(200)
                 .header("Access-Control-Allow-Origin", "*")
@@ -169,14 +196,14 @@ public class MaintService {
                 .header("Access-Control-Allow-Credentials", "true")
                 .header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS, HEAD")
                 .header("Access-Control-Max-Age", "1209600")
-                .entity("WALOU !!!!!")
+                .entity(jsonObj2)
                 .build();
-        }
+    }
 
     @GET
     @Produces("application/json")
     @Path("/getAllAvailableSong")
-    public Response getAllAvailableSong(){
+    public Response getAllAvailableSong() {
         List Musics = new ArrayList<Music>();
         for (appli.music tmp_music : iceInvok.loader.getAllAvailableSong()) {
             Musics.add(new Music(tmp_music));
@@ -196,7 +223,7 @@ public class MaintService {
     @GET
     @Produces("application/json")
     @Path("/findByName/{nameSong}")
-    public Response findByName(@PathParam("nameSong") String nameSong){
+    public Response findByName(@PathParam("nameSong") String nameSong) {
         List Musics = new ArrayList<Music>();
         for (appli.music tmp_music : iceInvok.loader.findByName(nameSong)) {
             Musics.add(new Music(tmp_music));
@@ -215,7 +242,7 @@ public class MaintService {
     @GET
     @Produces("application/json")
     @Path("/findByAuth/{nameAuthor}")
-    public Response findByAuth(@PathParam("nameAuthor") String nameAuthor){
+    public Response findByAuth(@PathParam("nameAuthor") String nameAuthor) {
         List Musics = new ArrayList<Music>();
         for (appli.music tmp_music : iceInvok.loader.findByAuth(nameAuthor)) {
             Musics.add(new Music(tmp_music));
@@ -234,7 +261,7 @@ public class MaintService {
     @GET
     @Produces("application/json")
     @Path("/findByAlbum/{nameAlbum}")
-    public Response findByAlbum(@PathParam("nameAlbum") String nameAlbum){
+    public Response findByAlbum(@PathParam("nameAlbum") String nameAlbum) {
         List Musics = new ArrayList<Music>();
         for (appli.music tmp_music : iceInvok.loader.findByAlbum(nameAlbum)) {
             Musics.add(new Music(tmp_music));
@@ -253,7 +280,7 @@ public class MaintService {
     @GET
     @Produces("application/json")
     @Path("/findByGenre/{nameGenre}")
-    public Response findByGenre(@PathParam("nameGenre") String nameGenre){
+    public Response findByGenre(@PathParam("nameGenre") String nameGenre) {
         List Musics = new ArrayList<Music>();
         for (appli.music tmp_music : iceInvok.loader.findByGenre(nameGenre)) {
             Musics.add(new Music(tmp_music));
