@@ -1,5 +1,5 @@
-Messagerie.Subscriber.Endpoints=tcp -h 192.168.43.186:udp -h 192.168.43.186
-TopicManager.Proxy=CentralIceStorm/TopicManager:default -h 192.168.43.186 -p 10000
+Messagerie.Subscriber.Endpoints=tcp -h 10.120.10.88:udp -h 10.120.10.88
+TopicManager.Proxy=CentralIceStorm/TopicManager:default -h 10.120.10.88 -p 10000
 Ice.Admin.InstanceName=subscriber
 IceMX.Metrics.Debug.GroupBy=id
 IceMX.Metrics.ByParent.GroupBy=parent

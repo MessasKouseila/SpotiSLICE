@@ -12,7 +12,7 @@
 
 <ion-content class="home" padding>
     <ion-item>
-        <ion-input type="text" [value]='textResult' [(ngModel)]='textResult' (keypress)="searchMusicDB($event, searchKey)" clearOnEdit required></ion-input>
+        <ion-input type="text" [value]='textResult' [(ngModel)]='textResult' (input)="searchMusicDB($event, searchKey)" clearOnEdit required></ion-input>
     </ion-item>
 
     <ion-list>

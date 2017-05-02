@@ -28,7 +28,7 @@ export class SearchPage {
     public textResult: string = "saisir une recher ici";
     public statusSpeaker : string;
     public resultText : string;
-    public isRecognizing : boolean = true;
+    public isRecognizing : boolean = false;
     public spokenWords : Array<string> = new Array<string>()
     counter : number = 0;
 
@@ -43,14 +43,13 @@ export class SearchPage {
             if(window.SpeechRecognition)
             {
                 this.recognition = new window.SpeechRecognition(); 
-                this.recognition.start();
+                //this.recognition.start();
 
                 this.recognition.continuous = true;
                 this.recognition.lang = 'fr-FR';
                 this.recognition.maxAlternatives = 3;
-                this.recognition.onnomatch = (event => {
-                    console.log('No match found.');
-                });
+
+                
                 this.recognition.onstart = (event => {
                     console.log('Started recognition.');
                     this._zone.run(() => {
@@ -87,7 +86,7 @@ export class SearchPage {
                                 this.textResult = result[0].transcript;
                                 console.log('Text: ' + result[0].transcript);
                                 this.presentToast(this.resultText);
-                                this.webService.searchMusics(this.textResult, '192.168.0.21').subscribe(
+                                this.webService.searchMusics(this.textResult, this.ip).subscribe(
                                     data => {
                                         this.musics = data;
                                         console.log(this.musics);

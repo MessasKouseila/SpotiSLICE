@@ -5,6 +5,7 @@
 # Application : SpotiSLICE
 # role du script : Class Main du server Central, gere le côté Subscriber, Ice, appel des fonctions des server streamer 
 #########################################
+
 import os, sys, time, threading, subprocess, signal, socket
 import traceback, Ice, IceStorm
 Ice.loadSlice('../Messagerie.ice')
@@ -66,7 +67,8 @@ class CentralServerMain(Ice.Application):
         # chaque serverStreamer doit nous notifier d'un message pour qu'on puisse le considerer comme etant toujours disponible
         self.threadCheker = threading.Thread(target=self.checkValidite, args=(180,))
         self.tChek = True
-    
+    # verifie que les serveur de streamer on envoyé un message pour notifié de leurs activités.
+    # si la valeur est à false, alors le streamer et toute sa musique est supprimer de la bdd centrale
     def checkValidite(self, timOut):
         while self.tChek:
             time.sleep(5)
@@ -77,16 +79,16 @@ class CentralServerMain(Ice.Application):
                     self.bdd.deleteByIp(cle)
                 else:
                     self.Allstreamer[cle] = False                  
-
+    # ajout d'une musique dans la bdd centrale
     def addMusic(self, addIp, music):
         self.bdd.add(music, addIp)
-
+    # suppression d'une musique dans la bdd centrale
     def delMusic(self, addIp, music):
         self.bdd.deleteByName(music.name, addIp)
-
+    # renvoie la liste de toutes les musiques disponibles.
     def getAllbum(self):
         return self.bdd.findAll()
-
+    # renvoie l'ip sur lequel est executé le scripte, dans mon cas renvoie l'ip de mon serveur centrale 
     def getIp(self):
         s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         s.connect(("gmail.com",80))
@@ -115,7 +117,7 @@ class CentralServerMain(Ice.Application):
             except IceStorm.TopicExists as ex:
                 print(self.appName() + ": temporary error. try again")
                 return 1
-
+        # configuration de la connexion au depot
         adapter = self.communicator().createObjectAdapter("Messagerie.Subscriber")
 
         subId = Ice.Identity()
@@ -128,18 +130,11 @@ class CentralServerMain(Ice.Application):
         # Activate the object adapter before subscribing.
         #
         adapter.activate()
-
         qos = {}
-        #
-        # Set up the proxy.
-        #
-
         subscriber = subscriber.ice_oneway()
-
         try:
             topic.subscribeAndGetPublisher(qos, subscriber)
         except IceStorm.AlreadySubscribed as ex:
-            # If we're manually setting the subscriber id ignore.
             if len(id) == 0:
                 raise
             print("reactivating persistent subscriber")
@@ -150,11 +145,13 @@ class CentralServerMain(Ice.Application):
         print("Central Server is running \n")
         while True:
             cmd = raw_input("x to terminate  :   \n")
+            # taper x sur le clavier afin d'arreté le serveur centrale
             if cmd == "x":
                 self.centralIce.stop()
                 topic.unsubscribe(subscriber)
                 self.tChek = False
                 f2 = "stop.sh"
+                # on lance un script qui stope toutes les activités du serveur central
                 stop = subprocess.Popen(['bash', f2, "CentralServerMain.py"])
                 time.sleep(1)
                 stop.kill()

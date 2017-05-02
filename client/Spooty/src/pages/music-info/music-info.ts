@@ -13,13 +13,13 @@ export class MusicInfo {
     selectedTrack: number;
     constructor(private navController: NavController, private navParams: NavParams, private _audioProvider: AudioProvider) {
         this.music = navParams.get('music');
-            this.myTracks = [{
-                src: 'http://'+ this.music.url,
-                artist: this.music.author,
-                title: this.music.title,
-                art: 'assets/icon/player.png',
-                preload: null // tell the plugin to preload metadata such as duration for this track, set to 'none' to turn off
-            }];
+        this.myTracks = [{
+            src: 'http://'+ this.music.url,
+            artist: this.music.author,
+            title: this.music.title,
+            art: 'assets/icon/player.png',
+            preload:'none'
+        }];
     }
     ngAfterContentInit() {     
         // get all tracks managed by AudioProvider so we can control playback via the API

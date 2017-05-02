@@ -1,9 +1,15 @@
 #!/usr/bin/env python3
 # coding: utf8
-import sqlite3, os, sys, time, Ice, traceback
+#########################################
+# Auteur : MESSAS KOUSEILA
+# Application : SpotiSLICE
+# role du script : permet la création et la gestion de la base de donnée central de l'apllication, utilisé par le serveur central.  
+#########################################
+
+import sqlite3, os, sys, time, traceback
 from datetime import date, datetime
-Ice.loadSlice('../app.ice')
-import appli
+
+
 class BddCentral():
     # ip et port ou on peut accedé au fonctions du CentralServer
     def __init__(self):
@@ -11,7 +17,7 @@ class BddCentral():
         tmp = os.getcwd()
         self.PATH = tmp + "/Moteur_stockage.db"
         self.dbMusic = None
-
+        # creation de la bdd
     def createDB(self):
         try:
             self.dbMusic = sqlite3.connect(self.PATH)
@@ -38,7 +44,7 @@ class BddCentral():
             # fermer la bdd
             self.dbMusic.close()
             
-
+    # ajout d'une musique
     def add(self, music, addIp):
         
         self.dbMusic = sqlite3.connect(self.PATH)
@@ -51,7 +57,7 @@ class BddCentral():
             "INSERT INTO music VALUES (?, ?, ?, ?, ?, ?, ?, ?)", (id_music, date_insert, music.name, music.author, music.album, music.genre, music.url, addIp))
         self.dbMusic.commit()
         self.dbMusic.close()    
-    # Return list of all music as object            
+    # Retourne une liste de toutes les musiques disponible           
     def findAll(self):
         
         self.dbMusic = sqlite3.connect(self.PATH)
@@ -65,7 +71,7 @@ class BddCentral():
             res.append(appli.music(i[2], i[3], i[4], i[5], i[6]))
         return res
 
-    # Return list of music as object
+    # Retourne une liste de toutes ayant le même nom que le parametre  
     def findByName(self, nameSong):
         
         self.dbMusic = sqlite3.connect(self.PATH)
@@ -78,7 +84,7 @@ class BddCentral():
         for i in all_music:
             res.append(appli.music(i[2], i[3], i[4], i[5], i[6]))
         return res
-
+    # Retourne une liste de toutes les musiques ayant comme auteur nameAuthor  
     def findByAuth(self, nameAuthor):
         
         self.dbMusic = sqlite3.connect(self.PATH)
@@ -92,6 +98,7 @@ class BddCentral():
             res.append(appli.music(i[2], i[3], i[4], i[5], i[6]))
         return res
 
+    # Retourne une liste de toutes les musiques comprise dans l'album nameAlbum
     def findByAlbum(self, nameAlbum):
         
         self.dbMusic = sqlite3.connect(self.PATH)
@@ -105,6 +112,7 @@ class BddCentral():
             res.append(appli.music(i[2], i[3], i[4], i[5], i[6]))
         return res
 
+    # Retourne une liste de toutes les musiques ayant comme Genre nameGenre
     def findByGenre(self, nameGenre):
         
         self.dbMusic = sqlite3.connect(self.PATH)
@@ -119,7 +127,7 @@ class BddCentral():
         return res
 
 
-
+    # vide toutes la bdd
     def deleteAll(self):
         try:
             self.dbMusic = sqlite3.connect(self.PATH)
@@ -134,6 +142,7 @@ class BddCentral():
         finally:
             # fermer la bdd
             self.dbMusic.close()
+    # supprime la musique ayant comme nom nameSong, addIp étant l'identifiant du serveur de streaming contenant la musique.
     def deleteByName(self, nameSong, addIp):
         try:
             self.dbMusic = sqlite3.connect(self.PATH)
@@ -148,6 +157,7 @@ class BddCentral():
         finally:
             # fermer la bdd
             self.dbMusic.close()
+    # supprime toutes les musiques heberger par le serveur de streaming ayant comme ip addIp        
     def deleteByIp(self, addIp):
         try:
             self.dbMusic = sqlite3.connect(self.PATH)

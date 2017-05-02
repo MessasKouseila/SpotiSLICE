@@ -2,8 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44f98eb5-5270-49ee-8ab9-73b31f018a51" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../central/Moteur_stockage.db" afterPath="$PROJECT_DIR$/../central/Moteur_stockage.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../central/db/llu" afterPath="$PROJECT_DIR$/../central/db/llu" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../central/db/log.0000000001" afterPath="$PROJECT_DIR$/../central/db/log.0000000001" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../central/db/subscribers" afterPath="$PROJECT_DIR$/../central/db/subscribers" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/android/icon/drawable-hdpi-icon.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/android/icon/drawable-hdpi-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/android/icon/drawable-ldpi-icon.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/android/icon/drawable-ldpi-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/android/icon/drawable-mdpi-icon.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/android/icon/drawable-mdpi-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/android/icon/drawable-xhdpi-icon.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/android/icon/drawable-xhdpi-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/android/icon/drawable-xxhdpi-icon.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/android/icon/drawable-xxhdpi-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/android/splash/drawable-land-ldpi-screen.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/android/splash/drawable-land-ldpi-screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/android/splash/drawable-port-ldpi-screen.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/android/splash/drawable-port-ldpi-screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/icon.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-40.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-40.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-40@2x.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-40@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-40@3x.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-40@3x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-50.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-50.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-50@2x.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-50@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-60.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-60.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-60@2x.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-60@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-72.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-72.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-72@2x.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-72@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-76.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-76.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-small.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-small.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-small@2x.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-small@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-small@3x.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-small@3x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon@2x.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/splash.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/splash.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../streamer/localDB.db" afterPath="$PROJECT_DIR$/../streamer/localDB.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../central/config.admin" afterPath="$PROJECT_DIR$/../central/config.admin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../central/config.icebox" afterPath="$PROJECT_DIR$/../central/config.icebox" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../central/config.service" afterPath="$PROJECT_DIR$/../central/config.service" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../central/config.sub" afterPath="$PROJECT_DIR$/../central/config.sub" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../central/db/__Freeze/lock" afterPath="$PROJECT_DIR$/../central/db/__Freeze/lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/config.xml" afterPath="$PROJECT_DIR$/../client/Spooty/config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/src/pages/music-info/music-info.html" afterPath="$PROJECT_DIR$/../client/Spooty/src/pages/music-info/music-info.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/restfull/MaintService.java" afterPath="$PROJECT_DIR$/src/restfull/MaintService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/src/pages/music-info/music-info.ts" afterPath="$PROJECT_DIR$/../client/Spooty/src/pages/music-info/music-info.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/src/pages/search/search.html" afterPath="$PROJECT_DIR$/../client/Spooty/src/pages/search/search.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/src/pages/search/search.ts" afterPath="$PROJECT_DIR$/../client/Spooty/src/pages/search/search.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../streamer/config.pub" afterPath="$PROJECT_DIR$/../streamer/config.pub" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../streamer/edna-0.6/edna.conf" afterPath="$PROJECT_DIR$/../streamer/edna-0.6/edna.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,8 +96,8 @@
       <file leaf-file-name="MaintService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/restfull/MaintService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="170" column="18" lean-forward="false" selection-start-line="170" selection-start-column="18" selection-end-line="170" selection-end-column="18" />
+            <state relative-caret-position="900">
+              <caret line="112" column="21" lean-forward="true" selection-start-line="112" selection-start-column="21" selection-end-line="112" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -172,8 +212,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -220,7 +261,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1019,6 +1059,9 @@
       <workItem from="1493315737439" duration="1217000" />
       <workItem from="1493325980590" duration="2387000" />
       <workItem from="1493472356876" duration="4411000" />
+      <workItem from="1493564593757" duration="598000" />
+      <workItem from="1493642526755" duration="162000" />
+      <workItem from="1493723143325" duration="1840000" />
     </task>
     <task id="LOCAL-00001" summary="ajout du web service">
       <created>1492868204828</created>
@@ -1031,11 +1074,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42626000" />
+    <option name="totallyTimeSpent" value="45230000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1053,14 +1096,13 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30456027" sideWeight="0.49706745" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24926686" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="ReST Console" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1071,6 +1113,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1498,14 +1541,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/restfull/RetreiveParamImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/restfull/RetreiveParam.java" />
-    <entry file="file://$PROJECT_DIR$/webService.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/restfull/Music.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1536,11 +1571,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/restfull/MaintService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="170" column="18" lean-forward="false" selection-start-line="170" selection-start-column="18" selection-end-line="170" selection-end-column="18" />
+        <state relative-caret-position="900">
+          <caret line="112" column="21" lean-forward="true" selection-start-line="112" selection-start-column="21" selection-end-line="112" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webService.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
