@@ -25,7 +25,7 @@ export class SearchPage {
     ready: boolean = false;
     isWaiting: boolean = false;
     errorCordova : string = "No error";
-    public textResult: string = "saisir une recher ici";
+    public textResult: string = "Saisir une recherche ici";
     public statusSpeaker : string;
     public resultText : string;
     public isRecognizing : boolean = false;
