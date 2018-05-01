@@ -1,4 +1,4 @@
-TopicManager.Proxy=CentralIceStorm/TopicManager:default -h 10.188.105.214 -p 10000
+TopicManager.Proxy=CentralIceStorm/TopicManager:default -h 192.168.43.75 -p 10000
 Ice.Admin.InstanceName=publisher
 IceMX.Metrics.Debug.GroupBy=id
 IceMX.Metrics.ByParent.GroupBy=parent
