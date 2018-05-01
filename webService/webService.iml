@@ -19,9 +19,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="GlassFish 4.0.0 - RESTful Web Service" level="application_server_libraries" />
-    <orderEntry type="library" scope="PROVIDED" name="GlassFish 4.0.0" level="application_server_libraries" />
-    <orderEntry type="library" name="org.json" level="project" />
-    <orderEntry type="library" name="com.zeroc:ice:3.6.3" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="GlassFish 4.0.0" level="application_server_libraries" />
+    <orderEntry type="library" exported="" name="Java EE 6-Java EE 6" level="project" />
+    <orderEntry type="library" exported="" name="javax.ws.rs:jsr311-api:1.1.1" level="project" />
+    <orderEntry type="library" exported="" name="org.json:json:20160810" level="project" />
+    <orderEntry type="library" name="com.zeroc:ice:3.7.1" level="project" />
   </component>
 </module>

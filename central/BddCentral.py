@@ -6,9 +6,10 @@
 # role du script : permet la création et la gestion de la base de donnée central de l'apllication, utilisé par le serveur central.  
 #########################################
 
-import sqlite3, os, sys, time, traceback
+import sqlite3, os, sys, time, traceback, Ice
 from datetime import date, datetime
-
+Ice.loadSlice('../app.ice')
+import appli
 
 class BddCentral():
     # ip et port ou on peut accedé au fonctions du CentralServer

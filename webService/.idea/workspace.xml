@@ -1,49 +1,363 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ISpot" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="44f98eb5-5270-49ee-8ab9-73b31f018a51" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../central/Moteur_stockage.db" afterPath="$PROJECT_DIR$/../central/Moteur_stockage.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../central/db/llu" afterPath="$PROJECT_DIR$/../central/db/llu" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../central/db/log.0000000001" afterPath="$PROJECT_DIR$/../central/db/log.0000000001" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../central/db/subscribers" afterPath="$PROJECT_DIR$/../central/db/subscribers" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/android/icon/drawable-hdpi-icon.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/android/icon/drawable-hdpi-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/android/icon/drawable-ldpi-icon.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/android/icon/drawable-ldpi-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/android/icon/drawable-mdpi-icon.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/android/icon/drawable-mdpi-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/android/icon/drawable-xhdpi-icon.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/android/icon/drawable-xhdpi-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/android/icon/drawable-xxhdpi-icon.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/android/icon/drawable-xxhdpi-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/android/splash/drawable-land-ldpi-screen.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/android/splash/drawable-land-ldpi-screen.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/android/splash/drawable-port-ldpi-screen.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/android/splash/drawable-port-ldpi-screen.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/icon.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-40.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-40.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-40@2x.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-40@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-40@3x.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-40@3x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-50.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-50.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-50@2x.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-50@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-60.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-60.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-60@2x.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-60@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-72.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-72.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-72@2x.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-72@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-76.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-76.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-small.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-small.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-small@2x.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-small@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-small@3x.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-small@3x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon@2x.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/resources/splash.png" afterPath="$PROJECT_DIR$/../client/Spooty/resources/splash.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../streamer/localDB.db" afterPath="$PROJECT_DIR$/../streamer/localDB.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../central/config.admin" afterPath="$PROJECT_DIR$/../central/config.admin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../central/config.icebox" afterPath="$PROJECT_DIR$/../central/config.icebox" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../central/config.service" afterPath="$PROJECT_DIR$/../central/config.service" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../central/config.sub" afterPath="$PROJECT_DIR$/../central/config.sub" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../central/db/__Freeze/lock" afterPath="$PROJECT_DIR$/../central/db/__Freeze/lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/config.xml" afterPath="$PROJECT_DIR$/../client/Spooty/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/src/pages/music-info/music-info.html" afterPath="$PROJECT_DIR$/../client/Spooty/src/pages/music-info/music-info.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/src/pages/music-info/music-info.ts" afterPath="$PROJECT_DIR$/../client/Spooty/src/pages/music-info/music-info.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/src/pages/search/search.html" afterPath="$PROJECT_DIR$/../client/Spooty/src/pages/search/search.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/Spooty/src/pages/search/search.ts" afterPath="$PROJECT_DIR$/../client/Spooty/src/pages/search/search.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../streamer/config.pub" afterPath="$PROJECT_DIR$/../streamer/config.pub" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../streamer/edna-0.6/edna.conf" afterPath="$PROJECT_DIR$/../streamer/edna-0.6/edna.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_zeroc_ice_3_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_ws_rs_jsr311_api_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_json_json_20160810.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/SpotiSLICE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/SpotiSLICE.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Messagerie.ice" beforeDir="false" afterPath="$PROJECT_DIR$/../Messagerie.ice" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../central/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../central/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../central/BddCentral.py" beforeDir="false" afterPath="$PROJECT_DIR$/../central/BddCentral.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../central/CentralServerIce.py" beforeDir="false" afterPath="$PROJECT_DIR$/../central/CentralServerIce.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../central/config.admin" beforeDir="false" afterPath="$PROJECT_DIR$/../central/config.admin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../central/config.icebox" beforeDir="false" afterPath="$PROJECT_DIR$/../central/config.icebox" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../central/config.service" beforeDir="false" afterPath="$PROJECT_DIR$/../central/config.service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../central/config.sub" beforeDir="false" afterPath="$PROJECT_DIR$/../central/config.sub" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../central/db/__catalog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../central/db/__catalogIndexList" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../central/db/llu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../central/db/log.0000000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../central/db/subscribers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../central/init.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../central/init.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../central/stop.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../central/stop.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/ionic.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/ionic.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/android/icon/drawable-hdpi-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/android/icon/drawable-hdpi-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/android/icon/drawable-ldpi-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/android/icon/drawable-ldpi-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/android/icon/drawable-mdpi-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/android/icon/drawable-mdpi-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/android/icon/drawable-xhdpi-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/android/icon/drawable-xhdpi-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/android/icon/drawable-xxhdpi-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/android/icon/drawable-xxhdpi-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/android/icon/drawable-xxxhdpi-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/android/icon/drawable-xxxhdpi-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/android/splash/drawable-land-hdpi-screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/android/splash/drawable-land-hdpi-screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/android/splash/drawable-land-ldpi-screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/android/splash/drawable-land-ldpi-screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/android/splash/drawable-land-mdpi-screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/android/splash/drawable-land-mdpi-screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/android/splash/drawable-land-xhdpi-screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/android/splash/drawable-land-xhdpi-screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/android/splash/drawable-land-xxhdpi-screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/android/splash/drawable-land-xxhdpi-screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/android/splash/drawable-land-xxxhdpi-screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/android/splash/drawable-land-xxxhdpi-screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/android/splash/drawable-port-hdpi-screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/android/splash/drawable-port-hdpi-screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/android/splash/drawable-port-ldpi-screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/android/splash/drawable-port-ldpi-screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/android/splash/drawable-port-mdpi-screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/android/splash/drawable-port-mdpi-screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/android/splash/drawable-port-xhdpi-screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/android/splash/drawable-port-xhdpi-screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/android/splash/drawable-port-xxhdpi-screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/android/splash/drawable-port-xxhdpi-screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/android/splash/drawable-port-xxxhdpi-screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/android/splash/drawable-port-xxxhdpi-screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-40.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-40.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-40@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-40@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-40@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-40@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-50.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-50@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-50@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-60.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-60.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-60@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-60@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-60@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-60@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-72.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-72.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-72@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-72@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-76.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-76.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-76@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-76@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-83.5@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-83.5@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-small.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-small.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-small@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-small@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-small@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon-small@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/icon/icon@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/splash/Default-568h@2x~iphone.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/splash/Default-568h@2x~iphone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/splash/Default-667h.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/splash/Default-667h.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/splash/Default-736h.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/splash/Default-736h.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/splash/Default-Landscape-736h.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/splash/Default-Landscape-736h.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/splash/Default-Landscape@2x~ipad.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/splash/Default-Landscape@2x~ipad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/splash/Default-Landscape@~ipadpro.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/splash/Default-Landscape@~ipadpro.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/splash/Default-Landscape~ipad.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/splash/Default-Landscape~ipad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/splash/Default-Portrait@2x~ipad.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/splash/Default-Portrait@2x~ipad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/splash/Default-Portrait@~ipadpro.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/splash/Default-Portrait@~ipadpro.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/splash/Default-Portrait~ipad.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/splash/Default-Portrait~ipad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/splash/Default@2x~iphone.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/splash/Default@2x~iphone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/ios/splash/Default~iphone.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/ios/splash/Default~iphone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/resources/splash.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/resources/splash.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/src/app/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/src/app/app.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/src/app/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/src/app/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/src/app/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/src/app/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/src/assets/icon/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/src/assets/icon/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/src/assets/icon/player.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/src/assets/icon/player.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/src/declarations.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/src/declarations.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/src/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/src/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/src/pages/config/config.html" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/src/pages/config/config.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/src/pages/config/config.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/src/pages/config/config.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/src/pages/config/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/src/pages/config/config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/src/pages/music-info/music-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/src/pages/music-info/music-info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/src/pages/music-info/music-info.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/src/pages/music-info/music-info.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/src/pages/music-info/music-info.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/src/pages/music-info/music-info.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/src/pages/search/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/src/pages/search/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/src/pages/search/search.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/src/pages/search/search.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/src/pages/search/search.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/src/pages/search/search.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/src/pages/services/WebService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/src/pages/services/WebService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/src/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/src/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/src/theme/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/src/theme/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/Spooty/typings/cordova-typings.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../client/Spooty/typings/cordova-typings.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/Client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/Client/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/Client/Client_graphics$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/Client/Client_graphics$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/Client/Client_graphics$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/Client/Client_graphics$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/Client/Client_graphics$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/Client/Client_graphics$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/Client/Client_graphics$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/Client/Client_graphics$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/Client/Client_graphics$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/Client/Client_graphics$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/Client/Client_graphics$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/Client/Client_graphics$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/Client/Client_graphics.class" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/Client/Client_graphics.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/Client/Client_graphics.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/Client/Client_graphics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/Client/Client_java.class" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/Client/Client_java.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/Client/Client_java.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/Client/Client_java.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/Client/Sound.class" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/Client/Sound.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/Client/Sound.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/Client/Sound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/appli/Callback_Central_findByAlbum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/appli/Callback_Central_findByAlbum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/appli/Callback_Central_findByAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/appli/Callback_Central_findByAuth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/appli/Callback_Central_findByGenre.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/appli/Callback_Central_findByGenre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/appli/Callback_Central_findByName.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/appli/Callback_Central_findByName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/appli/Callback_Central_getAllAvailableSong.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/appli/Callback_Central_getAllAvailableSong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/appli/Callback_Central_getStreamer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/appli/Callback_Central_getStreamer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/appli/Callback_Streamer_addSong.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/appli/Callback_Streamer_addSong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/appli/Central.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/appli/Central.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/appli/CentralHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/appli/CentralHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/appli/CentralPrx.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/appli/CentralPrx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/appli/CentralPrxHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/appli/CentralPrxHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/appli/CentralPrxHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/appli/CentralPrxHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/appli/Streamer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/appli/Streamer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/appli/StreamerHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/appli/StreamerHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/appli/StreamerPrx.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/appli/StreamerPrx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/appli/StreamerPrxHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/appli/StreamerPrxHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/appli/StreamerPrxHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/appli/StreamerPrxHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/appli/_CentralDisp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/appli/_CentralDisp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/appli/_CentralOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/appli/_CentralOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/appli/_CentralOperationsNC.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/appli/_CentralOperationsNC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/appli/_StreamerDisp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/appli/_StreamerDisp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/appli/_StreamerOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/appli/_StreamerOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/appli/_StreamerOperationsNC.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/appli/_StreamerOperationsNC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/appli/music.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/appli/music.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/appli/musicHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/appli/musicHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/appli/repositoryHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/appli/repositoryHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/appli/repositoryHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/appli/repositoryHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/appli/songHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/appli/songHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/appli/songHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/appli/songHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_java/jlayer-1.0.1-1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_java/jlayer-1.0.1-1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/ice-3.6.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../client/ice-3.6.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/ice-3.6.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../client/ice-3.6.3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/jlayer-1.0.1-1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../client/jlayer-1.0.1-1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/id3-py-1.2/CHANGES" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/id3-py-1.2/CHANGES" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/id3-py-1.2/COPYING" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/id3-py-1.2/COPYING" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/id3-py-1.2/README" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/id3-py-1.2/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/id3-py-1.2/build/lib.linux-x86_64-2.7/ID3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/id3-py-1.2/build/lib.linux-x86_64-2.7/ID3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/id3-py-1.2/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/id3-py-1.2/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/COPYING" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/COPYING" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/MANIFEST.in" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/MANIFEST.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/PKG-INFO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/build/lib.linux-x86_64-2.7/pyprinttags.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/build/lib.linux-x86_64-2.7/pyprinttags.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/doc/pyprinttags.1" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/doc/pyprinttags.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/setup.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/setup.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/src/ctypes.pxd" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/src/ctypes.pxd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/src/pytaglib.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/src/pytaglib.egg-info/PKG-INFO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/src/pytaglib.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/src/pytaglib.egg-info/SOURCES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/src/pytaglib.egg-info/dependency_links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/src/pytaglib.egg-info/dependency_links.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/src/pytaglib.egg-info/entry_points.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/src/pytaglib.egg-info/entry_points.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/src/pytaglib.egg-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/src/pytaglib.egg-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/src/taglib.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/src/taglib.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/src/taglib.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/src/taglib.pyx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/tests/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/tests/data/issue19.flac" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/tests/data/issue19.flac" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/tests/data/onlyv1.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/tests/data/onlyv1.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/tests/data/r2.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/tests/data/r2.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/tests/data/rare_frames.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/tests/data/rare_frames.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/tests/data/readönly.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/tests/data/readönly.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/tests/data/testöü.flac" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/tests/data/testöü.flac" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/tests/data/Жбж.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/tests/data/Жбж.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/tests/test_bytes_unicode.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/tests/test_bytes_unicode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/tests/test_flacunicode.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/tests/test_flacunicode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/tests/test_issue19.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/tests/test_issue19.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/tests/test_issue21.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/tests/test_issue21.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/tests/test_issue28.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/tests/test_issue28.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/tests/test_mp3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/tests/test_mp3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/tests/test_problems.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/tests/test_problems.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/tests/test_strval.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/pytaglib-1.4.0/tests/test_strval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../readMe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../readMe.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../streamer/BddStreamer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../streamer/BddStreamer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../streamer/StreamerServerIce.py" beforeDir="false" afterPath="$PROJECT_DIR$/../streamer/StreamerServerIce.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../streamer/config.pub" beforeDir="false" afterPath="$PROJECT_DIR$/../streamer/config.pub" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../streamer/edna-0.6/COPYING" beforeDir="false" afterPath="$PROJECT_DIR$/../streamer/edna-0.6/COPYING" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../streamer/edna-0.6/ChangeLog" beforeDir="false" afterPath="$PROJECT_DIR$/../streamer/edna-0.6/ChangeLog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../streamer/edna-0.6/MP3Info.py" beforeDir="false" afterPath="$PROJECT_DIR$/../streamer/edna-0.6/MP3Info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../streamer/edna-0.6/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../streamer/edna-0.6/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../streamer/edna-0.6/README" beforeDir="false" afterPath="$PROJECT_DIR$/../streamer/edna-0.6/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../streamer/edna-0.6/daemon/edna" beforeDir="false" afterPath="$PROJECT_DIR$/../streamer/edna-0.6/daemon/edna" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../streamer/edna-0.6/daemon/ednad" beforeDir="false" afterPath="$PROJECT_DIR$/../streamer/edna-0.6/daemon/ednad" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../streamer/edna-0.6/edna.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../streamer/edna-0.6/edna.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../streamer/edna-0.6/ezt.py" beforeDir="false" afterPath="$PROJECT_DIR$/../streamer/edna-0.6/ezt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../streamer/edna-0.6/ntsvc/TCPServerService.py" beforeDir="false" afterPath="$PROJECT_DIR$/../streamer/edna-0.6/ntsvc/TCPServerService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../streamer/edna-0.6/ntsvc/ednaNTSvc.py" beforeDir="false" afterPath="$PROJECT_DIR$/../streamer/edna-0.6/ntsvc/ednaNTSvc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../streamer/edna-0.6/ntsvc/regsetup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../streamer/edna-0.6/ntsvc/regsetup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../streamer/edna-0.6/resources/folder.png" beforeDir="false" afterPath="$PROJECT_DIR$/../streamer/edna-0.6/resources/folder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../streamer/edna-0.6/resources/play.png" beforeDir="false" afterPath="$PROJECT_DIR$/../streamer/edna-0.6/resources/play.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../streamer/edna-0.6/resources/save.png" beforeDir="false" afterPath="$PROJECT_DIR$/../streamer/edna-0.6/resources/save.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../streamer/edna-0.6/resources/text.png" beforeDir="false" afterPath="$PROJECT_DIR$/../streamer/edna-0.6/resources/text.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../streamer/edna-0.6/templates/default.ezt" beforeDir="false" afterPath="$PROJECT_DIR$/../streamer/edna-0.6/templates/default.ezt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../streamer/edna-0.6/templates/default_complex.ezt" beforeDir="false" afterPath="$PROJECT_DIR$/../streamer/edna-0.6/templates/default_complex.ezt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../streamer/edna-0.6/templates/stats.ezt" beforeDir="false" afterPath="$PROJECT_DIR$/../streamer/edna-0.6/templates/stats.ezt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../streamer/edna-0.6/templates/style-xml.ezt" beforeDir="false" afterPath="$PROJECT_DIR$/../streamer/edna-0.6/templates/style-xml.ezt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../streamer/edna-0.6/www/images/chalk.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../streamer/edna-0.6/www/images/chalk.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../streamer/edna-0.6/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../streamer/edna-0.6/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../streamer/init_pub.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../streamer/init_pub.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../streamer/startEdna.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../streamer/startEdna.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../streamer/stop.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../streamer/stop.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ISpot.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ISpot.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/composerJson.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/composerJson.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_zeroc_ice_3_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/Callback_Central_findByAlbum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/Callback_Central_findByAuth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/Callback_Central_findByGenre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/Callback_Central_findByName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/Callback_Central_getAllAvailableSong.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/Callback_Central_getStreamer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/Callback_Streamer_addSong.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/Central.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/Central.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/CentralHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/CentralPrx.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/CentralPrx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/CentralPrxHelper$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/CentralPrxHelper$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/CentralPrxHelper$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/CentralPrxHelper$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/CentralPrxHelper$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/CentralPrxHelper$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/CentralPrxHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/CentralPrxHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/Streamer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/Streamer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/StreamerHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/StreamerPrx.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/StreamerPrx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/StreamerPrxHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/StreamerPrxHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/_CentralDisp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/_CentralOperations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/_CentralOperationsNC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/_StreamerDisp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/_StreamerOperations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/_StreamerOperationsNC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/music.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/music.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/musicHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/repositoryHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/repositoryHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/repositoryHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/songHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/appli/songHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/restfull/Ice_inveker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/restfull/MaintService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/classes/restfull/MaintService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/lib/ice-3.6.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/lib/org.json.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/lib/org.json.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ISpot/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ISpot/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ISpot/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webService_war_exploded/WEB-INF/classes/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webService_war_exploded/WEB-INF/classes/HelloWorld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webService_war_exploded/WEB-INF/classes/Music.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webService_war_exploded/WEB-INF/classes/Music.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webService_war_exploded/WEB-INF/classes/MyApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webService_war_exploded/WEB-INF/classes/MyApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webService_war_exploded/WEB-INF/lib/org.json.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webService_war_exploded/WEB-INF/lib/org.json.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webService_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webService_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/webService_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webService_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webService/appli/Callback_Central_findByAlbum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webService/appli/Callback_Central_findByAuth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webService/appli/Callback_Central_findByGenre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webService/appli/Callback_Central_findByName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webService/appli/Callback_Central_getAllAvailableSong.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webService/appli/Callback_Central_getStreamer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webService/appli/Callback_Streamer_addSong.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webService/appli/Central.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webService/appli/Central.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webService/appli/CentralHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webService/appli/CentralPrx.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webService/appli/CentralPrx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webService/appli/CentralPrxHelper$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webService/appli/CentralPrxHelper$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webService/appli/CentralPrxHelper$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webService/appli/CentralPrxHelper$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webService/appli/CentralPrxHelper$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webService/appli/CentralPrxHelper$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webService/appli/CentralPrxHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webService/appli/CentralPrxHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webService/appli/Streamer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webService/appli/Streamer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webService/appli/StreamerHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webService/appli/StreamerPrx.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webService/appli/StreamerPrx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webService/appli/StreamerPrxHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webService/appli/StreamerPrxHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webService/appli/_CentralDisp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webService/appli/_CentralOperations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webService/appli/_CentralOperationsNC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webService/appli/_StreamerDisp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webService/appli/_StreamerOperations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webService/appli/_StreamerOperationsNC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webService/appli/music.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webService/appli/music.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webService/appli/musicHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webService/appli/repositoryHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webService/appli/repositoryHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webService/appli/repositoryHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webService/appli/songHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webService/appli/songHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webService/restfull/Ice_inveker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webService/restfull/MaintService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webService/restfull/MaintService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appli/Callback_Central_findByAlbum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appli/Callback_Central_findByAuth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appli/Callback_Central_findByGenre.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appli/Callback_Central_findByName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appli/Callback_Central_getAllAvailableSong.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appli/Callback_Central_getStreamer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appli/Callback_Streamer_addSong.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appli/Central.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/appli/Central.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appli/CentralHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appli/CentralPrx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/appli/CentralPrx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appli/CentralPrxHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appli/CentralPrxHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appli/Streamer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/appli/Streamer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appli/StreamerHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appli/StreamerPrx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/appli/StreamerPrx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appli/StreamerPrxHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appli/StreamerPrxHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appli/_CentralDisp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appli/_CentralOperations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appli/_CentralOperationsNC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appli/_StreamerDisp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appli/_StreamerOperations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appli/_StreamerOperationsNC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appli/music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/appli/music.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appli/musicHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appli/repositoryHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/appli/repositoryHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appli/repositoryHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appli/songHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appli/songHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/restfull/Ice_inveker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/restfull/IceInvoker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/restfull/MaintService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/restfull/MaintService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/restfull/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/restfull/Music.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/restfull/MyApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/restfull/MyApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webService.iml" beforeDir="false" afterPath="$PROJECT_DIR$/webService.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,24 +370,13 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Music.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/restfull/Music.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MyApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/restfull/MyApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,11 +384,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ice_inveker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/restfull/Ice_inveker.java">
+      <file leaf-file-name="IceInvoker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/restfull/IceInvoker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="300">
+              <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,8 +399,8 @@
       <file leaf-file-name="MaintService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/restfull/MaintService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="112" column="21" lean-forward="true" selection-start-line="112" selection-start-column="21" selection-end-line="112" selection-end-column="21" />
+            <state relative-caret-position="487">
+              <caret line="204" column="45" lean-forward="true" selection-start-line="204" selection-start-column="45" selection-end-line="204" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,12 +408,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webService.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webService.iml">
+      <file leaf-file-name="CentralPrx.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/appli/CentralPrx.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-              <folding />
+            <state relative-caret-position="202">
+              <caret line="192" column="20" selection-start-line="192" selection-start-column="20" selection-end-line="192" selection-end-column="20" />
+              <folding>
+                <element signature="e#7172#7173#0" expanded="true" />
+                <element signature="e#7257#7258#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OutgoingAsync.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/ice-3.7.1-sources.jar!/com/zeroc/IceInternal/OutgoingAsync.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="145" selection-start-line="145" selection-end-line="145" />
             </state>
           </provider>
         </entry>
@@ -128,15 +443,12 @@
     <findStrings>
       <find>Person</find>
       <find>nom</find>
+      <find>appli</find>
+      <find>getAllAvailableSong</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -146,12 +458,14 @@
         <option value="$PROJECT_DIR$/src/HelloWorld.java" />
         <option value="$PROJECT_DIR$/src/Music.java" />
         <option value="$PROJECT_DIR$/src/MaintService.java" />
-        <option value="$PROJECT_DIR$/src/restfull/MyApp.java" />
         <option value="$PROJECT_DIR$/src/Ice_inveker.java" />
-        <option value="$PROJECT_DIR$/src/restfull/Ice_inveker.java" />
-        <option value="$PROJECT_DIR$/src/restfull/Music.java" />
         <option value="$PROJECT_DIR$/src/restfull/RetreiveParamImpl.java" />
         <option value="$PROJECT_DIR$/src/restfull/RetreiveParam.java" />
+        <option value="$PROJECT_DIR$/src/restfull/Ice_inveker.java" />
+        <option value="$PROJECT_DIR$/src/restfull/IceInvoker.java" />
+        <option value="$PROJECT_DIR$/src/appli/music.java" />
+        <option value="$PROJECT_DIR$/src/restfull/Music.java" />
+        <option value="$PROJECT_DIR$/src/restfull/MyApp.java" />
         <option value="$PROJECT_DIR$/src/restfull/MaintService.java" />
       </list>
     </option>
@@ -169,10 +483,14 @@
     <option name="FILTER_DEBUG" value="false" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
-    <option name="width" value="1366" />
-    <option name="height" value="744" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1280" />
+    <option name="width" value="1280" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -198,99 +516,186 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="restfull" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="webService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="restfull" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.Sources" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="nodejs_interpreter_path" value="/usr/bin/node" />
-    <property name="js.eslint.eslintPackage" value="" />
+    <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
+    <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.25345623" />
-    <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Téléchargements/lib/org.json.jar!/" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="restfull" />
     </key>
   </component>
-  <component name="RunManager" selected="GlassFish Server.GlassFish 4.0.0">
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-      <method />
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="GlassFish 4.0.0" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 4.0.0" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:33103/ISpot" />
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="ISpot">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="DOMAIN" value="domain1" />
+        <option name="PRESERVE" value="false" />
+        <option name="COMPATIBILITY" value="false" />
+        <option name="VIRTUAL_SERVER" />
+        <option name="USERNAME" value="admin" />
+        <option name="PASSWORD" value="" />
+      </server-settings>
+      <predefined_log_file id="GlassFish" enabled="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="9009" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ISpot" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
@@ -345,29 +750,6 @@
         <option name="SUPPORT_LIB_ENABLED" value="true" />
         <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -570,27 +952,6 @@
       <setting name="depsClasspath" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <envs />
@@ -750,34 +1111,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
     <configuration default="true" type="Tox" factoryName="Tox">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -791,13 +1124,11 @@
       <module name="webService" />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -953,90 +1284,22 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="GlassFish 4.0.0" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 4.0.0" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:33103/ISpot" />
-      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
-      <deployment>
-        <artifact name="ISpot">
-          <settings />
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="DOMAIN" value="ejbDomain" />
-        <option name="PRESERVE" value="false" />
-        <option name="COMPATIBILITY" value="false" />
-        <option name="VIRTUAL_SERVER" />
-        <option name="USERNAME" value="admin" />
-        <option name="PASSWORD" value="" />
-      </server-settings>
-      <predefined_log_file id="GlassFish" enabled="true" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="9009" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="ISpot" />
-        </option>
-      </method>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="GlassFish Server.GlassFish 4.0.0" />
-    </list>
   </component>
   <component name="SbtLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -1062,6 +1325,8 @@
       <workItem from="1493564593757" duration="598000" />
       <workItem from="1493642526755" duration="162000" />
       <workItem from="1493723143325" duration="1840000" />
+      <workItem from="1524769485668" duration="5542000" />
+      <workItem from="1525185089327" duration="4083000" />
     </task>
     <task id="LOCAL-00001" summary="ajout du web service">
       <created>1492868204828</created>
@@ -1074,52 +1339,53 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45230000" />
+    <option name="totallyTimeSpent" value="54855000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="744" extended-state="0" />
+    <frame x="-1" y="0" width="2562" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32736155" sideWeight="0.50293255" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30456027" sideWeight="0.49706745" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24926686" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="ReST Console" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32842106" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50390625" side_tool="true" weight="0.3042105" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49609375" weight="0.3042105" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0828125" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="DB Execution Console" order="7" />
+      <window_info anchor="bottom" id="REST Client" order="8" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Properties" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="DB Browser" order="2" />
+      <window_info id="Nl-Palette" order="2" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="ReST Console" order="4" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1128,83 +1394,39 @@
     <MESSAGE value="ajout du web service" />
     <option name="LAST_COMMIT_MESSAGE" value="ajout du web service" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/restfull/Music.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/restfull/MyApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/restfull/Ice_inveker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/restfull/MaintService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webService.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding />
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/restfull/Music.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/restfull/MyApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/restfull/Ice_inveker.java">
+    <entry file="file://$PROJECT_DIR$/src/restfull/IceInvoker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1213,8 +1435,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/restfull/MaintService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1224,33 +1445,31 @@
     <entry file="file://$PROJECT_DIR$/webService.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding />
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/restfull/Music.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/restfull/MyApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/restfull/Ice_inveker.java">
+    <entry file="file://$PROJECT_DIR$/src/restfull/IceInvoker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1259,8 +1478,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/restfull/MaintService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1270,33 +1488,31 @@
     <entry file="file://$PROJECT_DIR$/webService.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding />
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/restfull/Music.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/restfull/MyApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/restfull/Ice_inveker.java">
+    <entry file="file://$PROJECT_DIR$/src/restfull/IceInvoker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1305,8 +1521,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/restfull/MaintService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1316,33 +1531,31 @@
     <entry file="file://$PROJECT_DIR$/webService.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding />
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/restfull/Music.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/restfull/MyApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/restfull/Ice_inveker.java">
+    <entry file="file://$PROJECT_DIR$/src/restfull/IceInvoker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1351,8 +1564,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/restfull/MaintService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1362,33 +1574,31 @@
     <entry file="file://$PROJECT_DIR$/webService.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding />
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/restfull/Music.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/restfull/MyApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/restfull/Ice_inveker.java">
+    <entry file="file://$PROJECT_DIR$/src/restfull/IceInvoker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1397,8 +1607,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/restfull/MaintService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1408,15 +1617,14 @@
     <entry file="file://$PROJECT_DIR$/webService.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding />
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/restfull/MaintService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="51" lean-forward="false" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1426,15 +1634,14 @@
     <entry file="file://$PROJECT_DIR$/src/restfull/Music.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="27" />
-          <folding />
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/restfull/MyApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1444,15 +1651,13 @@
     <entry file="file://$PROJECT_DIR$/webService.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding />
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/restfull/MaintService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1462,15 +1667,14 @@
     <entry file="file://$PROJECT_DIR$/src/restfull/Music.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="27" />
-          <folding />
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/restfull/MyApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1480,15 +1684,13 @@
     <entry file="file://$PROJECT_DIR$/webService.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding />
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/restfull/MaintService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1498,7 +1700,7 @@
     <entry file="file://$PROJECT_DIR$/src/restfull/MyApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1507,8 +1709,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/restfull/MaintService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1518,7 +1719,7 @@
     <entry file="file://$PROJECT_DIR$/src/restfull/MyApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1528,62 +1729,92 @@
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/restfull/RetreiveParamImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/restfull/RetreiveParam.java" />
+    <entry file="file://$PROJECT_DIR$/webService.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/appli/music.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1597">
+          <caret line="22" column="73" lean-forward="true" selection-start-line="22" selection-start-column="73" selection-end-line="22" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/ice-3.7.1-sources.jar!/com/zeroc/Ice/OutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2027">
+          <caret line="2463" column="13" selection-start-line="2463" selection-start-column="13" selection-end-line="2463" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/appli/Central.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/restfull/Music.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="398">
+          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/restfull/MyApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/restfull/Ice_inveker.java">
+    <entry file="file://$PROJECT_DIR$/src/restfull/IceInvoker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/appli/CentralPrx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="192" column="20" selection-start-line="192" selection-start-column="20" selection-end-line="192" selection-end-column="20" />
+          <folding>
+            <element signature="e#7172#7173#0" expanded="true" />
+            <element signature="e#7257#7258#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/ice-3.7.1-sources.jar!/com/zeroc/IceInternal/OutgoingAsync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/restfull/MaintService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="112" column="21" lean-forward="true" selection-start-line="112" selection-start-column="21" selection-end-line="112" selection-end-column="21" />
+        <state relative-caret-position="487">
+          <caret line="204" column="45" lean-forward="true" selection-start-line="204" selection-start-column="45" selection-end-line="204" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webService.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1606,11 +1837,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web</last-edited>
+          <last-edited>Web (webService)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.25345623" />
               </list>
             </option>
           </splitter-proportions>
@@ -1645,8 +1876,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
-                <option value="0.6" />
+                <option value="0.25345623" />
               </list>
             </option>
           </splitter-proportions>
@@ -1666,7 +1896,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>com.zeroc:ice:3.6.3</last-edited>
+          <last-edited>com.zeroc:ice:3.7.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

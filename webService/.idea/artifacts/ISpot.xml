@@ -8,8 +8,9 @@
           <element id="module-output" name="webService" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="org.json" />
-          <element id="library" level="project" name="com.zeroc:ice:3.6.3" />
+          <element id="library" level="project" name="org.json:json:20160810" />
+          <element id="library" level="project" name="javax.ws.rs:jsr311-api:1.1.1" />
+          <element id="library" level="project" name="com.zeroc:ice:3.7.1" />
         </element>
       </element>
     </root>

@@ -1,6 +1,4 @@
-package restfull; /**
- * Created by kouceila on 18/04/17.
- */
+package restfull;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -24,7 +22,7 @@ import java.util.*;
 @Singleton
 public class MaintService {
 
-    private Ice_inveker iceInvok;
+    private IceInvoker iceInvok;
     // The Java method will process HTTP GET requests
     private Map Commande = new HashMap();
     private Map Commande2 = new HashMap();
@@ -95,7 +93,7 @@ public class MaintService {
             this.iceInvok = null;
             this.iceInvok.ic.destroy();
         }
-        this.iceInvok = new Ice_inveker(Ip);
+        this.iceInvok = new IceInvoker(Ip);
         return Response
                 .status(200)
                 .header("Access-Control-Allow-Origin", "*")

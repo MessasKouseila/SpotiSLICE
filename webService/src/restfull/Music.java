@@ -6,29 +6,27 @@ import org.json.JSONObject;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
-/**
- * Created by kouceila on 21/04/17.
- */
 @XmlRootElement
 public class Music {
 
-    @XmlElement(name="name")
+    @XmlElement(name = "name")
     String name;
-    @XmlElement(name="author")
+    @XmlElement(name = "author")
     String author;
-    @XmlElement(name="album")
+    @XmlElement(name = "album")
     String album;
-    @XmlElement(name="genre")
+    @XmlElement(name = "genre")
     String genre;
-    @XmlElement(name="url")
+    @XmlElement(name = "url")
     String url;
 
     public Music() {
 
     }
-    public Music(appli.music music){
+
+    public Music(appli.music music) {
         this.name = music.name;
-        this.author= music.author;
+        this.author = music.author;
         this.album = music.album;
         this.genre = music.genre;
         this.url = music.url;
@@ -43,7 +41,7 @@ public class Music {
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         try {
             // takes advantage of toString() implementation to format {"a":"b"}
             return new JSONObject().put("name", name).put("author", author).put("album", album).put("album", album).put("genre", genre).put("url", url).toString();
